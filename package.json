@@ -1,0 +1,26 @@
+{
+  "name": "ionic_content_only",
+  "version": "1.0.0",
+  "description": "Metadata and Content only",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/ts-node build.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "copy-dir": "^0.3.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^9.6.4",
+    "@types/rimraf": "^2.0.2",
+    "@types/typescript": "^2.0.0"
+  }
+}

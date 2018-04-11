@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2048px"
+	 height="1536px" viewBox="0 0 2048 1536" enable-background="new 0 0 2048 1536" xml:space="preserve">
+<g id="Art">
+	<text transform="matrix(1 0 0 1 964.1387 751.3047)" fill="#231F20" font-family="'MyriadPro-Bold'" font-size="47.6">A</text>
+	<text transform="matrix(1 0 0 1 1046.9609 751.3047)" fill="#231F20" font-family="'MyriadPro-Bold'" font-size="47.6">B</text>
+	<text transform="matrix(1 0 0 1 965.5664 823.3711)" fill="#231F20" font-family="'MyriadPro-Bold'" font-size="47.6">C</text>
+	<text transform="matrix(1 0 0 1 1044.7715 823.3711)" fill="#231F20" font-family="'MyriadPro-Bold'" font-size="47.6">D</text>
+	
+		<line fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10" x1="1023.961" y1="207.643" x2="1023.961" y2="1375.203"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="7" stroke-miterlimit="10" x1="33.164" y1="768.922" x2="2015.898" y2="768.922"/>
+	
+		<image overflow="visible" width="2048" height="1536" xlink:href="battery/stims/wiat-iii-listening_comprehension-13.svg-components/0.jpeg">	</image>
+</g>
+<g id="touch04" class="transparent">
+	<polyline display="inline" fill="none" points="1203.486,798 1882.5,798 1882.5,1491 1189.5,1491 1203.486,798 	"/>
+	<circle display="inline" opacity="0.5" fill="#666666" cx="1536" cy="1143.5" r="346.5"/>
+</g>
+<g id="touch03" class="transparent">
+	<polyline display="inline" fill="none" points="180.396,798 859.41,798 859.41,1491 166.41,1491 180.396,798 	"/>
+	<circle display="inline" opacity="0.5" fill="#666666" cx="512.91" cy="1143.5" r="346.5"/>
+</g>
+<g id="touch02" class="transparent">
+	<polyline display="inline" fill="none" points="1203.486,30.074 1882.5,30.074 1882.5,723.074 1189.5,723.074 1203.486,30.074 	"/>
+	<circle display="inline" opacity="0.5" fill="#666666" cx="1536" cy="390.574" r="346.5"/>
+</g>
+<g id="touch01" class="transparent">
+	<g display="inline">
+		<polygon fill="none" points="859.41,738.074 166.41,738.074 180.396,45.074 859.41,45.074 		"/>
+		<circle opacity="0.5" fill="#666666" cx="512.91" cy="391.574" r="346.5"/>
+	</g>
+</g>
+</svg>
