@@ -1,0 +1,911 @@
+{
+  "subtestId": 1426,
+  "subtestGUID": "ea81518861b745e8b3f11656f6fdeb6f",
+  "title": "Designs II",
+  "displayName": "Designs II",
+  "abbr": "designs2vus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "designsDelayed",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/designs_ii",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 10,
+        "maxDelayMinutes": 30,
+        "timerMetadata": 
+        [
+          {
+            "duration": 99,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "expire"
+          },
+          {
+            "duration": 20,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "ready"
+          },
+          {
+            "duration": 10,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "wait"
+          }
+        ]
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "e917913194934eb1a5831abe1ccc64a2",
+            "subtestName": "Designs I",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 10,
+    "descriptionCS": "First, the examinee is asked to\r\nrecreate the pages shown in the immediate condition with the cards and grid. Then he or she is shown a series of grids and asked to select the two designs that are correct and in the same place as on the pages shown in the immediate condition."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-designsiiadult-delayedrecallitema",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitema",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitema/wms-5-designsiiadult-delayedrecallitemaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>If needed again,&nbsp;say:&nbsp;<span class=\"speechBlue\">Pick the six designs you saw in the first grid. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 0,
+              "targetNumber": 1,
+              "targetSequence": 2,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_1.png",
+              "distracterNumber": 5,
+              "distracterImage": "WMS4_DesignCards_A5.png",
+              "distracterSequence": 11
+            },
+            {
+              "targetPosition": 3,
+              "targetNumber": 2,
+              "targetSequence": 5,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_2.png",
+              "distracterNumber": 6,
+              "distracterImage": "WMS4_DesignCards_A6.png",
+              "distracterSequence": 3
+            },
+            {
+              "targetPosition": 12,
+              "targetNumber": 3,
+              "targetSequence": 9,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_3.png",
+              "distracterNumber": 7,
+              "distracterImage": "WMS4_DesignCards_A7.png",
+              "distracterSequence": 6
+            },
+            {
+              "targetPosition": 5,
+              "targetNumber": 8,
+              "targetSequence": 4,
+              "targetImage": "5.png",
+              "distracterNumber": 11,
+              "distracterImage": "17.png",
+              "distracterSequence": 1
+            },
+            {
+              "targetPosition": 10,
+              "targetNumber": 9,
+              "targetSequence": 12,
+              "targetImage": "6.png",
+              "distracterNumber": 12,
+              "distracterImage": "18.png",
+              "distracterSequence": 8
+            },
+            {
+              "targetPosition": 15,
+              "targetNumber": 10,
+              "targetSequence": 7,
+              "targetImage": "9.png",
+              "distracterNumber": 13,
+              "distracterImage": "15.png",
+              "distracterSequence": 10
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "R",
+          "guid": "c973a426598d48b3a5a2395535685c1c",
+          "abbreviation": "R"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-delayedrecallitemc",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitemc",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitemc/wms-5-designsiiadult-delayedrecallitemcPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>If needed again,&nbsp;say:&nbsp;<span class=\"speechBlue\">Pick the six designs you saw in the second grid. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 1,
+              "targetNumber": 1,
+              "targetSequence": 3,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_1.png",
+              "distracterNumber": 7,
+              "distracterImage": "WMS4_DesignCards_C7.png",
+              "distracterSequence": 11
+            },
+            {
+              "targetPosition": 3,
+              "targetNumber": 2,
+              "targetSequence": 5,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_2.png",
+              "distracterNumber": 8,
+              "distracterImage": "WMS4_DesignCards_C8.png",
+              "distracterSequence": 9
+            },
+            {
+              "targetPosition": 6,
+              "targetNumber": 3,
+              "targetSequence": 2,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_3.png",
+              "distracterNumber": 9,
+              "distracterImage": "WMS4_DesignCards_C9.png",
+              "distracterSequence": 7
+            },
+            {
+              "targetPosition": 9,
+              "targetNumber": 4,
+              "targetSequence": 8,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_4.png",
+              "distracterNumber": 10,
+              "distracterImage": "WMS4_DesignCards_C10.png",
+              "distracterSequence": 4
+            },
+            {
+              "targetPosition": 11,
+              "targetNumber": 5,
+              "targetSequence": 6,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_5.png",
+              "distracterNumber": 11,
+              "distracterImage": "WMS4_DesignCards_C11.png",
+              "distracterSequence": 1
+            },
+            {
+              "targetPosition": 14,
+              "targetNumber": 6,
+              "targetSequence": 10,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_6.png",
+              "distracterNumber": 12,
+              "distracterImage": "WMS4_DesignCards_C12.png",
+              "distracterSequence": 12
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "R",
+          "guid": "c973a426598d48b3a5a2395535685c1c",
+          "abbreviation": "R"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-delayedrecallitemd",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitemd",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-delayedrecallitemd/wms-5-designsiiadult-delayedrecallitemdPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>If needed again,&nbsp;say:&nbsp;<span class=\"speechBlue\">Pick the six designs you saw in the third grid. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 1,
+              "targetNumber": 2,
+              "targetSequence": 8,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_2.png",
+              "distracterNumber": 10,
+              "distracterImage": "WMS4_DesignCards_D10.png",
+              "distracterSequence": 6
+            },
+            {
+              "targetPosition": 6,
+              "targetNumber": 3,
+              "targetSequence": 11,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_3.png",
+              "distracterNumber": 11,
+              "distracterImage": "WMS4_DesignCards_D11.png",
+              "distracterSequence": 7
+            },
+            {
+              "targetPosition": 8,
+              "targetNumber": 4,
+              "targetSequence": 1,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_4.png",
+              "distracterNumber": 12,
+              "distracterImage": "WMS4_DesignCards_D12.png",
+              "distracterSequence": 4
+            },
+            {
+              "targetPosition": 10,
+              "targetNumber": 5,
+              "targetSequence": 2,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_5.png",
+              "distracterNumber": 13,
+              "distracterImage": "WMS4_DesignCards_D13.png",
+              "distracterSequence": 10
+            },
+            {
+              "targetPosition": 13,
+              "targetNumber": 7,
+              "targetSequence": 9,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_7.png",
+              "distracterNumber": 15,
+              "distracterImage": "WMS4_DesignCards_D15.png",
+              "distracterSequence": 5
+            },
+            {
+              "targetPosition": 15,
+              "targetNumber": 8,
+              "targetSequence": 3,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_8.png",
+              "distracterNumber": 16,
+              "distracterImage": "WMS4_DesignCards_D16.png",
+              "distracterSequence": 12
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "R",
+          "guid": "c973a426598d48b3a5a2395535685c1c",
+          "abbreviation": "R"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem1",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem1/wms-5-designsiiadult-recognitionitem1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            1,
+            16
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem2",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem2/wms-5-designsiiadult-recognitionitem2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4,
+            13
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem3",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem3/wms-5-designsiiadult-recognitionitem3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6,
+            11
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem4",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem4/wms-5-designsiiadult-recognitionitem4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            10
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem5",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem5/wms-5-designsiiadult-recognitionitem5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            12,
+            15
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem6",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem6/wms-5-designsiiadult-recognitionitem6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            4,
+            7
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem7",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem7/wms-5-designsiiadult-recognitionitem7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            9,
+            16
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem8",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem8/wms-5-designsiiadult-recognitionitem8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2,
+            7
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiiadult-recognitionitem9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem9",
+      "subtestName": "Designs II",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Recognition Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_ii/wms-5-designsiiadult-recognitionitem9/wms-5-designsiiadult-recognitionitem9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            11,
+            14
+          ],
+          "responsesPerRow": 4,
+          "numResponses": 16,
+          "maxScore": 2,
+          "showMainImage": false,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": true
+        },
+        "superType": null,
+        "type": "visualPuzzles"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

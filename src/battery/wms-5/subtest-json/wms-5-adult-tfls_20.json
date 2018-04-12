@@ -1,0 +1,851 @@
+{
+  "subtestId": 1415,
+  "subtestGUID": "ac4b007a5dd9407c84e24a6e16bb03b8",
+  "title": "TFLS 2.0",
+  "displayName": "Texas Functional Living Scale 2.0",
+  "abbr": "lmvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-V Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "wmsBcse",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/tfls_20",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mental Status",
+    "averageDuration": 4,
+    "descriptionCS": "Two short stories are orally presented. The examinee is asked to retell each story from memory immediately after hearing it."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-tfls-time-item1",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": 5,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-time-item1",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 1",
+      "shouldDisableAutoCreateDescription": true,
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-time-item1/wms-5-tfls-time-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": true,
+              "disableBlueFont": true,
+              "question": "<p>Open the calendar on your digital device and navigate to any month in front of the examinee.<\u002fp>\r\n\r\n<p>Point to any Thursday on the calendar and ask,&nbsp;<strong><span class=\"speechBlue\">What day of the week is this?&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">If the examinee does not udnerstand the task, ask,&nbsp;<strong><span class=\"speechBlue\">Is this Monday, Tuesday ... ?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">&nbsp;<\u002fp>\r\n",
+              "correct": "<p>Thursday<\u002fp>\r\n",
+              "wrong": "<p>Any other day of week<\u002fp>\r\n"
+            }
+          ],
+          "isClueTypeQuestion": false,
+          "dataType": "html",
+          "behaviorName": "forcedChoice"
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item2",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": 5,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item2",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item2/wms-5-tfls-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": true,
+              "disableBlueFont": true,
+              "question": "<p>Point to the 17th day of any month on the calendar and ask,&nbsp;<strong><span class=\"speechBlue\">What date is this?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "correct": "<p>17th<\u002fp>\r\n",
+              "wrong": "<p>Any other response&nbsp;(please record verbatim)<\u002fp>\r\n"
+            }
+          ],
+          "isClueTypeQuestion": false,
+          "dataType": "html",
+          "behaviorName": "forcedChoice"
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item3",
+      "shouldUseTimer": true,
+      "maxTime": 120,
+      "warningTime": 5,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item3",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item3/wms-5-tfls-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "disableBlueFont": true,
+              "question": "<p>Point to the 3rd Monday of any month on the calendar and ask,&nbsp;<strong><span class=\"speechBlue\">What Monday of the month is this?&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">If the examinee does not udnerstand the task or responds with the date, ask,&nbsp;<strong><span class=\"speechBlue\">Is this the first, second, third, or fourth&nbsp;Monday of the month?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Once the examinee has responded, remove the calendar.<\u002fp>\r\n",
+              "correct": "<p>3rd<\u002fp>\r\n",
+              "wrong": "<p>Any other response (please record verbatim)<\u002fp>\r\n"
+            }
+          ],
+          "isClueTypeQuestion": false,
+          "dataType": "html",
+          "behaviorName": "forcedChoice",
+          "sampleAnswers": {
+            "correct": "3rd",
+            "incorrect": "Other responses (please record)"
+          }
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item4",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">What<\u002fspan> time is it?<\u002fp>\r\n\r\n<p>Record the steps examinee took (e.g. look at watch, etc)<\u002fp>\r\n\r\n<p>Once the examinee has reponsded, turn the Response Form to Item 5.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item4/wms-5-tfls-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "timeEstimation"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item13",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p dir=\"ltr\" style=\"line-height: 1.8; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">Select Online Banking before administering the item. &nbsp;&nbsp;<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">Place Card 1: Water Bill face up in front of the examinee and say, <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">Pretend this is your water bill<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> (pause to allow examinee time to look at bill), <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">and this is a bank you can use to pay bills online<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> (point to Bill Pay Center)<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">.<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> &nbsp;<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">Show me how you would pay your water bill online <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">(point to Water Bill)<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">.<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> <\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\">&nbsp;<\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">If the examinee is unable to select &lsquo;Pay a Company&rsquo;, &nbsp;navigate to the &lsquo;Add a Company: Enter Information&rsquo; page and say, <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">Now you enter the information.<strong> <\u002fstrong><\u002fspan><\u002fspan><span style=\"font-family: Calibri; font-size: 16px; white-space: pre-wrap;\">Record by selecting PR.<\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\">&nbsp;<\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">If the examinee asked what the deliver by date is, say,<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\"> Pay the bill today.<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">If the examinee is unable to select &lsquo;Continue&rsquo;, navigate to the &lsquo;Review Company and Payment Information&rsquo; page and say, <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">Now you make a selection.<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">&rsquo; Record by selecting PF.<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 0pt; margin-bottom: 0pt;\">&nbsp;<\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.2; margin-top: 2pt; margin-bottom: 0pt;\"><span id=\"docs-internal-guid-71543d62-d82d-48f1-a8c7-cdd18913c070\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">If the examinee is unable to select &lsquo;Make Payment&rsquo;, complete the payment for them.<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p>Record the examinee&#39;s response if any part of his/her response differ from example responses.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item13/wms-5-tfls-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Correct Payee Name",
+              "criteria": "Austin City Water Bill",
+              "onePointResponse": "Austin City Water Bill, Austin Water Bill",
+              "zeroPointResponse": "",
+              "onePointInfo": "Any variations of Austin and Water",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct Payee Address",
+              "criteria": "Any valid address with street address, city, state, and zipcode",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct Account Number",
+              "criteria": "24 68 1236",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct Delivery Date",
+              "criteria": "Today's Date",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct Pay Amount",
+              "criteria": "$48.00",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "PR",
+          "guid": "6847b929be0a4849aef6ac280f67db97",
+          "abbreviation": "pr"
+        },
+        {
+          "name": "PF",
+          "guid": "0a32a688f20c424398c904d49cb38cff",
+          "abbreviation": "pf"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item14",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item14/wms-5-tfls-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Correct Full Name",
+              "criteria": "Examinee provided his/her full name.",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Valid address",
+              "criteria": "Examinee provided a valid shipping address (street address, city, state, and zipcode)",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct card number",
+              "criteria": "1234 7567 9456 3794",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct expiration date",
+              "criteria": "March 2014",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct security code",
+              "criteria": "324",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct name on card",
+              "criteria": "Examinee entered his/her full name correctly",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "PF",
+          "guid": "0a32a688f20c424398c904d49cb38cff",
+          "abbreviation": "pf"
+        },
+        {
+          "name": "PR",
+          "guid": "6847b929be0a4849aef6ac280f67db97",
+          "abbreviation": "pr"
+        },
+        {
+          "name": "PPS",
+          "guid": "9a5650bc3b004a3d9d87adf3f5e8a975",
+          "abbreviation": "pps"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-memorycue",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-memorycue",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Memory cue",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say,&nbsp;<strong><span class=\"speechBlue\">When you hear the timer<\u002fspan><\u002fstrong>&nbsp;<span class=\"speechBlue\"><strong>goes off, write down the name of the item you just bought online.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instruction may be repeated to ensure the examinee has heard and understood what to do.&nbsp;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-memorycue/wms-5-tfls-memorycuePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "namingStimuli"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item15",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say,&nbsp;<strong><span class=\"speechBlue\">Tell me a name of a person whose phone number is saved in your phone.&nbsp;<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Record Name provided by examinee.<\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">Show me how you find the phone number for [insert name provided by examinee]<\u002fspan><\u002fstrong>.<\u002fp>\r\n\r\n<p>Record steps that the examinee takes to look up phone number. Do not record the phone number, just the steps.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item15/wms-5-tfls-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "namingStimuli"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item16",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p style=\"margin-left: 12.6pt;\">Say,&nbsp;<strong><span class=\"speechBlue\">Tell me&nbsp;<\u002fspan><\u002fstrong>[insert name provided by examinee]<span class=\"speechBlue\"><strong>&rsquo;s phone number out loud<\u002fstrong>.<\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 12.6pt;\">&nbsp;<\u002fp>\r\n\r\n<p style=\"margin-left: 12.6pt;\">Say,<span class=\"speechBlue\">&nbsp;<strong>Now, tell me how you would call<\u002fstrong>&nbsp;<\u002fspan>[insert name provided by examinee].<span class=\"speechBlue\">&nbsp;<strong>Do not call, just tell me how you would call&nbsp;<\u002fstrong><\u002fspan>[insert name provided by examinee].<\u002fp>\r\n\r\n<p style=\"margin-left: 12.6pt;\">&nbsp;<\u002fp>\r\n\r\n<p style=\"margin-left: 12.6pt;\">Ensure that the examinee does not accidentally call the person.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item16/wms-5-tfls-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "question": "<p>Select 1 point if correct phone number was provided<\u002fp>\r\n\r\n<p>Select 0 point otherwise<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>",
+              "abbreviation": "item16a"
+            },
+            {
+              "question": "<p>Record the steps the examinee takes to call the person, and select 1 point to proceed<\u002fp>",
+              "abbreviation": "item16b"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "orientation"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item17",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">Show me how you would find a grocery store nearby,<\u002fspan><\u002fp>\r\n\r\n<p>Record the steps that the examinee takes to find a grocery store.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item17/wms-5-tfls-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": 
+        [
+        ],
+        "superType": null,
+        "type": "namingStimuli"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item20",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p dir=\"ltr\" style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-71543d62-d84c-6448-dfda-ddd6e785273d\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">Select Microwave interface before administering the item. &nbsp;&nbsp;<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\">&nbsp;<\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-71543d62-d84c-6448-dfda-ddd6e785273d\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">Place Card 2: Food Label in front of the examinee. Say, <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">On this card<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> (point to the Food Label) <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">is a label that tells you how to cook macaroni and cheese in the microwave<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\"> (point to the Microwave)<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">. Use the directions on the label to show me how<\u002fspan><span style=\"font-size: 16px; font-family: Calibri; color: rgb(255, 0, 0); font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\"> <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-weight: 700; vertical-align: baseline; white-space: pre-wrap;\">to set the microwave so the food cooks correctly. <\u002fspan><\u002fspan><\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height:1.2;margin-top:0pt;margin-bottom:0pt;\">&nbsp;<\u002fp>\r\n\r\n<p dir=\"ltr\" style=\"line-height:1.2;margin-top:2pt;margin-bottom:0pt;\"><span id=\"docs-internal-guid-71543d62-d84c-6448-dfda-ddd6e785273d\"><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">Touch <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; font-style: italic; vertical-align: baseline; white-space: pre-wrap;\">Exit <\u002fspan><span style=\"font-size: 16px; font-family: Calibri; vertical-align: baseline; white-space: pre-wrap;\">to return to the Texas Functional Living Scale 2.0 start page.<\u002fspan><\u002fspan><\u002fp>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item20/wms-5-tfls-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "disableTextHighlight": false,
+              "disableBlueFont": false,
+              "question": "Touch 4 ",
+              "correct": "Yes",
+              "wrong": "No"
+            },
+            {
+              "disableTextHighlight": false,
+              "disableBlueFont": false,
+              "question": "Touch 3",
+              "correct": "Yes",
+              "wrong": "No"
+            },
+            {
+              "disableTextHighlight": false,
+              "disableBlueFont": false,
+              "question": "Touch 0",
+              "correct": "Yes",
+              "wrong": "No"
+            },
+            {
+              "disableTextHighlight": false,
+              "disableBlueFont": false,
+              "question": "Touch Start ",
+              "correct": "Yes",
+              "wrong": "No"
+            }
+          ],
+          "isClueTypeQuestion": false,
+          "dataType": "text",
+          "behaviorName": "forcedChoice"
+        },
+        "superType": null,
+        "type": "forcedRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item21",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>The correct amount is $48.<\u002fp>\r\n\r\n<p>If the examinee provided the&nbsp;correct response, select 1 point.<\u002fp>\r\n\r\n<p>Otherwise, select 0 point and record their responses.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls_20/wms-5-tfls-item21/wms-5-tfls-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "question": "<p><span class=\"speechBlue\">Tell me the amount of bill you paid earlier.<\u002fspan><\u002fp>",
+              "abbreviation": "item23"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "orientation"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item22",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "choiceList": 
+          [
+            {
+              "question": "<p><span class=\"speechBlue\">Without looking at your phone, tell me the name of the person in your contacts that you told me earlier.<\u002fspan><\u002fp>",
+              "abbreviation": "item24"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "orientation"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls_20/wms-5-tfls-item23",
+      "subtestName": "TFLS 2.0",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Play the beeping sound below.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<p>When the timer sounds, the examinee should write down the name of the item bought online on paper.<\u002fp>\r\n\r\n<p style=\"margin-left:12.6pt;\">If the examinee does not respond when the timer sounds, say, <span class=\"speechBlue\"><strong>Earlier I asked you to do something when the timer rings. What did I ask you to do?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left:12.6pt;\">If the examinee write down name of item bought, record the response and circle &ldquo;Oral Prompt&rdquo;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Correct Name"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ]
+}

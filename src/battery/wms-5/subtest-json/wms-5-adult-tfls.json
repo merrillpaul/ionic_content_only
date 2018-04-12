@@ -1,0 +1,1092 @@
+{
+  "subtestId": 1415,
+  "subtestGUID": "ac4b007a5dd9407c84e24a6e16bb03b8",
+  "title": "TFLS",
+  "displayName": "Texas Functional Living Scale",
+  "abbr": "lmvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "wms",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/tfls",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mental Status",
+    "averageDuration": 10,
+    "descriptionCS": "TFLS"
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-tfls-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item1",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "shouldDisableAutoCreateDescription": true,
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>In view of the examinee, open the calendar on a digital device and navigate to any month. Point to any Thursday on the calendar and ask, <span class=\"speechBlue\">What day of the week is this?<\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">If the examinee does not understand the task, ask, <span class=\"speechBlue\">Is this Monday, Tuesday&hellip;?<\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Select P to indicate prompt was given.<\u002fp>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item1/wms-5-tfls-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any other day of the week"
+            },
+            {
+              "value": 1,
+              "label": "Thursday"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item2",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p>Point to the 17th day of any month on the calendar and say, <span class=\"speechBlue\">What date is this?<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any other date"
+            },
+            {
+              "value": 1,
+              "label": "The 17th"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item3",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p>Point to the 3rd Monday of any month on the calendar and say, <span class=\"speechBlue\">What Monday of the month is this?<\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">If the examinee does not understand the task or responds with a date (e.g., June 12 or Monday the 12th) ask, <span class=\"speechBlue\">Is this the first, second, third, or fourth Monday of the month?<\u002fspan> &nbsp;<\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Select P to indicate prompt was given.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item3/wms-5-tfls-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any other response"
+            },
+            {
+              "value": 1,
+              "label": "The 3rd Monday"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "P",
+          "guid": "eb7c6a7597694902a017391974b8429c",
+          "abbreviation": "P"
+        },
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item4",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p dir=\"ltr\">Say, <span class=\"speechBlue\">Using any device you want, tell me what time it is. &nbsp;<\u002fspan><\u002fp>\r\n\r\n<p style=\"margin-left: 40px;\">Calculate the difference between the actual time and the examinee&rsquo;s response and indicate the Difference. &nbsp;If the examinee does not have a device that tells the time, select Not Applicable.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Difference:",
+              "criteria": "0 - 5 minutes",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Difference:",
+              "criteria": "6 - 10 minutes",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Difference:",
+              "criteria": "11 - 15 minutes",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Difference:",
+              "criteria": "16 - 30 minutes",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Difference:",
+              "criteria": "31 + minutes",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Not Applicable",
+              "criteria": "NA",
+              "onePointResponse": "",
+              "zeroPointResponse": "",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item5",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Select each response that meets the 1-point criteria.&nbsp;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item5/wms-5-tfls-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Name Score:",
+              "criteria": "Any first and last name are present",
+              "onePointResponse": "If any first and last name are present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Street Number Score:",
+              "criteria": "Any street number is present",
+              "onePointResponse": "Any street number is present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Street Name Score:",
+              "criteria": "Any street name is present",
+              "onePointResponse": "If any street name is present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "City Score:",
+              "criteria": "Any city is present",
+              "onePointResponse": "If any city is present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "State Score:",
+              "criteria": "Any state is present",
+              "onePointResponse": "If any state is present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "ZIP Score:",
+              "criteria": "Any 5-digit ZIP is present",
+              "onePointResponse": "If any 5-digit ZIP is present",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Card Number Score:",
+              "criteria": "1234 7567 9456 3794",
+              "onePointResponse": "If credit card number is present and correct",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "A green check mark indicates the credit card number is correct.",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Expiration Date Score:",
+              "criteria": "03/24",
+              "onePointResponse": "If expiration date is present and correct",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "A green check mark indicates the expiration date is correct.",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "CSC Number Score:",
+              "criteria": "324",
+              "onePointResponse": "If CSC number is present and correct",
+              "zeroPointResponse": "Any response that does not meet 1-point criteria",
+              "onePointInfo": "A green check mark indicates the CSC number is correct.",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "Shirt Page",
+          "guid": "92acd5e71e6a4fe9a03e4c65f9e99b90",
+          "abbreviation": "SP",
+          "isPopover": true
+        },
+        {
+          "name": "Shirt Select",
+          "guid": "3118f925ccbb46fd9a527b86fb474adb",
+          "abbreviation": "SS",
+          "isPopover": true
+        },
+        {
+          "name": "Checkout",
+          "guid": "adf7d2fb910a4847aaba5f158e4082a4",
+          "abbreviation": "CO",
+          "isPopover": true
+        },
+        {
+          "name": "Place Order",
+          "guid": "5fa677f2a43c4e2e99e01798ee953cd0",
+          "abbreviation": "PO",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item6",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Select each response that meets the 1-point criteria.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item6/wms-5-tfls-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Company Score:",
+              "criteria": "Any response containing Austin City Water ",
+              "onePointResponse": "Austin City Water, Austin City Water District, Austin City Water Utility",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "Any variation that includes Austin and Water",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Account Number Score:",
+              "criteria": "24 68 1236",
+              "onePointResponse": "24 68 1236",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "A green check mark indicates the account number is correct. ",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Street Number Score:",
+              "criteria": "19500",
+              "onePointResponse": "If street number is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Street Name Score:",
+              "criteria": "Bear Avenue",
+              "onePointResponse": "If street name is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "City Score:",
+              "criteria": "Austin",
+              "onePointResponse": "If city is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "State Score:",
+              "criteria": "TX",
+              "onePointResponse": "If state is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "ZIP Score:",
+              "criteria": "78122",
+              "onePointResponse": "If ZIP is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Amount Score:",
+              "criteria": "$48.00",
+              "onePointResponse": " If amount is present and correct",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "A green check mark indicates the amount is correct.",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Delivery By Score:",
+              "criteria": "A date is present",
+              "onePointResponse": "If date is present",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "Pay Company",
+          "guid": "f661ca51458145b6863f0b228463d7ea",
+          "abbreviation": "PC",
+          "isPopover": true
+        },
+        {
+          "name": "Continue",
+          "guid": "d977cd99350a4c6fa4c61115b8a8b695",
+          "abbreviation": "CT",
+          "isPopover": true
+        },
+        {
+          "name": "Make Payment",
+          "guid": "b20b6421f32a4cb0b2637005bcc0467c",
+          "abbreviation": "MP",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item7",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Tell me the name of a person whose phone number is saved in your phone.<\u002fspan> Record the name provided by the examinee on a piece of paper. Say, <span class=\"speechBlue\">Show me how you find the phone number of<\u002fspan> (insert name provided by examinee)<span class=\"speechBlue\">. Once you find the person, show it to me.<\u002fspan><\u002fp>\r\n\r\n<p>If the examinee does not have a phone, score the item 2 points - Not Applicable.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item7/wms-5-tfls-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any response that does not meet 1-pt criteria"
+            },
+            {
+              "value": 1,
+              "label": "Demonstrates ability to find named person in phone"
+            },
+            {
+              "value": 2,
+              "label": "Not Applicable"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item8",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Now show me how you would call<\u002fspan> (insert name provided by examinee)<span class=\"speechBlue\">.<\u002fspan> <span class=\"speechBlue\">Do not call, just show me how you would call <\u002fspan>(insert name provided by examinee) <span class=\"speechBlue\">if you needed to.<\u002fspan><\u002fp>\r\n\r\n<p>Ensure the examinee does not accidentally call the person.<\u002fp>\r\n\r\n<p>If the examinee does not have a phone, score the item 2 points - Not Applicable.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any response that does not meet 1-pt criteria"
+            },
+            {
+              "value": 1,
+              "label": "Demonstrates ability to dial number "
+            },
+            {
+              "value": 2,
+              "label": "Not Applicable"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item9",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Show me how you would find a grocery store. Once you find the store, show it to me.<\u002fspan><\u002fp>\r\n\r\n<p>If the examinee does not have a device to find a store online, score the item 2 points - Not Applicable.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "Any response that does not meet 1-pt criteria"
+            },
+            {
+              "value": 1,
+              "label": "Demonstrates ability to find a grocery store online\r\n"
+            },
+            {
+              "value": 2,
+              "label": "Not Applicable"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item10",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "startWritingClosed": true,
+      "topInstructionsHTML": "<p>Select each response that meets the 1-point criteria.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/tfls/wms-5-tfls-item10/wms-5-tfls-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "responseItems": 
+          [
+            {
+              "label": "Press 4:",
+              "criteria": "The number 4 is selected ",
+              "onePointResponse": "4",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Press 3:",
+              "criteria": "The number 3 is selected",
+              "onePointResponse": "3",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Press 0:",
+              "criteria": "The number 0 is selected",
+              "onePointResponse": "0",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Press Start:",
+              "criteria": "The Start button is selected",
+              "onePointResponse": "Start",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            },
+            {
+              "label": "Correct Sequence:",
+              "criteria": "The correct sequence is selected",
+              "onePointResponse": "4, 3, 0, Start",
+              "zeroPointResponse": "Any response that does not meet the 1-pt criteria",
+              "onePointInfo": "",
+              "zeroPointInfo": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryRecall"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item11",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Tell me the name of the company you paid the bill for earlier.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Any response that does not meet 1-pt criteria\r\n\r\n\r\n",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Any response containing Austin City Water",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Austin City Water Bill",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Austin City Water Utility",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Austin City Water District",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Any response indicating that a water bill was paid (e.g., the utility company)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Response matches what the examinee entered in the Company Name field for Item 6\r\n",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms5-tfls-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms5-tfls-item12",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Tell me the amount of the bill you paid earlier.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Any response that does not meet 1-pt criteria",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "$48.00",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Response matches what the examinee entered in the Amount field for Item 6",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    },
+    {
+      "id": "wms-5-tfls-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/tfls/wms-5-tfls-item13",
+      "subtestName": "TFLS",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Tell me the name of the item you bought online earlier.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "\r\nAny response that does not meet 1-pt criteria\r\n\r\n\r\n"
+            },
+            {
+              "value": 1,
+              "label": "Any response indicating a shirt was bought\r\n"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

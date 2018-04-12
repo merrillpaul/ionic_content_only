@@ -1,0 +1,1884 @@
+{
+  "subtestId": 1424,
+  "subtestGUID": "efef827f9bb146589183c2a5150ab2e4",
+  "title": "Symbol Span",
+  "displayName": "Symbol Span",
+  "abbr": "ssvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-OLDER-ADULT",
+  "testDisplayName": "WMS-5 Older Adult",
+  "normType": "wms-v-older-adult",
+  "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+  "subtestType": "wms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/symbol_span",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 65,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Working Memory",
+    "averageDuration": 8,
+    "descriptionCS": "The examinee is briefly shown a series of abstract symbols on a page and then asked to select the symbols from an array of symbols, in the same order they were presented on the previous page."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-symbolspan-sample",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-sample",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right, let&rsquo;s do some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right.<\u002fspan><\u002fstrong> Point to D and say, <strong><span class=\"speechBlue\">This was the first symbol and this<\u002fspan><\u002fstrong> (point to B) <strong><span class=\"speechBlue\">was the second symbol. Let&rsquo;s try again.<\u002fspan><\u002fstrong> Return to the previous screen to allow the examinee to see the symbols again. You may repeat the Sample Item until the examinee understands the task or will not benefit from further instruction.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-sample/wms-5-symbolspan-samplePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "stateMachineData": 
+          [
+            [
+              4
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>D-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item1",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item1/wms-5-symbolspan-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B"
+          ],
+          "stateMachineData": 
+          [
+            [
+              1
+            ]
+          ],
+          "correctResponse": "<p>A<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item2",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item2/wms-5-symbolspan-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B"
+          ],
+          "stateMachineData": 
+          [
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item3",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p>If the examinee chooses the correct symbols in the incorrect order, say,<span class=\"speechBlue\">&nbsp;Remember to choose the symbols in the order you saw them from left to right.<\u002fspan> Only allow the original response. If the examinee attempts to correct his or her response as a result of the prompt,&nbsp;remove the additional selections using the buttons in the &ldquo;Response&rdquo; bar below.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item3/wms-5-symbolspan-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "stateMachineData": 
+          [
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>C-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item4",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p>If the examinee chooses the correct symbols in the incorrect order, say,<span class=\"speechBlue\">&nbsp;Remember to choose the symbols in the order you saw them from left to right.<\u002fspan> Only allow the original response. If the examinee attempts to correct his or her response as a result of the prompt,&nbsp;remove the additional selections using the buttons in the &ldquo;Response&rdquo; bar below.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item4/wms-5-symbolspan-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "stateMachineData": 
+          [
+            [
+              4
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>D-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item5",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item5/wms-5-symbolspan-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "stateMachineData": 
+          [
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>A-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item6",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item6/wms-5-symbolspan-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "stateMachineData": 
+          [
+            [
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "correctResponse": "<p>C-A<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item7",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item7/wms-5-symbolspan-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "stateMachineData": 
+          [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>A-C-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item8",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item8/wms-5-symbolspan-item8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "stateMachineData": 
+          [
+            [
+              5
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "correctResponse": "<p>E-B-C<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item9",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item9/wms-5-symbolspan-item9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "stateMachineData": 
+          [
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "correctResponse": "<p>C-D-A<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item10",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item10/wms-5-symbolspan-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "stateMachineData": 
+          [
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>D-E-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item11",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item11/wms-5-symbolspan-item11Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "stateMachineData": 
+          [
+            [
+              2
+            ],
+            [
+              6
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>B-F-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item12",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item12/wms-5-symbolspan-item12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "stateMachineData": 
+          [
+            [
+              1
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              7
+            ]
+          ],
+          "correctResponse": "<p>A-D-E-G<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item13",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item13/wms-5-symbolspan-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "stateMachineData": 
+          [
+            [
+              6
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              5
+            ]
+          ],
+          "correctResponse": "<p>F-A-B-E<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item14",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item14/wms-5-symbolspan-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "stateMachineData": 
+          [
+            [
+              5
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ],
+            [
+              3
+            ]
+          ],
+          "correctResponse": "<p>E-D-F-C<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item15",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item15/wms-5-symbolspan-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "stateMachineData": 
+          [
+            [
+              2
+            ],
+            [
+              8
+            ],
+            [
+              1
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>B-H-A-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item16",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item16/wms-5-symbolspan-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "stateMachineData": 
+          [
+            [
+              8
+            ],
+            [
+              2
+            ],
+            [
+              6
+            ],
+            [
+              3
+            ]
+          ],
+          "correctResponse": "<p>H-B-F-C<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item17",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item17/wms-5-symbolspan-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "stateMachineData": 
+          [
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              7
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>C-E-G-A-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item18",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item18/wms-5-symbolspan-item18Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "stateMachineData": 
+          [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              8
+            ],
+            [
+              10
+            ],
+            [
+              9
+            ]
+          ],
+          "correctResponse": "<p>B-A-H-J-I<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item19",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item19/wms-5-symbolspan-item19Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "stateMachineData": 
+          [
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>C-E-F-G-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item20",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item20/wms-5-symbolspan-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "stateMachineData": 
+          [
+            [
+              6
+            ],
+            [
+              8
+            ],
+            [
+              4
+            ],
+            [
+              2
+            ],
+            [
+              7
+            ]
+          ],
+          "correctResponse": "<p>F-H-D-B-G<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item21",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item21/wms-5-symbolspan-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "stateMachineData": 
+          [
+            [
+              9
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>I-E-F-G-C-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item22",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item22/wms-5-symbolspan-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "stateMachineData": 
+          [
+            [
+              6
+            ],
+            [
+              12
+            ],
+            [
+              5
+            ],
+            [
+              10
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>F-L-E-J-C-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item23",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item23/wms-5-symbolspan-item23Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "stateMachineData": 
+          [
+            [
+              1
+            ],
+            [
+              6
+            ],
+            [
+              8
+            ],
+            [
+              5
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "correctResponse": "<p>A-F-H-E-C-D<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item24",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item24/wms-5-symbolspan-item24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J"
+          ],
+          "stateMachineData": 
+          [
+            [
+              10
+            ],
+            [
+              1
+            ],
+            [
+              7
+            ],
+            [
+              9
+            ],
+            [
+              4
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "correctResponse": "<p>J-A-G-I-D-C-B<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item25",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item25/wms-5-symbolspan-item25Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N"
+          ],
+          "stateMachineData": 
+          [
+            [
+              5
+            ],
+            [
+              14
+            ],
+            [
+              4
+            ],
+            [
+              6
+            ],
+            [
+              1
+            ],
+            [
+              13
+            ],
+            [
+              3
+            ]
+          ],
+          "correctResponse": "<p>E-N-D-F-A-M-C<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wms-5-symbolspan-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/symbol_span/wms-5-symbolspan-item26",
+      "subtestName": "Symbol Span",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/symbol_span/wms-5-symbolspan-item26/wms-5-symbolspan-item26Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "labels": 
+          [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N"
+          ],
+          "stateMachineData": 
+          [
+            [
+              9
+            ],
+            [
+              7
+            ],
+            [
+              11
+            ],
+            [
+              10
+            ],
+            [
+              2
+            ],
+            [
+              12
+            ],
+            [
+              8
+            ]
+          ],
+          "correctResponse": "<p>I-G-K-J-B-L-H<\u002fp>\r\n",
+          "hasInteractiveStim": true
+        },
+        "superType": null,
+        "type": "FollowingDirections"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "consecutiveImperfectScoreDiscontinueRule": {
+    "type": "consecutiveImperfectScoreDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive imperfect scores.",
+    "countsDemoItems": false
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "SC",
+      "guid": "b5f538dc6e55474caad36fe9fc7d891d",
+      "abbreviation": "SC"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

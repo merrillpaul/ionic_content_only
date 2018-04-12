@@ -1,0 +1,384 @@
+{
+  "subtestId": 1413,
+  "subtestGUID": "f89f5ae7b0204057abbe054c20cf0447",
+  "title": "Visual Reproduction alt I",
+  "displayName": "Visual Reproduction alt I",
+  "abbr": "vrvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-V Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "visualReproduction",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/visual_reproduction_alt_i",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 4,
+    "descriptionCS": "A series of five designs is shown, one at a time, for 10 seconds each. After each design is presented, the examinee is asked to draw the design from memory."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-visual-recall-immediate-item1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item1",
+      "subtestName": "Visual Reproduction alt I",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item1/wms-5-visual-recall-immediate-item1-1121Prompts.html"
+            }
+          ],
+          "id": "wms-5-visual-recall-immediate-item1-1121",
+          "title": "Item 1 Trial 1",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        },
+        {
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item1/wms-5-visual-recall-immediate-item1-37309Prompts.html"
+            }
+          ],
+          "id": "wms-5-visual-recall-immediate-item1-37309",
+          "title": "Item 1 Trial 2",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>The <span class=\"speechBlue\">main line<\u002fspan> (see A) is <strong>unbroken<\u002fstrong> (i.e., no gap is present) and the <span class=\"speechBlue\">main line<\u002fspan> is reasonably <strong>straight<\u002fstrong>. If the main line is composed of multiple sections that overlap and touch, and no gap (i.e., no white can be seen) is present, the line should not be considered &quot;broken.&quot;<\u002fp>\r\n\r\n<div><em>Note<\u002fem>. If the examinee has a hand tremor, do not penalize for wavy lines due to the tremor when assessing straightness.<\u002fdiv>\r\n\r\n<div style=\"line-height: 28px; \">&nbsp;<\u002fdiv>\r\n\r\n<div class=\"image-container\">\r\n<div><img class=\"uploadedImageContent\" src=\"battery/wms-5/visual_reproduction_i/wms-5-visual-recall-immediate-item1/images/visualreproduction1_1a.png\" title=\"visualreproduction1_1a.png\" /><\u002fdiv>\r\n\r\n<div><span class=\"speechBlue\">A<\u002fspan><\u002fdiv>\r\n<\u002fdiv>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true
+        }
+      ]
+    },
+    {
+      "id": "wms-5-visual-recall-immediate-item2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item2",
+      "subtestName": "Visual Reproduction alt I",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item2/wms-5-visual-recall-immediate-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "processScoringHtml": "",
+          "processScoringCriteria": 
+          [
+            {
+              "title": "Record the Drawing Hand",
+              "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+              "passingStims": 
+              [
+              ],
+              "failingStims": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "visualReproduction"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-visual-recall-immediate-item3",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item3",
+      "subtestName": "Visual Reproduction alt I",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item3/wms-5-visual-recall-immediate-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "processScoringHtml": "",
+          "processScoringCriteria": 
+          [
+            {
+              "title": "Record the Drawing Hand",
+              "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+              "passingStims": 
+              [
+              ],
+              "failingStims": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "visualReproduction"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-visual-recall-immediate-item4",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item4",
+      "subtestName": "Visual Reproduction alt I",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item4/wms-5-visual-recall-immediate-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "processScoringHtml": "",
+          "processScoringCriteria": 
+          [
+            {
+              "title": "Record the Drawing Hand",
+              "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+              "passingStims": 
+              [
+              ],
+              "failingStims": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "visualReproduction"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-visual-recall-immediate-item5",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item5",
+      "subtestName": "Visual Reproduction alt I",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item5/wms-5-visual-recall-immediate-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "processScoringHtml": "",
+          "processScoringCriteria": 
+          [
+            {
+              "title": "Record the Drawing Hand",
+              "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+              "passingStims": 
+              [
+              ],
+              "failingStims": 
+              [
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "visualReproduction"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

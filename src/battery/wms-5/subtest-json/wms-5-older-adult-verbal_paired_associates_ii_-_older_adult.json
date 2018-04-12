@@ -1,0 +1,915 @@
+{
+  "subtestId": 1423,
+  "subtestGUID": "7d5d8e9fb6e8452a95c66392613303e6",
+  "title": "Verbal Paired Associates II - Older Adult",
+  "displayName": "Verbal Paired Associates II",
+  "abbr": "vpa2OAvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-OLDER-ADULT",
+  "testDisplayName": "WMS-V Older Adult",
+  "normType": "wms-v-older-adult",
+  "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+  "subtestType": "designsDelayed",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 65,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 20,
+        "maxDelayMinutes": 30
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "8cb162b4a59c4ffaaea6c2ca76c550d8",
+            "subtestName": "Verbal Paired Associates I - Older Adult",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Auditory Memory",
+    "averageDuration": 5,
+    "descriptionCS": "The examinee is orally presented with the first word of each pair learned in the immediate condition and asked to provide the corresponding word. The examinee is then read a list of word pairs and\r\nasked to identify each as either one of the word pairs he or she was asked to remember or a new word pair. Finally, during the optional word recall task, the examinee is asked to say as many of the words from the pairs as he or she can recall."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Delayed Recall",
+      "abbr": "Delayed Recall",
+      "questions": 
+      [
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed1",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with street?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed1/wms-5-verbal-paired-associates-ii-older-delayed1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "road"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed2",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with tree?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "luck"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed3",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with down?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "noise"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed4",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with zoo?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "girl"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed5",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with hot?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "quiet"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed6",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bed?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "lost"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed7",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with city?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "town"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed8",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with sky?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "cloud"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed9",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with paint?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "big"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-ii-older-delayed10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-ii-older-delayed10",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with door?<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "open"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Recognition",
+      "abbr": "Recognition",
+      "questions": 
+      [
+        {
+          "id": "wms-5-verbal-paired-associates-recognition1-olderadult",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-recognition1-olderadult",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-recognition1-olderadult/wms-5-verbal-paired-associates-recognition1-olderadultPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "question": "happy-smile",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "dream-found",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "tree-luck",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "zoo-sky",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "down-noise",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "bat-floor",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "hot-door",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "paint-big",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "cat-kitten",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "loud-under",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "zoo-girl",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "air-fog",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "boy-girl",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "fire-quiet",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "street-road",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "big-small",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "hot-quiet",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "soft-light",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "city-town",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "door-open",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "tree-wind",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "open-stairs",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "bright-city",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "paint-dry",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "paint-noise",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "bed-lost",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "big-sky",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "farm-plow",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "door-smile",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "sky-cloud",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "logicalMemoryRecognition"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": true,
+      "title": "Word Recall (Optional)",
+      "abbr": "Word Recall",
+      "questions": 
+      [
+        {
+          "id": "wms-5-verbal-paired-associates-recall-olderadult",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-recall-olderadult",
+          "subtestName": "Verbal Paired Associates II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Word Recall (Optional)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/verbal_paired_associates_ii_-_older_adult/wms-5-verbal-paired-associates-recall-olderadult/wms-5-verbal-paired-associates-recall-olderadultPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "primaryList": {
+                "displayName": "Correct Responses",
+                "words": 
+                [
+                  {
+                    "word": "bed",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "big",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "city",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "cloud",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "door",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "down",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "girl",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "hot",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "lost",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "luck",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "open",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "noise",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "paint",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "quiet",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "road",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "sky",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "street",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "town",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "tree",
+                    "category": "Correct Responses"
+                  },
+                  {
+                    "word": "zoo",
+                    "category": "Correct Responses"
+                  }
+                ]
+              }
+            },
+            "superType": null,
+            "type": "WordRecall"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

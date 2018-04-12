@@ -1,0 +1,740 @@
+{
+  "subtestId": 1419,
+  "subtestGUID": "0459879790cc49bd9b29a8809c107920",
+  "title": "Logical Memory II - Older Adult",
+  "displayName": "Logical Memory II",
+  "abbr": "lm2OAvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-OLDER-ADULT",
+  "testDisplayName": "WMS-V Older Adult",
+  "normType": "wms-v-older-adult",
+  "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+  "subtestType": "designsDelayed",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/logical_memory_ii_-_older_adult",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 65,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 20,
+        "maxDelayMinutes": 30
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "2bd276c3ec344f9c884c43bc2c36b630",
+            "subtestName": "Logical Memory I - Older Adult",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Auditory Memory",
+    "averageDuration": 5,
+    "descriptionCS": "The examinee is asked to retell the story from the immediate condition. Then the examinee is asked yes/no questions about the story."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Delayed Recall",
+      "abbr": "Delayed Recall",
+      "questions": 
+      [
+        {
+          "id": "wms-5-logicalmemoryiiolderadult-delayed-storya",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-delayed-storya",
+          "subtestName": "Logical Memory II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Delayed Recall Story A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-delayed-storya/wms-5-logicalmemoryiiolderadult-delayed-storyaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "responseItems": 
+              [
+                {
+                  "label": "Ruth",
+                  "criteria": "<p><em>Ruth<\u002fem> or Ruthie or variant<\u002fp>\r\n",
+                  "onePointResponse": "Ruthie",
+                  "zeroPointResponse": "Ruby, Rudy, any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "and Paul",
+                  "criteria": "<p><em>Paul<\u002fem> or Paulie&nbsp;or variant<\u002fp>\r\n",
+                  "onePointResponse": "Paulie",
+                  "zeroPointResponse": "Feminine versions such as Paula or Pauline, any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "have been friends",
+                  "criteria": "<p><em>friends<\u002fem> (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "who were friends, they are friends",
+                  "zeroPointResponse": "they were married, they worked together, any other relationship",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "for thirty",
+                  "criteria": "<p><em>thirty<\u002fem>&nbsp;(in any context) is required, reference to years is not required<\u002fp>\r\n",
+                  "onePointResponse": "30 days",
+                  "zeroPointResponse": "any other numeric response",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "years.",
+                  "criteria": "<p><em>year(s)<\u002fem>&nbsp;is required, reference to specific number of years is not required<\u002fp>\r\n",
+                  "onePointResponse": "knew each other for years, friends for years, friends for a few years",
+                  "zeroPointResponse": "knew each other for days/months, knew each other for a long time",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "They meet",
+                  "criteria": "<p><em>meet<\u002fem> (any indication of intentionally getting together)<\u002fp>\r\n",
+                  "onePointResponse": "get together, hang out, see each other",
+                  "zeroPointResponse": "run into each other, accidentally met, any indication the two characters do not intentionally meet",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "every",
+                  "criteria": "<p><em>every<\u002fem> (in reference to Tuesday only) or <em>on Tuesdays<\u002fem><\u002fp>\r\n",
+                  "onePointResponse": "every Tuesday, Tuesdays, each Tuesday, every week on Tuesday",
+                  "zeroPointResponse": "every week, meet often, every day",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "Tuesday",
+                  "criteria": "<p><em>Tuesday(s)<\u002fem> (in any context) is required<\u002fp>\r\n",
+                  "onePointResponse": "Tuesday",
+                  "zeroPointResponse": "any other day of the week",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "at Alma's",
+                  "criteria": "<p><em>Alma&#39;s<\u002fem> (in any context) is required<\u002fp>\r\n",
+                  "onePointResponse": "Alma's Diner, Alma's Restaurant, Alma's Place",
+                  "zeroPointResponse": "any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "Diner",
+                  "criteria": "<p><em>Diner<\u002fem> is required<\u002fp>\r\n",
+                  "onePointResponse": "Diner",
+                  "zeroPointResponse": "Restaurant, Place, Café",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "for breakfast",
+                  "criteria": "<p><em>breakfast<\u002fem> (in any context) is required<\u002fp>\r\n",
+                  "onePointResponse": "eat breakfast, have breakfast, break the fast",
+                  "zeroPointResponse": "lunch, dinner, any other meal, to eat with no reference to a type of meal",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "and then they go for a walk",
+                  "criteria": "<p>indication that they walk (e.g., stroll)<\u002fp>\r\n",
+                  "onePointResponse": "take a stroll, walk around",
+                  "zeroPointResponse": "go for a jog/run, any other activity",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "in Mason",
+                  "criteria": "<p><em>Mason<\u002fem> (in any context) is required<\u002fp>\r\n",
+                  "onePointResponse": "Mason Diner, Mason Zoo, Mason Lake",
+                  "zeroPointResponse": "any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "Park.",
+                  "criteria": "<p><em>Park<\u002fem> (in any context) is required<\u002fp>\r\n",
+                  "onePointResponse": "Mason Park, Alma's park, the park",
+                  "zeroPointResponse": "any other place",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "memoryRecall"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Story Cue",
+              "guid": "bc9f28db2df04169b8c3a45fb8fe8c7e",
+              "abbreviation": "SC",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wms-5-logicalmemoryiiolderadult-delayed-storyb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-delayed-storyb",
+          "subtestName": "Logical Memory II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Delayed Recall Story B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-delayed-storyb/wms-5-logicalmemoryiiolderadult-delayed-storybPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "responseItems": 
+              [
+                {
+                  "label": "Anna",
+                  "criteria": "<p><em>Anna<\u002fem> or a variant of the name<\u002fp>\r\n",
+                  "onePointResponse": "Ann, Annie, Annette",
+                  "zeroPointResponse": "Angela, Allison, any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "Thompson",
+                  "criteria": "<p><em>Thompson<\u002fem> is required<\u002fp>\r\n",
+                  "onePointResponse": "Thompson",
+                  "zeroPointResponse": "Thompkins, Thomas, any other name",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "of South",
+                  "criteria": "<p><em>South<\u002fem> (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "from South, who lived in the South, who came from the South",
+                  "zeroPointResponse": "any other location/direction",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "Boston,",
+                  "criteria": "<p><em>Boston<\u002fem> (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "who worked in Boston, on a trip to Boston",
+                  "zeroPointResponse": "any other city",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "employed",
+                  "criteria": "<p>indication that she held a job<\u002fp>\r\n",
+                  "onePointResponse": "worked, had a job as, who earned a living as",
+                  "zeroPointResponse": "employed a cook, wanted to be a cook, was a cook",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "as a cook",
+                  "criteria": "<p><em>cook<\u002fem> or some form of the word (e.g., cooked) is required<\u002fp>\r\n",
+                  "onePointResponse": "who cooked",
+                  "zeroPointResponse": "as a waitress, in the kitchen",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "in a school",
+                  "criteria": "<p><em>school<\u002fem> is required<\u002fp>\r\n",
+                  "onePointResponse": "at a high school, by a school",
+                  "zeroPointResponse": "in a hospital, at a company",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "cafeteria,",
+                  "criteria": "<p><em>cafeteria<\u002fem> is required<\u002fp>\r\n",
+                  "onePointResponse": "school cafeteria, lunch cafeteria",
+                  "zeroPointResponse": "lunchroom, dining hall, diner, restaurant, kitchen",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "reported",
+                  "criteria": "<p>indication that a formal statement was made to someone in authority (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "filed a complaint, said to the police, made a statement, notified the police, called the police, told the police",
+                  "zeroPointResponse": "said, told how",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "at the police",
+                  "criteria": "<p><em>police<\u002fem> (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "police, the cops",
+                  "zeroPointResponse": "any other organization",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "station",
+                  "criteria": "<p><em>station<\u002fem> (in any context) or a word or phrase denoting a police station<\u002fp>\r\n",
+                  "onePointResponse": "department, headquarters",
+                  "zeroPointResponse": "office, building",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "that she had been held up",
+                  "criteria": "<p>indication that she had been held up (e.g., gunpoint or knife)<\u002fp>\r\n",
+                  "onePointResponse": "gunpoint, knifepoint, that someone held her up, that she was in a stick-up",
+                  "zeroPointResponse": "that she was beaten, she was attacked, she got mugged",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "on State Street",
+                  "criteria": "<p><em>State Street<\u002fem> (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "she lived on State Street, on her way to State Street",
+                  "zeroPointResponse": "State Avenue, any other street",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "the night before",
+                  "criteria": "<p>indication that the hold-up occurred the previous night<\u002fp>\r\n",
+                  "onePointResponse": "last night, the previous night",
+                  "zeroPointResponse": "at night, one night, yesterday, the day before",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "and robbed",
+                  "criteria": "<p>indication that a robbery took place (implication that money was taken)<\u002fp>\r\n",
+                  "onePointResponse": "was robbed, her money was stolen, they took her money, someone took her purse",
+                  "zeroPointResponse": "lost her money, somebody took her things",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "of fifty-six dollars.",
+                  "criteria": "<p>indication that an amount of money greater than $49 but less than $60 was taken from her<\u002fp>\r\n",
+                  "onePointResponse": "50-some dollars, 55 dollars, about 50 dollars",
+                  "zeroPointResponse": "65 dollars, a lot of money, the police collected her money for her",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "She had four",
+                  "criteria": "<p><em>four<\u002fem> is required, together with an indication that the children were hers<\u002fp>\r\n",
+                  "onePointResponse": "she was the mother of four, she had four kids",
+                  "zeroPointResponse": "she had two, she had some, there were some",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "small children,",
+                  "criteria": "<p><em>children<\u002fem> or a synonym is required<\u002fp>\r\n",
+                  "onePointResponse": "little children, kids, small kids, young children",
+                  "zeroPointResponse": "babies, girls, sons, small boys, daughters",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "the rent was due,",
+                  "criteria": "<p>indication that the rent was due<\u002fp>\r\n",
+                  "onePointResponse": "she had not paid the rent, she owed for the rent, the landlord had to be paid, she needed money for the rent",
+                  "zeroPointResponse": "she owed money, she needed money, there was no money",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "and they had not eaten",
+                  "criteria": "<p>indication that her children or the family were without food<\u002fp>\r\n",
+                  "onePointResponse": "they had gone without food, they were hungry, there was no food, her kids had nothing to eat, she couldn't feed her family",
+                  "zeroPointResponse": "there wasn't much food, they had only a little food, she had not eaten, didn't have money to buy food, no reference to children not eating",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "for two days.",
+                  "criteria": "<p><em>two days<\u002fem> is required or a phrase meaning about two days (e.g., couple of days)<\u002fp>\r\n",
+                  "onePointResponse": "for a couple of days, for one or two days, for two or three days",
+                  "zeroPointResponse": "for days, for several days, for a day, for three days",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "The police,",
+                  "criteria": "<p>word or phrase signifying one or more members of the police department (in any context)<\u002fp>\r\n",
+                  "onePointResponse": "the cops, the policemen, the detectives, the police, officers, they (clearly indicating police)",
+                  "zeroPointResponse": "they (unspecified), some people, her neighbors, somebody",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "touched by the woman's story,",
+                  "criteria": "<p>indication that her story evoked sympathy<\u002fp>\r\n",
+                  "onePointResponse": "were touched, felt sorry for the woman, wanted to help her, were sympathetic",
+                  "zeroPointResponse": "listened to her story, helped her, believed her",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "took up a collection",
+                  "criteria": "<p>indication that money or a donation was collected<\u002fp>\r\n",
+                  "onePointResponse": "chipped in, collected money, donated, collected some food",
+                  "zeroPointResponse": "gave her some money, found some money",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                },
+                {
+                  "label": "for her.",
+                  "criteria": "<p>indication that the money collected was for her or her children<\u002fp>\r\n",
+                  "onePointResponse": "and gave it to her, for her children, for her family, for them, to help her out",
+                  "zeroPointResponse": "as a gift, to make things better",
+                  "onePointInfo": "",
+                  "zeroPointInfo": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "memoryRecall"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Story Cue",
+              "guid": "c40e146ecf2249c4bb7e65c0988be238",
+              "abbreviation": "SC",
+              "isPopover": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Recognition",
+      "abbr": "Recognition",
+      "questions": 
+      [
+        {
+          "id": "wms-5-logicalmemoryiiolderadult-recognition-storya",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-recognition-storya",
+          "subtestName": "Logical Memory II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Recognition Story A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-recognition-storya/wms-5-logicalmemoryiiolderadult-recognition-storyaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "question": "Is one of the people in the story named Ruth?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Is the other person named Paul?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Does the story say that the two people are married?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Have they been friends for twenty years?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Do they meet every Tuesday?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Do they eat lunch at Mason's Restaurant?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "After breakfast, do they watch birds at Paul's house?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Do they walk in Mason Park?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "logicalMemoryRecognition"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-logicalmemoryiiolderadult-recognition-storyb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-recognition-storyb",
+          "subtestName": "Logical Memory II - Older Adult",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Recognition Story B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/logical_memory_ii_-_older_adult/wms-5-logicalmemoryiiolderadult-recognition-storyb/wms-5-logicalmemoryiiolderadult-recognition-storybPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "question": "Was the woman's name Diana Thompson?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Was the story set in South Boston?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Was the woman a cook?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did she work in a restaurant?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did she have four children?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Were the children teenagers?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the robbery take place on Sixth Street?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the woman report being robbed two nights before?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did she report the robbery at the police station?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Was the woman robbed of seventy-five dollars?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the family go without food for four days?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Was the rent due?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the police catch the thief?",
+                  "correctAnswerOnRight": true,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the police feel sorry for the woman?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                },
+                {
+                  "question": "Did the police take up a collection?",
+                  "correctAnswerOnRight": false,
+                  "leftButtonText": "Yes",
+                  "rightButtonText": "No"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "logicalMemoryRecognition"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

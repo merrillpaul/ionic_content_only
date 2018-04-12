@@ -1,0 +1,416 @@
+{
+  "subtestId": 1422,
+  "subtestGUID": "e917913194934eb1a5831abe1ccc64a2",
+  "title": "Designs I",
+  "displayName": "Designs I",
+  "abbr": "designsvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "wms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/designs_i",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 10,
+    "descriptionCS": "The examinee is shown a grid with 4-8 designs on a page for 10 seconds, which is then removed from view. The examinee then selects the designs from a set of cards and places the cards in a grid in the same place as previously shown."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-designsiadult-demoitem",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_i/wms-5-designsiadult-demoitem",
+      "subtestName": "Designs I",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Demonstration Item",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">Now, look here<\u002fspan>&nbsp;(point to the designs on the client device)<span class=\"speechBlue\">. These designs match the designs I just showed you. If I move the designs here and here<\u002fspan>&nbsp;(drag the designs to the proper locations)<span class=\"speechBlue\">, this looks the same as what I showed you earlier.<\u002fspan><\u002fp>\r\n\r\n<p>Drag the designs back to the start point. Say,&nbsp;<span class=\"speechBlue\">Now you try.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_i/wms-5-designsiadult-demoitem/wms-5-designsiadult-demoitemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>Allow the examinee to move the designs onto the grid. Provide feedback on movement and placement as needed. Once the examinee completes the grid correctly, proceed to Item 1.<\u002fp>",
+          "cards": 
+          [
+            {
+              "targetPosition": 5,
+              "targetNumber": 1,
+              "targetSequence": 1,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_DemoItem1.png"
+            },
+            {
+              "targetPosition": 14,
+              "targetNumber": 2,
+              "targetSequence": 2,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_DemoItem2.png"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiadult-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_i/wms-5-designsiadult-item1",
+      "subtestName": "Designs I",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_i/wms-5-designsiadult-item1/wms-5-designsiadult-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>Say, <span class=\"speechBlue\">Pick the six designs you saw from these choices. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 0,
+              "targetNumber": 1,
+              "targetSequence": 11,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_1.png",
+              "distracterNumber": 5,
+              "distracterImage": "WMS4_DesignCards_A5.png",
+              "distracterSequence": 9
+            },
+            {
+              "targetPosition": 3,
+              "targetNumber": 2,
+              "targetSequence": 4,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_2.png",
+              "distracterNumber": 6,
+              "distracterImage": "WMS4_DesignCards_A6.png",
+              "distracterSequence": 7
+            },
+            {
+              "targetPosition": 12,
+              "targetNumber": 3,
+              "targetSequence": 1,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemA_3.png",
+              "distracterNumber": 7,
+              "distracterImage": "WMS4_DesignCards_A7.png",
+              "distracterSequence": 3
+            },
+            {
+              "targetPosition": 5,
+              "targetNumber": 8,
+              "targetSequence": 12,
+              "targetImage": "5.png",
+              "distracterNumber": 11,
+              "distracterImage": "17.png",
+              "distracterSequence": 2
+            },
+            {
+              "targetPosition": 10,
+              "targetNumber": 9,
+              "targetSequence": 6,
+              "targetImage": "6.png",
+              "distracterNumber": 12,
+              "distracterImage": "18.png",
+              "distracterSequence": 10
+            },
+            {
+              "targetPosition": 15,
+              "targetNumber": 10,
+              "targetSequence": 8,
+              "targetImage": "9.png",
+              "distracterNumber": 13,
+              "distracterImage": "15.png",
+              "distracterSequence": 5
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiadult-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_i/wms-5-designsiadult-item3",
+      "subtestName": "Designs I",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_i/wms-5-designsiadult-item3/wms-5-designsiadult-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>Say, <span class=\"speechBlue\">Pick the six designs you saw from these choices. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 1,
+              "targetNumber": 1,
+              "targetSequence": 4,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_1.png",
+              "distracterNumber": 7,
+              "distracterImage": "WMS4_DesignCards_C7.png",
+              "distracterSequence": 8
+            },
+            {
+              "targetPosition": 3,
+              "targetNumber": 2,
+              "targetSequence": 7,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_2.png",
+              "distracterNumber": 8,
+              "distracterImage": "WMS4_DesignCards_C8.png",
+              "distracterSequence": 5
+            },
+            {
+              "targetPosition": 6,
+              "targetNumber": 3,
+              "targetSequence": 3,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_3.png",
+              "distracterNumber": 9,
+              "distracterImage": "WMS4_DesignCards_C9.png",
+              "distracterSequence": 12
+            },
+            {
+              "targetPosition": 9,
+              "targetNumber": 4,
+              "targetSequence": 11,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_4.png",
+              "distracterNumber": 10,
+              "distracterImage": "WMS4_DesignCards_C10.png",
+              "distracterSequence": 2
+            },
+            {
+              "targetPosition": 11,
+              "targetNumber": 5,
+              "targetSequence": 6,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_5.png",
+              "distracterNumber": 11,
+              "distracterImage": "WMS4_DesignCards_C11.png",
+              "distracterSequence": 9
+            },
+            {
+              "targetPosition": 14,
+              "targetNumber": 6,
+              "targetSequence": 10,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemC_6.png",
+              "distracterNumber": 12,
+              "distracterImage": "WMS4_DesignCards_C12.png",
+              "distracterSequence": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-designsiadult-itemd",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/designs_i/wms-5-designsiadult-itemd",
+      "subtestName": "Designs I",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/designs_i/wms-5-designsiadult-itemd/wms-5-designsiadult-itemdPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "hasInteractiveStim": true,
+          "instructionHTML": "<p>Say, <span class=\"speechBlue\">Pick the six designs you saw from these choices. Put the designs in the same places as you saw them earlier.<\u002fspan><\u002fp>\r\n",
+          "cards": 
+          [
+            {
+              "targetPosition": 1,
+              "targetNumber": 2,
+              "targetSequence": 7,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_2.png",
+              "distracterNumber": 10,
+              "distracterImage": "WMS4_DesignCards_D10.png",
+              "distracterSequence": 5
+            },
+            {
+              "targetPosition": 6,
+              "targetNumber": 3,
+              "targetSequence": 2,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_3.png",
+              "distracterNumber": 11,
+              "distracterImage": "WMS4_DesignCards_D11.png",
+              "distracterSequence": 10
+            },
+            {
+              "targetPosition": 8,
+              "targetNumber": 4,
+              "targetSequence": 9,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_4.png",
+              "distracterNumber": 12,
+              "distracterImage": "WMS4_DesignCards_D12.png",
+              "distracterSequence": 4
+            },
+            {
+              "targetPosition": 10,
+              "targetNumber": 5,
+              "targetSequence": 6,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_5.png",
+              "distracterNumber": 13,
+              "distracterImage": "WMS4_DesignCards_D13.png",
+              "distracterSequence": 8
+            },
+            {
+              "targetPosition": 13,
+              "targetNumber": 7,
+              "targetSequence": 11,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_7.png",
+              "distracterNumber": 15,
+              "distracterImage": "WMS4_DesignCards_D15.png",
+              "distracterSequence": 3
+            },
+            {
+              "targetPosition": 15,
+              "targetNumber": 8,
+              "targetSequence": 12,
+              "targetImage": "0158895843_WMS4_sb2_Desgn1_ItemD_8.png",
+              "distracterNumber": 16,
+              "distracterImage": "WMS4_DesignCards_D16.png",
+              "distracterSequence": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "memoryForDesigns"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

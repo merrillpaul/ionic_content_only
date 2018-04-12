@@ -1,0 +1,440 @@
+{
+  "subtestId": 1479,
+  "subtestGUID": "907c9fbce427457c857a4552c7c68994",
+  "title": "Visual Reproduction I",
+  "displayName": "Visual Reproduction I",
+  "abbr": "vrsvus",
+  "testType": "wms",
+  "testTitle": "WMS-5-OLDER-ADULT",
+  "testDisplayName": "WMS-5 Older Adult",
+  "normType": "wms-v-older-adult",
+  "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+  "subtestType": "visualReproduction",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/visual_reproduction_i",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 4,
+    "descriptionCS": "visual reproduction"
+  },
+  "questions": 
+  [
+    {
+      "id": "wms5-vra-item1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_i/wms5-vra-item1",
+      "subtestName": "Visual Reproduction I",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p>Place the page marked <em>Visual Reproduction I &ndash; Item 1,&nbsp;Trial 1<\u002fem> in the Response Booklet in front of the examinee so that the words <em>Visual Reproduction I &ndash; Item 1, Trial 1<\u002fem> face the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> I will show you some designs. You will see and draw each design two times. Each time, you will&nbsp;have 10 seconds to look at the design. When it goes away, draw it here<\u002fspan>&nbsp;(point to the Response Booklet) <span class=\"speechBlue\">from memory. Do not begin to draw until the design is gone. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 1 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the design is exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Hand the examinee the pencil and say,<span class=\"speechBlue\"> Now draw the design.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select which hand the examinee used to create the drawing.&nbsp;If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wms5-vra-item1-37312",
+          "title": "Item 1 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Left hand"
+                },
+                {
+                  "value": 2,
+                  "label": "Right hand"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        },
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 1, Trial <\u002fem>2 in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> I will show you the same design again. Like before, you will have 10 seconds to look at it. When it goes away, you&nbsp;will draw it here<\u002fspan>&nbsp;(point to the Response Booklet) <span class=\"speechBlue\"> from memory. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 1 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the design is exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the design.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_i/wms5-vra-item1/wms5-vra-item1-37320Prompts.html"
+            }
+          ],
+          "id": "wms5-vra-item1-37320",
+          "title": "Item 1 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "wms5-vra-item2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_i/wms5-vra-item2",
+      "subtestName": "Visual Reproduction I",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 2, Trial 1<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;Now I will show you a new design. Remember the design so that when it goes away, you can&nbsp;draw it here<\u002fspan>&nbsp;(point to the Response Booklet)<span class=\"speechBlue\">. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 2 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the design is exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the design.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_i/wms5-vra-item2/wms5-vra-item2-37314Prompts.html"
+            }
+          ],
+          "id": "wms5-vra-item2-37314",
+          "title": "Item 2 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        },
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 2, Trial 2<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> I will show you the same design again. Like before, you will have 10 seconds to look at it. When it goes away, you&nbsp;will draw it here<\u002fspan>&nbsp;(point to the Response Booklet) <span class=\"speechBlue\"> from memory. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 2 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the design is exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the design.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_i/wms5-vra-item2/wms5-vra-item2-37321Prompts.html"
+            }
+          ],
+          "id": "wms5-vra-item2-37321",
+          "title": "Item 2 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "wms5-vra-item3",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_i/wms5-vra-item3",
+      "subtestName": "Visual Reproduction I",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 3, Trial 1<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;Now I will show you two designs. Look at both of them carefully because you will need to draw the designs just as you see them. Again, you will have 10 seconds to look at them<\u002fspan><span class=\"speechBlue\">. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 3 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the designs are exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the designs.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wms5-vra-item3-37315",
+          "title": "Item 3 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        },
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 3, Trial 2<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> I will show you the same designs again. When they&nbsp;go&nbsp;away, you&nbsp;will draw them here<\u002fspan>&nbsp;(point to the Response Booklet)<span class=\"speechBlue\">. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 3 stimulus for 10 seconds. Do not allow the examinee to begin drawing while the designs are exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the designs.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wms5-vra-item3-37317",
+          "title": "Item 3 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "wms5-vra-item4",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_i/wms5-vra-item4",
+      "subtestName": "Visual Reproduction I",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 4, Trial 1<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;Now I will show you two designs. Look at both of them carefully because you will need to draw the designs just as you see them. Again, you will have 10 seconds to look at them<\u002fspan><span class=\"speechBlue\">. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 4&nbsp;stimulus for 10 seconds. Do not allow the examinee to begin drawing while the designs are exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the designs.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wms5-vra-item4-37319",
+          "title": "Item 4 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        },
+        {
+          "topInstructionsHTML": "<p>Turn to the page marked <em>Visual Reproduction I &ndash; Item 4,&nbsp;Trial 2<\u002fem> in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> I will show you the same designs again. When they&nbsp;go&nbsp;away, you&nbsp;will draw them&nbsp;here<\u002fspan>&nbsp;(point to the Response Booklet)<span class=\"speechBlue\">. Ready?<\u002fspan><\u002fp>\r\n\r\n<p>​Present Item 4&nbsp;stimulus for 10 seconds. Do not allow the examinee to begin drawing while the designs are exposed.<\u002fp>\r\n\r\n<p><img class=\"give_stimTimerNoThumbnail\" customtimeout=\"false\" data-stim-number=\"1\" duration=\"10\" src=\"\" />​<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Now draw the designs.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>The examinee may erase and make corrections.&nbsp;<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wms5-vra-item4-37322",
+          "title": "Item 4 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No drawing"
+                },
+                {
+                  "value": 1,
+                  "label": "Attempted"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "imageExtension": "jpg"
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

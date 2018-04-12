@@ -1,0 +1,1206 @@
+{
+  "subtestId": 1418,
+  "subtestGUID": "69b4f122cc294632b3b00beccff7c34c",
+  "title": "Visual Reproduction alt II",
+  "displayName": "Visual Reproduction alt II",
+  "abbr": "vr2vus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-V Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "visualReproductionDelayed",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/visual_reproduction_alt_ii",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "f89f5ae7b0204057abbe054c20cf0447",
+            "subtestName": "Visual Reproduction alt I",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 8,
+    "descriptionCS": "First, the examinee is asked to draw the designs from the immediate condition in any order. Second, the examinee is asked to choose which of the six designs on a page matches the original design shown during the immediate condition. Third, for an optional copy task, the examinee is asked to draw the designs while looking at them."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Delayed Recall",
+      "abbr": "Delayed Recall",
+      "questions": 
+      [
+        {
+          "id": "wms-5-visual-delayed-item1",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item1",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Delayed Recall Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item1/wms-5-visual-delayed-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+            },
+            "superType": null,
+            "type": "visualReproductionDelayed"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-delayed-item2",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item2",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Delayed Recall Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item2/wms-5-visual-delayed-item2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+            },
+            "superType": null,
+            "type": "visualReproductionDelayed"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-delayed-item3",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item3",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Delayed Recall Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item3/wms-5-visual-delayed-item3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+            },
+            "superType": null,
+            "type": "visualReproductionDelayed"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-delayed-item4",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item4",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Delayed Recall Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item4/wms-5-visual-delayed-item4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+            },
+            "superType": null,
+            "type": "visualReproductionDelayed"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-delayed-item5",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item5",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Delayed Recall Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-delayed-item5/wms-5-visual-delayed-item5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+            },
+            "superType": null,
+            "type": "visualReproductionDelayed"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ],
+      "externalPredefinedBehaviors": 
+      [
+        {
+          "type": "visualReproduction",
+          "data": {
+            "processScoringHtml": "",
+            "processScoringCriteria": 
+            [
+              {
+                "title": "Record the Drawing Hand",
+                "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                "passingStims": 
+                [
+                ],
+                "failingStims": 
+                [
+                ]
+              }
+            ]
+          },
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item1",
+          "id": "wms-5-visual-recall-immediate-item1",
+          "name": "Item 1"
+        },
+        {
+          "type": "visualReproduction",
+          "data": {
+            "processScoringHtml": "",
+            "processScoringCriteria": 
+            [
+              {
+                "title": "Record the Drawing Hand",
+                "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                "passingStims": 
+                [
+                ],
+                "failingStims": 
+                [
+                ]
+              }
+            ]
+          },
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item2",
+          "id": "wms-5-visual-recall-immediate-item2",
+          "name": "Item 2"
+        },
+        {
+          "type": "visualReproduction",
+          "data": {
+            "processScoringHtml": "",
+            "processScoringCriteria": 
+            [
+              {
+                "title": "Record the Drawing Hand",
+                "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                "passingStims": 
+                [
+                ],
+                "failingStims": 
+                [
+                ]
+              }
+            ]
+          },
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item3",
+          "id": "wms-5-visual-recall-immediate-item3",
+          "name": "Item 3"
+        },
+        {
+          "type": "visualReproduction",
+          "data": {
+            "processScoringHtml": "",
+            "processScoringCriteria": 
+            [
+              {
+                "title": "Record the Drawing Hand",
+                "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                "passingStims": 
+                [
+                ],
+                "failingStims": 
+                [
+                ]
+              }
+            ]
+          },
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item4",
+          "id": "wms-5-visual-recall-immediate-item4",
+          "name": "Item 4"
+        },
+        {
+          "type": "visualReproduction",
+          "data": {
+            "processScoringHtml": "",
+            "processScoringCriteria": 
+            [
+              {
+                "title": "Record the Drawing Hand",
+                "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>\r\n",
+                "passingStims": 
+                [
+                ],
+                "failingStims": 
+                [
+                ]
+              }
+            ]
+          },
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_i/wms-5-visual-recall-immediate-item5",
+          "id": "wms-5-visual-recall-immediate-item5",
+          "name": "Item 5"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Recognition",
+      "abbr": "Recognition",
+      "hideStimWhenLeavingItemGroup": true,
+      "questions": 
+      [
+        {
+          "id": "wms-5-visual-recognition-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item1",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item1/wms-5-visual-recognition-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item2",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item2/wms-5-visual-recognition-item2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item3",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item3/wms-5-visual-recognition-item3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item4",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item4/wms-5-visual-recognition-item4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item5",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item5/wms-5-visual-recognition-item5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item6",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item6/wms-5-visual-recognition-item6Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-visual-recognition-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item7",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Recognition Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-recognition-item7/wms-5-visual-recognition-item7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "items": 
+              [
+                {
+                  "correctOrder": 1,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                },
+                {
+                  "correctOrder": null,
+                  "label": ""
+                }
+              ]
+            },
+            "superType": null,
+            "type": "SvgOneSelection"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wms-5-vr2-recognition-itemx",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-vr2-recognition-itemx",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item X",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">Have you seen this picture before<\u002fspan>?<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-vr2-recognition-itemx/wms-5-vr2-recognition-itemxPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useLabelAsButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": "No"
+                },
+                {
+                  "value": 1,
+                  "label": "Yes"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "png"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": true,
+      "title": "Copy (Optional)",
+      "abbr": "Copy (Optional)",
+      "questions": 
+      [
+        {
+          "id": "wms-5-visual-copy-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item1",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Copy Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item1/wms-5-visual-copy-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-copy-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item2",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Copy Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item2/wms-5-visual-copy-item2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-copy-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item3",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Copy Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item3/wms-5-visual-copy-item3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-copy-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item4",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Copy Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item4/wms-5-visual-copy-item4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-visual-copy-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item5",
+          "subtestName": "Visual Reproduction alt II",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Copy Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/visual_reproduction_alt_ii/wms-5-visual-copy-item5/wms-5-visual-copy-item5Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "processScoringHtml": "",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Record the Drawing Hand",
+                  "descriptionHtml": "<p>Record which hand the examinee used to draw the image and select the 1 point button. The actual image will be evaluated by Pearson.<\u002fp>",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "visualReproduction"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

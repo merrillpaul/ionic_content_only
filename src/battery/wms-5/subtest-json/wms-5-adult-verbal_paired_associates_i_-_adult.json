@@ -1,0 +1,1551 @@
+{
+  "subtestId": 1421,
+  "subtestGUID": "b6bfac41df39420faf848a507005c5a0",
+  "title": "Verbal Paired Associates I - Adult",
+  "displayName": "Verbal Paired Associates I",
+  "abbr": "vpavus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "wms",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/verbal_paired_associates_i_-_adult",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 69,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Auditory Memory",
+    "averageDuration": 9,
+    "descriptionCS": "After 14 word pairs are read to the examinee, the first word of each pair is read, and the examinee is asked to provide the corresponding word."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Lists A - C",
+      "abbr": "listad",
+      "questions": 
+      [
+        {
+          "id": "wms-5-verbal-paired-associates-i-list-a",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-a",
+          "subtestName": "Verbal Paired Associates I - Adult",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "List A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Open<\u002fem> goes with <em>door<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with door?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-a/wms-5-verbal-paired-associates-i-list-a-10070Prompts.html"
+                }
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10070",
+              "title": "Recall A Item 1: door-open",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "Open"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><i>Quiet&nbsp;<\u002fi>goes with <em>hot<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with hot?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10071",
+              "title": "Recall A Item 2: hot-quiet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "quiet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Truck<\u002fem>&nbsp;goes with <em>bag<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bag?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10072",
+              "title": "Recall A Item 3: bag-truck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "truck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Cloud<\u002fem>&nbsp;goes with&nbsp;<em>sky<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with sky?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10073",
+              "title": "Recall A Item 4: sky-cloud",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "cloud"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Luck<\u002fem> goes with <em>tree<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with tree?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10074",
+              "title": "Recall A Item 5: tree-luck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "luck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Big<\u002fem> goes with <em>paint<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with paint?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10075",
+              "title": "Recall A Item 6: paint-big",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "big"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Lost<\u002fem> goes with <em>bed<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bed?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10080",
+              "title": "Recall A Item 7: bed-lost",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "lost"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Feet<\u002fem> goes with <em>wish<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with wish?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10081",
+              "title": "Recall A Item 8: wish-feet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "feet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Town<\u002fem>&nbsp;goes with <i>city<\u002fi>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with city?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10083",
+              "title": "Recall A Item 9: city-town",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "town"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Girl<\u002fem> goes with <em>zoo<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with zoo?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10084",
+              "title": "Recall A Item 10: zoo-girl",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "girl"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Noise<\u002fem> goes with <em>down<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with down?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10085",
+              "title": "Recall A Item 11: down-noise",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "noise"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Box<\u002fem> goes with <em>day<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with day?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10086",
+              "title": "Recall A Item 12: day-box",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "box"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Road<\u002fem> goes with <em>street<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with street?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10087",
+              "title": "Recall A Item 13: street-road",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "road"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Smile<\u002fem> goes with <em>work<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with work?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-a-10088",
+              "title": "Recall A Item 14: work-smile",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "smile"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-i-list-b",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-b",
+          "subtestName": "Verbal Paired Associates I - Adult",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "List B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Cloud<\u002fem> goes with <em>sky<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with <em>sky<\u002fem>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-b/wms-5-verbal-paired-associates-i-list-b-10090Prompts.html"
+                }
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10090",
+              "title": "Recall B Item 1: sky-cloud",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "cloud"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Feet<\u002fem> goes with <em>wish<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with wish?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10091",
+              "title": "Recall B Item 2: wish-feet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "feet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Lost<\u002fem> goes with <em>bed<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bed?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10092",
+              "title": "Recall B Item 3: bed-lost",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "lost"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Box<\u002fem>&nbsp;goes with <em>day<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with day?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10093",
+              "title": "Recall B Item 4: day-box",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "box"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Smile<\u002fem>&nbsp;goes with <em>work<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with work?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10094",
+              "title": "Recall B Item 5: work-smile",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "smile"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Luck<\u002fem> goes with <em>tree<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with tree?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10095",
+              "title": "Recall B Item 6: tree-luck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "luck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Quiet<\u002fem>&nbsp;goes with <em>hot<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with hot?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10096",
+              "title": "Recall B Item 7: hot-quiet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "quiet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Girl<\u002fem>&nbsp;goes with&nbsp;<em>zoo<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with zoo?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10097",
+              "title": "Recall B Item 8: zoo-girl",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "girl"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Open<\u002fem>&nbsp;goes with <em>door<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with door?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10099",
+              "title": "Recall B Item 9: door-open",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "open"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Big<\u002fem>&nbsp;goes with&nbsp;<em>paint<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with paint?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10100",
+              "title": "Recall B Item 10: paint-big",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "big"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Road<\u002fem>&nbsp;goes with <em>street<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with street?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10102",
+              "title": "Recall B Item 11: street-road",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "road"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Town<\u002fem>&nbsp;goes with <em>city<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with city?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10103",
+              "title": "Recall B Item 12: city-town",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "town"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Noise<\u002fem> goes with <em>down<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with down?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10104",
+              "title": "Recall B Item 13: down-noise",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "noise"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Truck<\u002fem>&nbsp;goes with <em>bag<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bag?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-b-10106",
+              "title": "Recall B Item 14: bag-truck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "truck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wms-5-verbal-paired-associates-i-list-c",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-c",
+          "subtestName": "Verbal Paired Associates I - Adult",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "List C",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><i>Girl<\u002fi> goes with <em>zoo<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with zoo?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wms-5/verbal_paired_associates_i_-_adult/wms-5-verbal-paired-associates-i-list-c/wms-5-verbal-paired-associates-i-list-c-10107Prompts.html"
+                }
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10107",
+              "title": "Recall C Item 1: zoo-girl",
+              "suppressInstructionCard": false,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "girl"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Smile<\u002fem>&nbsp;goes with <em>work<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with work?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10108",
+              "title": "Recall C Item 2: work-smile",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "smile"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><em>Noise<\u002fem>&nbsp;goes with <em>down<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with down?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10109",
+              "title": "Recall C Item 3: down-noise",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "noise"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Road<\u002fem> goes with <em>street<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with street?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10110",
+              "title": "Recall C Item 4: street-road",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "road"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Box<\u002fem> goes with&nbsp;<em>day<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with day?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10111",
+              "title": "Recall C Item 5: day-box",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "box"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Big<\u002fem> goes with <em>paint<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with paint?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10112",
+              "title": "Recall C Item 6: paint-big",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "big"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Feet<\u002fem> goes with <em>wish<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with wish?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10113",
+              "title": "Recall C Item 7: wish-feet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "feet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Truck<\u002fem> goes with <em>bag<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bag?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10114",
+              "title": "Recall C Item 8: bag-truck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "truck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Town<\u002fem> goes with <em>city<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with city?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10115",
+              "title": "Recall C Item 9: city-town",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "town"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Luck<\u002fem> goes with <em>tree<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with tree?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10116",
+              "title": "Recall C Item 10: tree-luck",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "luck"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Open<\u002fem> goes with <em>door<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with door?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10117",
+              "title": "Recall C Item 11: door-open",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "open"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Cloud<\u002fem> goes with <em>sky<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with sky?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10118",
+              "title": "Recall C Item 12: sky-cloud",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "cloud"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Quiet<\u002fem> goes with <em>hot<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with hot?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10119",
+              "title": "Recall C Item 13: hot-quiet",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "quiet"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&#39;s right.<\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><em>Lost<\u002fem>&nbsp;goes with <em>bed<\u002fem>.<\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Which word goes with bed?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wms-5-verbal-paired-associates-i-list-c-10120",
+              "title": "Recall C Item 14: bed-lost",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "lost"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "hasInstructionsHtml": true
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,1379 @@
+{
+  "subtestId": 1480,
+  "subtestGUID": "324537c364b44969a5aed59386670884",
+  "title": "Visual Reproduction II",
+  "displayName": "Visual Reproduction II",
+  "abbr": "vrs2vus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "visualReproductionDelayed",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/visual_reproduction_ii",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 10,
+        "maxDelayMinutes": 30,
+        "timerMetadata": 
+        [
+          {
+            "duration": 99,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "expire"
+          },
+          {
+            "duration": 20,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "ready"
+          },
+          {
+            "duration": 10,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "wait"
+          }
+        ]
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "53790d2f294a4ec2a723b5456bae13f7",
+            "subtestName": "Visual Reproduction I",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Visual Memory",
+    "averageDuration": 10,
+    "descriptionCS": "VR2"
+  },
+  "questions": 
+  [
+    {
+      "id": "wms5-vra2-dr-item1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-dr-item1",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Turn to the page marked&nbsp;<em>Visual Reproduction II Delayed Recall &mdash; Item 1<\u002fem>&nbsp;in the Response Booklet and&nbsp;place&nbsp;it and a pencil in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;Earlier you looked at some designs and then drew them here<\u002fspan>&nbsp;(point to Response Booklet)<span class=\"speechBlue\">. I want you to draw the designs again. You don&#39;t have to draw them in the same order as you did before. If you saw one design by itself, just draw one design. If you saw two designs together, draw both designs just as you&nbsp;remember them. Now, draw one of the designs here<\u002fspan>&nbsp;(point to the open page of the Response Booklet)<span class=\"speechBlue\">.<\u002fspan>&nbsp;Begin timing.<\u002fp>\r\n\r\n<p>If the examinee says he or she does not recall the designs, provide general encouragement by saying, <strong><span class=\"speechBlue\">Each screen had one or more designs on it<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Just try to remember one of them.<\u002fspan><\u002fstrong> Do not prompt the examinee by describing in words a design or any part of a design or by drawing a fragment of the design for the examinee.<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms5-vra2-dr-item2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-dr-item2",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Turn to the next page in the Response Booklet and say, <strong><span class=\"speechBlue\">Now draw another one of the designs here<\u002fspan><\u002fstrong> (point to the page in the Response Booklet)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong> Begin timing.<\u002fp>\r\n\r\n<p>If the examinee says he or she does not recall the designs, provide general encouragement by saying, <strong><span class=\"speechBlue\">Each screen had one or more designs on it<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Just try to remember one of them.<\u002fspan><\u002fstrong> Do not prompt the examinee by describing in words a design or any part of a design or by drawing a fragment of the design for the examinee.<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms5-vra2-dr-item3",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-dr-item3",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Turn to the next page in the Response Booklet and say, <strong><span class=\"speechBlue\">Now draw another one of the designs here<\u002fspan><\u002fstrong> (point to the page in the Response Booklet)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong> Begin timing.<\u002fp>\r\n\r\n<p>If the examinee says he or she does not recall the designs, provide general encouragement by saying, <strong><span class=\"speechBlue\">Each screen had one or more designs on it<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Just try to remember one of them.<\u002fspan><\u002fstrong> Do not prompt the examinee by describing in words a design or any part of a design or by drawing a fragment of the design for the examinee.<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms5-vra2-dr-item4",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-dr-item4",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Delayed Recall Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Turn to the next page in the Response Booklet and say, <strong><span class=\"speechBlue\">Now draw another one of the designs here<\u002fspan><\u002fstrong> (point to the page in the Response Booklet)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong> Begin&nbsp;timing.<\u002fp>\r\n\r\n<p>If the examinee says he or she does not recall the designs, provide general encouragement by saying, <strong><span class=\"speechBlue\">Each screen had one or more designs on it<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Just try to remember one of them.<\u002fspan><\u002fstrong> Do not prompt the examinee by describing in words a design or any part of a design or by drawing a fragment of the design for the examinee.<\u002fp>\r\n\r\n<p>After the examinee completes the&nbsp;response, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo;<\u002fp>\r\n\r\n<p>Remove the Response Booklet and the pencil.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms5-vra2-rc-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item10",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say,&nbsp;<strong><span class=\"speechBlue\">Now, I will show you one design at a time. If the design is one you saw earlier, say &ldquo;Yes.&rdquo; If it is not one you saw earlier, say &ldquo;No.&rdquo; Ready?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item2",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item3",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item4",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item5",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item6",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item7",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item8",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item9",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-rc-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item1",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/wms5-vra2-rc-item1/wms5-vra2-rc-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item11",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item12",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item13",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item14",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item15",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item16",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item17",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": false,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vr2-rc-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vr2-rc-item18",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Recognition Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/visual_reproduction_ii/recognitionPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "question": "Is this a design you saw earlier?",
+              "correctAnswerOnRight": true,
+              "leftButtonText": "Yes",
+              "rightButtonText": "No"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "logicalMemoryRecognition"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-cp-item1",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-cp-item1",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Copy Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p>Turn to the page marked&nbsp;<em>Visual Reproduction II Copy &mdash; Item 1<\u002fem>&nbsp;in the Response Booklet and place it in front of the examinee.<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;I will show you the designs you saw earlier. I want you to copy them here<\u002fspan>&nbsp;(point to the Response Booklet)<span class=\"speechBlue\">. This time you will see the design until you are finished drawing. Try to make your drawing look exactly like the design.<\u002fspan><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">Draw this design just as you see it on the screen.<\u002fspan> Begin timing.<\u002fp>\r\n\r\n<p>When the examinee has finished drawing Item 1, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo; Then turn to the page marked <em>Visual Reproduction II Copy &mdash; Item 2<\u002fem>&nbsp;in the Response Booklet.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-cp-item2",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-cp-item2",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Copy Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Draw this design just as you see it.<\u002fspan><\u002fstrong> Begin timing.<\u002fp>\r\n\r\n<p>When the examinee has finished drawing Item 2, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo; Then turn to the page marked <em>Visual Reproduction II Copy &mdash; Item 3<\u002fem>&nbsp;in the Response Booklet.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-cp-item3",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-cp-item3",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Copy Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Draw these designs just as you see them.<\u002fspan><\u002fstrong> Begin timing.<\u002fp>\r\n\r\n<p>When the examinee has finished drawing Item 3, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo; Then turn to the page marked <em>Visual Reproduction II Copy &mdash; Item 4<\u002fem>&nbsp;in the Response Booklet.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    },
+    {
+      "id": "wms5-vra2-cp-item4",
+      "shouldUseTimer": true,
+      "maxTime": null,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/visual_reproduction_ii/wms5-vra2-cp-item4",
+      "subtestName": "Visual Reproduction II",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Copy Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Draw these designs just as you see them.<\u002fspan><\u002fstrong> Begin timing.<\u002fp>\r\n\r\n<p>When the examinee has finished drawing Item 4, stop timing and select &ldquo;Attempted.&rdquo; If no attempt is made, select &ldquo;No drawing.&rdquo; Then remove&nbsp;the Response Booklet and pencil.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useLabelAsButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": "No drawing"
+            },
+            {
+              "value": 1,
+              "label": "Attempted"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "imageExtension": "jpg"
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

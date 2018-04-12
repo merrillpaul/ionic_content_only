@@ -1,0 +1,2448 @@
+{
+  "subtestId": 1416,
+  "subtestGUID": "33278a887e694dd38c58e67fd555d238",
+  "title": "Spatial Addition",
+  "displayName": "Spatial Addition",
+  "abbr": "savus",
+  "testType": "wms",
+  "testTitle": "WMS-5-ADULT",
+  "testDisplayName": "WMS-5 Adult",
+  "normType": "wms-v-adult",
+  "testGUID": "12c338c122d2439d91c28e4a1b39ae86",
+  "subtestType": "wms",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wms-5/spatial_addition",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 16,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Working Memory",
+    "averageDuration": 12,
+    "descriptionCS": "The examinee is shown, sequentially, two grids with blue and red circles. The examinee is then asked to add or subtract the location of the circles based on a set of rules."
+  },
+  "questions": 
+  [
+    {
+      "id": "wms-5-spatialaddition-demoitempart1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-demoitempart1",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Demonstration Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s right.&nbsp;<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&rsquo;s not quite right. The first grid had a blue circle here <\u002fspan>(point to the top left)<span class=\"speechBlue\">, and the second grid had a blue circle here <\u002fspan>(point to the top right)<span class=\"speechBlue\">. Put a blue circle where there was a blue circle on either grid.<\u002fspan><\u002fp>\r\n\r\n<p>Remove any blue circles from the grid. Repeat demonstration if needed.&nbsp;<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\">Now I will combine the two grids I just saw to create a new grid. I will put a blue circle here where I saw a blue circle on the first grid.&nbsp;<\u002fspan>On the client device, drag a blue circle to the top left corner.<span class=\"speechBlue\">&nbsp;And&nbsp;a blue circle here where I saw it on the second grid.&nbsp;<\u002fspan>On the client device, drag a blue&nbsp;circle to the top right corner.<\u002fp>\r\n\r\n<p>Remove the blue circles from the grid. Say, <span class=\"speechBlue\">Now you try. Put a blue circle where you saw a blue circle on either the first or second grid.<\u002fspan><\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-demoitempart1/wms-5-spatialaddition-demoitempart1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-demopart2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-demopart2",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Demonstration Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<div>Say, <span class=\"speechBlue\">That<\u002fspan><span style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fspan><span class=\"speechBlue\">s right.<\u002fspan><\u002fdiv>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\">That&rsquo;s not quite right. The first grid had a blue circle here and here.<\u002fspan>&nbsp;Point to top left and top right.<span class=\"speechBlue\"> The second grid had a blue circle here.<\u002fspan> Point to top right.<span class=\"speechBlue\">&nbsp;There was a blue circle in this place on both grids.&nbsp;<\u002fspan>Point to the top right square.<span class=\"speechBlue\"> So put a white circle here.<\u002fspan> Have the examinee drag a white circle into the top right corner of the grid.&nbsp;<span class=\"speechBlue\">There was a blue circle in this place on only one grid.<\u002fspan> Point to top left.&nbsp;<span class=\"speechBlue\">So put a blue circle here.&nbsp;<\u002fspan>Have the examinee drag a blue circle into the top left corner of the grid.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">Now I will combine the two grids I just saw to create a new grid.&nbsp;I will put a white circle where I saw a blue circle in the same place on both grids. <\u002fspan>Drag a white circle to the top right&nbsp;corner of the grid on the client device.<span class=\"speechBlue\">&nbsp;And I will put a blue circle where I saw a blue circle on only one of the grids. <\u002fspan>Drag a blue circle to the top left&nbsp;corner of the grid on the client device.&nbsp;<\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\"> Do you understand?&nbsp;<\u002fspan>If the examinee does not understand, go back to the previous screen and show the stimuli again.&nbsp;Provide further instruction if needed.<\u002fp>\r\n\r\n<p>Remove the circles from the grid on the client device. Say,&nbsp;<span class=\"speechBlue\">Now you try.&nbsp;Put a white circle where there was a blue circle in the same place on both grids, and put a blue circle where there was a blue circle in a place on only one of the grids.<\u002fspan><\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-demopart2/wms-5-spatialaddition-demopart2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-samplea",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\">That&rsquo;s right. You placed a blue circle where there was a blue circle in only one of the grids and a white circle where there was a blue cicle in both grids.<\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">Let&rsquo;s try another one.<\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the examinee makes an error in placement or appears to not understand, place the circles in the correct locations (refer to the reduced grid above). Say, <span class=\"speechBlue\">See, this is how the grid should look. Place a blue circle here <\u002fspan>(point to the correct location on the grid)&nbsp;<span class=\"speechBlue\">because only one of the grids had a blue circle in this place. Place&nbsp;a white circle here<\u002fspan> (point to the correct location on the grid) <span class=\"speechBlue\">because both grids had a blue circle in this&nbsp;place.<\u002fspan><\u002fp>\r\n\r\n<p><span class=\"speechBlue\">Let<\u002fspan><span style=\"color: rgb(2, 149, 165);\">&rsquo;<\u002fspan><span class=\"speechBlue\">s try another one.<\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-samplea/wms-5-spatialaddition-sampleaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item1",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item1/wms-5-spatialaddition-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item2",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item2/wms-5-spatialaddition-item2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 4,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item3",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item3/wms-5-spatialaddition-item3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item4",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": 54,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item4/wms-5-spatialaddition-item4prompt--54.html"
+        },
+        {
+          "minAge": 55,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item4/wms-5-spatialaddition-item4prompt-55-.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 3,
+          "numCols": 3,
+          "totalChipCount": 9,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-sampleb",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-sampleb/wms-5-spatialaddition-samplebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item5",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item5/wms-5-spatialaddition-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item6",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item6/wms-5-spatialaddition-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item7",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item7/wms-5-spatialaddition-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 9,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item8",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item8/wms-5-spatialaddition-item8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 15,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item9",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item9/wms-5-spatialaddition-item9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item10",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item10/wms-5-spatialaddition-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item11",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item11/wms-5-spatialaddition-item11Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item12",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item12/wms-5-spatialaddition-item12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 15,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item13",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item13/wms-5-spatialaddition-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item14",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item14/wms-5-spatialaddition-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 6,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item15",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item15/wms-5-spatialaddition-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item16",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item16/wms-5-spatialaddition-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 13,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item17",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item17/wms-5-spatialaddition-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item18",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item18/wms-5-spatialaddition-item18Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 2,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 13,
+              "chipColor": "#FFFFFF"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item19",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item19/wms-5-spatialaddition-item19Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item20",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item20/wms-5-spatialaddition-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 13,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item21",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item21/wms-5-spatialaddition-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 2,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 12,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item22",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item22/wms-5-spatialaddition-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 2,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 5,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item23",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item23/wms-5-spatialaddition-item23Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 8,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 11,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item24",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item24/wms-5-spatialaddition-item24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 1,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 3,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 7,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 9,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item25",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item25/wms-5-spatialaddition-item25Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 3,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 4,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 10,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wms-5-spatialaddition-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item26",
+      "subtestName": "Spatial Addition",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wms-5/spatial_addition/wms-5-spatialaddition-item26/wms-5-spatialaddition-item26Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numRows": 4,
+          "numCols": 4,
+          "totalChipCount": 16,
+          "isPerChip": false,
+          "hasInteractiveStim": true,
+          "chips": 
+          [
+            {
+              "chipColor": null,
+              "chipBorderColor": null,
+              "cellBorderColor": null
+            },
+            {
+              "chipColor": "#116898",
+              "chipBorderColor": null,
+              "cellBorderColor": "#116898"
+            },
+            {
+              "chipColor": "#FFFFFF",
+              "chipBorderColor": "#000000",
+              "cellBorderColor": "#D8D8D7"
+            },
+            {
+              "chipColor": "#EC3B22",
+              "chipBorderColor": null,
+              "cellBorderColor": "#EC3B22"
+            }
+          ],
+          "correctLocations": 
+          [
+            {
+              "cellIndex": 0,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 6,
+              "chipColor": "#FFFFFF"
+            },
+            {
+              "cellIndex": 13,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 14,
+              "chipColor": "#116898"
+            },
+            {
+              "cellIndex": 15,
+              "chipColor": "#116898"
+            }
+          ]
+        },
+        "superType": null,
+        "type": "dotGrid"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 4,
+    "description": "This subtest discontinues after 4 consecutive scores of 0.",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 16,
+      "maxAge": 69,
+      "skipFromQuestionID": "wms-5-spatialaddition-item1",
+      "skipToQuestionID": "wms-5-spatialaddition-sampleb",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of intellectual disability or moderate to severe memory deficits",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

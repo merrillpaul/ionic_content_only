@@ -1,0 +1,1273 @@
+{
+  "subtestId": 1412,
+  "subtestGUID": "bf36553aeb6c42a2b6df383af6f8f7be",
+  "title": "Brief Cognitive Status Exam",
+  "displayName": "Brief Cognitive Status Exam",
+  "abbr": "bcsevus",
+  "testType": "wms",
+  "testTitle": "WMS-5-OLDER-ADULT",
+  "testDisplayName": "WMS-5 Older Adult",
+  "normType": "wms-v-older-adult",
+  "testGUID": "3720e56f05d448d0b42dfa67ad4bccac",
+  "subtestType": "wmsBcse",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wms-5/brief_cognitive_status_exam",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "YearsOfEducationPromptRule": true,
+  "designCopyingScoreSwitchingRule": false,
+  "educationRange": 
+  [
+    "<=  8",
+    "9 - 11",
+    "12",
+    "13 - 15",
+    ">= 16"
+  ],
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 70,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 90,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Mental Status",
+    "averageDuration": 7,
+    "descriptionCS": "The examinee performs simple tasks in a number of different areas including orientation to time, mental control, clock drawing, incidental recall, automaticity and inhibitory control, and verbal production."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Orientation",
+      "abbr": "orientation",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-orientation-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-orientation-item1",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Orientation Items 1-5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-orientation-item1/wms-5-bcse-orientation-item1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "question": "<p><span class=\"speechBlue\">What year is this?<\u002fspan><\u002fp>",
+                  "abbreviation": "Year"
+                },
+                {
+                  "question": "<p><span class=\"speechBlue\">What month is this?<\u002fspan><\u002fp>",
+                  "abbreviation": "Month"
+                },
+                {
+                  "question": "<p><span class=\"speechBlue\">What day of the week is this?<\u002fspan><\u002fp>",
+                  "abbreviation": "Day of the week"
+                },
+                {
+                  "question": "<p><span class=\"speechBlue\">What day of the month is this?<\u002fspan><\u002fp>",
+                  "abbreviation": "Day of the month"
+                },
+                {
+                  "question": "<p><span class=\"speechBlue\">Who is the current president of the United States?<\u002fspan><\u002fp>",
+                  "abbreviation": "President of the US"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "orientation"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Time Estimation",
+      "abbr": "time-estimation",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-time-estimation",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-time-estimation",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Time Estimation Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-time-estimation/wms-5-bcse-time-estimationPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "timeEstimation"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Naming Stimuli",
+      "abbr": "naming-stimuli",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-naming-stimulus_1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_1",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Naming Stimulus 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_1/wms-5-bcse-naming-stimulus_1Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-bcse-naming-stimulus_2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_2",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Naming Stimulus 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_2/wms-5-bcse-naming-stimulus_2Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-bcse-naming-stimulus_3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_3",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Naming Stimulus 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_3/wms-5-bcse-naming-stimulus_3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-bcse-naming-stimulus_4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_4",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Naming Stimulus 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-naming-stimulus_4/wms-5-bcse-naming-stimulus_4Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": 
+            [
+            ],
+            "superType": null,
+            "type": "namingStimuli"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Mental Control",
+      "abbr": "mental-control",
+      "itemGroupType": "MentalControl",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-mental-control-item7",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-mental-control-item7",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Mental Control Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-mental-control-item7/wms-5-bcse-mental-control-item7Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "correctResponses": 
+              [
+                {
+                  "label": "20"
+                },
+                {
+                  "label": "19"
+                },
+                {
+                  "label": "18"
+                },
+                {
+                  "label": "17"
+                },
+                {
+                  "label": "16"
+                },
+                {
+                  "label": "15"
+                },
+                {
+                  "label": "14"
+                },
+                {
+                  "label": "13"
+                },
+                {
+                  "label": "12"
+                },
+                {
+                  "label": "11"
+                },
+                {
+                  "label": "10"
+                },
+                {
+                  "label": "9"
+                },
+                {
+                  "label": "8"
+                },
+                {
+                  "label": "7"
+                },
+                {
+                  "label": "6"
+                },
+                {
+                  "label": "5"
+                },
+                {
+                  "label": "4"
+                },
+                {
+                  "label": "3"
+                },
+                {
+                  "label": "2"
+                },
+                {
+                  "label": "1"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "mentalControl"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "SC",
+              "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+              "abbreviation": "sc"
+            }
+          ]
+        },
+        {
+          "id": "wms-5-bcse-mental-control-item8",
+          "shouldUseTimer": true,
+          "maxTime": null,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-mental-control-item8",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Mental Control Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-mental-control-item8/wms-5-bcse-mental-control-item8Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "correctResponses": 
+              [
+                {
+                  "label": "December"
+                },
+                {
+                  "label": "November"
+                },
+                {
+                  "label": "October"
+                },
+                {
+                  "label": "September"
+                },
+                {
+                  "label": "August"
+                },
+                {
+                  "label": "July"
+                },
+                {
+                  "label": "June"
+                },
+                {
+                  "label": "May"
+                },
+                {
+                  "label": "April"
+                },
+                {
+                  "label": "March"
+                },
+                {
+                  "label": "February"
+                },
+                {
+                  "label": "January"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "mentalControl"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "DK",
+              "guid": "54fccacc43864aaea854f9f9b70145c5",
+              "abbreviation": "DK"
+            },
+            {
+              "name": "NR",
+              "guid": "80b62087aca14dfd807069b86307f358",
+              "abbreviation": "NR"
+            },
+            {
+              "name": "P",
+              "guid": "eb7c6a7597694902a017391974b8429c",
+              "abbreviation": "P"
+            },
+            {
+              "name": "R",
+              "guid": "c973a426598d48b3a5a2395535685c1c",
+              "abbreviation": "R"
+            },
+            {
+              "name": "SC",
+              "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+              "abbreviation": "sc"
+            }
+          ]
+        }
+      ],
+      "hasInstructionsHtml": true
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Clock Drawing",
+      "abbr": "clock-drawing",
+      "itemGroupType": "ClockDrawing",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-clockdrawing-item9a",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-clockdrawing-item9a",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Clock Drawing Item 9-1 (Numbers)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "startWritingClosed": true,
+          "topInstructionsHTML": "<p>Open the Response Booklet to the page marked&nbsp;<em>Brief Cognitive Status Exam &mdash; Item 9<\u002fem>&nbsp;and place the Response Booklet and&nbsp;a pencil with no eraser in front of the examinee.<\u002fp>\r\n\r\n<p><em>You must observe the examinee as he or she draws&nbsp;in order to record appropriately.<\u002fem><\u002fp>\r\n\r\n<div>Say,&nbsp;<span class=\"speechBlue\">Draw the face of a clock, put in the numbers, and set the hands to 10 minutes after nine.<\u002fspan><\u002fdiv>\r\n\r\n<div>&nbsp;<\u002fdiv>\r\n\r\n<div>Do not allow the examinee to erase or restart the drawing. If the examinee attempts to erase or restart, say,<span class=\"speechBlue\">&nbsp;Do not start over. Just do your best.<\u002fspan><\u002fdiv>\r\n\r\n<p>When the examinee is finished drawing, remove the Response Booklet and pencil.&nbsp;<\u002fp>\r\n\r\n<p><em>Score examinee&#39;s drawing sequence.<\u002fem><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-clockdrawing-item9a/wms-5-bcse-clockdrawing-item9aPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "aspectTitle": "1. Numbers",
+              "processScoringHtml": "<p>Hour marks are not required but are considered acceptable substitutes for numbers in the criteria below.<\u002fp>\r\n\r\n<p>Roman numerals are acceptable.<\u002fp>\r\n\r\n<p>If no numbers or hour marks are present, score all Numbers criteria 0 points.<\u002fp>\r\n",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Numbers-Sequence",
+                  "descriptionHtml": "<p><strong>2 points:<\u002fstrong> The 12, 3, 6, 9 anchors (or hour marks representing 12, 3, 6, 9) are drawn first and then the remaining numbers or hour marks are placed correctly.<\u002fp>\r\n\r\n<ul>\r\n\t<li>The anchor numbers may be drawn in any order.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><strong>1 point:<\u002fstrong> The numbers 1&ndash;12 are recorded in serial order.<\u002fp>\r\n\r\n<ul>\r\n\t<li>Recording number 12 first, followed by 1, 2, 3... 11 is acceptable.<\u002fli>\r\n\t<li>Reverse serial order (e.g., 12, 11, 10... 1) is acceptable.<\u002fli>\r\n\t<li>If the examinee begins with any number (e.g., 3), then continues from that number in serial order or reverse serial order, it is acceptable.<\u002fli>\r\n\t<li>Recording exactly 12 hour marks in a serial clockwise or counterclockwise manner is acceptable.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><strong>0 points:<\u002fstrong> The 12, 3, 6, 9 anchors are not drawn first or the numbers 1&ndash;12 or exactly 12 hour marks are not recorded in serial order or reverse serial order.<\u002fp>\r\n\r\n<ul>\r\n\t<li>\u001eIf numbers other than 1&ndash;12 are recorded (e.g., 1&ndash;15), if all of the numbers 1&ndash;12 are not recorded (e.g., 1&ndash;10 only), if exactly 12 hour marks are not present, or if a number is repeated, Numbers&ndash;Sequence should receive 0 points.<\u002fli>\r\n<\u002ful>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 2
+                },
+                {
+                  "title": "Numbers-Presence",
+                  "descriptionHtml": "<p><strong>1 point:<\u002fstrong> The numbers 1&ndash;12 are recorded.<\u002fp>\r\n\r\n<ul>\r\n\t<li>The numbers may be recorded in any sequence.<\u002fli>\r\n\t<li>Exactly 12 hour marks are acceptable. See 1a.<\u002fli>\r\n\t<li>Any combination of exactly 12 numbers (1&ndash;12 only) and hour marks are acceptable. See 1b.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><strong>0 points:<\u002fstrong> The numbers 1&ndash;12 are not recorded, any numbers other than 1&ndash;12 are recorded, any number within 1&ndash;12 is recorded more than once, exactly 12 hour marks are not present.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-numbers/images/1a.png\" title=\"1a.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-numbers/images/1b.png\" title=\"1b.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>1a<\u002ftd>\r\n\t\t\t<td>1b<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Numbers-Location",
+                  "descriptionHtml": "<p><strong>1 point:<\u002fstrong> All numbers or hour marks present are recorded inside or on top of the contour.<\u002fp>\r\n\r\n<ul>\r\n\t<li>Do not penalize the examinee for missing or extra numbers or hour marks.<\u002fli>\r\n\t<li>If a number or hour mark is recorded on top of the contour line, this is acceptable. See 1c.<\u002fli>\r\n\t<li>If no contour is present, score 1 point if the numbers or hour marks present are recorded in a circular manner or some other reasonable configuration consistent with a clock. See 1d.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><strong>0 points:<\u002fstrong> At least one number or hour mark is recorded completely outside the contour or, if no contour is present, the numbers or hour marks are not recorded in a circular manner or some other reasonable configuration consistent with a clock.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-numbers/images/1c.png\" title=\"1c.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-numbers/images/1d.png\" title=\"1d.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>1c<\u002ftd>\r\n\t\t\t<td>1d<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                }
+              ]
+            },
+            "superType": null,
+            "type": "clockDrawing"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-bcse-clockdrawing-item9b",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-clockdrawing-item9b",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Clock Drawing Item 9-2 (Contour)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "aspectTitle": "2. Contour",
+              "processScoringHtml": "<p>If a contour is not present, score all Contour criteria 0 points.<\u002fp>\r\n\r\n<p>If concentric circles are present, consider the inner circle of the concentric set to be the contour when applying criteria.<\u002fp>\r\n",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Contour-Presence",
+                  "descriptionHtml": "<p><b>1 point:<\u002fb> A contour is present.<\u002fp>\r\n\r\n<ul>\r\n\t<li>The contour may be any shape (e.g., heart-shaped, alarm clock-shaped, square-shaped, concentric circles).<\u002fli>\r\n<\u002ful>\r\n\r\n<p><b>0 points:<\u002fb> No contour is present.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Contour-Accommodation",
+                  "descriptionHtml": "<p>Do not penalize the examinee for missing or extra numbers, hour marks, or hands.<\u002fp>\r\n\r\n<p><b>1 point:<\u002fb> The contour is large enough to accommodate all the numbers, hour marks, and hands drawn by the examinee.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> The contour is not large enough to accommodate all the numbers, hour marks, and hands drawn by the examinee.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Contour-Closure",
+                  "descriptionHtml": "<p><b>1 point:<\u002fb> There is no gap in the contour greater than 5 mm.<\u002fp>\r\n\r\n<ul>\r\n\t<li>If the endpoints of the contour line are overlapping each other, the space between the overlapping endpoints should not be considered a gap. See 2a.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><b>0 points:<\u002fb> There is a gap in the contour greater than 5 mm and the endpoints of the contour line are not overlapping each other. See 2b.<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2a.png\" title=\"2a.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2b.png\" title=\"2b.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>2a<\u002ftd>\r\n\t\t\t<td>2b<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Contour-Symmetry",
+                  "descriptionHtml": "<p>The symmetry criterion is designed to assess if poor planning or impulsive responding led to an asymmetry of the contour, which in turn resulted in a placement of the numbers that is not consistent with a typical clock face. Do not assess the symmetry of the examinee&rsquo;s drawing in the context of the examinee being required to produce a near-perfect circle.<\u002fp>\r\n\r\n<p>The symmetry of the contour should be based on visual inspection only (e.g., not using any magnifying device or curved edge). Never judge the symmetry of a drawing against contours drawn by other examinees.<\u002fp>\r\n\r\n<p>The contour <b>does not<\u002fb> have to be symmetrical on the horizontal axis.<\u002fp>\r\n\r\n<p><b>1 point:<\u002fb> The contour is roughly symmetrical on the vertical axis. See 2c&ndash;2e.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> The contour is not roughly symmetrical on the vertical axis. See 2f&ndash;2h.<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2c.png\" title=\"2c.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2d.png\" title=\"2d.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2e.png\" title=\"2e.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>2c<\u002ftd>\r\n\t\t\t<td>2d<\u002ftd>\r\n\t\t\t<td>2e<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2f.png\" title=\"2f.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2g.png\" title=\"2g.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-contour/images/2h.png\" title=\"2h.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>2f<\u002ftd>\r\n\t\t\t<td>2g<\u002ftd>\r\n\t\t\t<td>2h<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                }
+              ]
+            },
+            "superType": null,
+            "type": "clockDrawing"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Sequence",
+              "guid": "88f704031f9b4f1a8b29d598d7f50723",
+              "abbreviation": "seq",
+              "isPopover": true,
+              "hasInteractiveContent": true,
+              "interactiveType": "sequence"
+            }
+          ]
+        },
+        {
+          "id": "wms-5-bcse-clockdrawing-item9c",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-clockdrawing-item9c",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Clock Drawing Item 9-3 (Hands)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "aspectTitle": "3. Hands",
+              "processScoringHtml": "<p>If fewer than two hands are present, score all Hands criteria 0 points.<\u002fp>\r\n",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Hands-Presence",
+                  "descriptionHtml": "<p><b>1 point:<\u002fb> Exactly one hour hand and one minute hand are present.<\u002fp>\r\n\r\n<ul>\r\n\t<li>A third hand may be present if it is clearly representing a hand indicating time in seconds.<\u002fli>\r\n<\u002ful>\r\n\r\n<p><b>0 points:<\u002fb> Fewer than two hands are present or more than three hands are present (if a third hand is present it must clearly represent a hand indicating time in seconds).<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Hands-Connection",
+                  "descriptionHtml": "<p><b>1 point:<\u002fb> There is not a gap greater than 12 mm between the hour and minute hands.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> There is a gap greater than 12 mm between the hour and minute hands.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Hands-Proportion",
+                  "descriptionHtml": "<p>This criterion is designed to assess if the hands produced by the examinee include a short hand that would easily be judged to be an hour hand and a long hand that would easily be judged to be a minute hand. Do not use any magnifying device or ruler to measure the length of hands. Determine if the hands appear to be of different lengths by visual inspection only. If your first inclination is to measure the hands to determine if one is longer than another, then those hands should not be considered to have one hand perceptibly shorter than the other. Do not use the orientation of the hands to help judge this criterion.<\u002fp>\r\n\r\n<p><b>1 point:<\u002fb> One hand is perceptibly shorter than the other hand.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> One hand is not perceptibly shorter than the other hand.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Hands-Correct Target",
+                  "descriptionHtml": "<p><i>Note.<\u002fi> If the examinee rotates the Response Booklet, note the top of the clock drawing before attempting to score.<\u002fp>\r\n\r\n<p><b>2 points<\u002fb>: The hour hand (shorter) is pointing at the correct hour and the minute hand (longer) is pointing at the correct minute.<\u002fp>\r\n\r\n<p><b>1 point:<\u002fb> The hour hand (shorter) is pointing at the correct minute and the minute hand (longer) is pointing at the correct hour; or neither hand is perceptibly shorter than the other, but one is pointing at the correct hour and the other is pointing at the correct minute.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> Either the hour hand or the minute hand is not pointing at the correct hour and minute. Neither hand is pointing at the correct hour or minute.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 2
+                }
+              ]
+            },
+            "superType": null,
+            "type": "clockDrawing"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Sequence",
+              "guid": "88f704031f9b4f1a8b29d598d7f50723",
+              "abbreviation": "seq",
+              "isPopover": true,
+              "hasInteractiveContent": true,
+              "interactiveType": "sequence"
+            }
+          ]
+        },
+        {
+          "id": "wms-5-bcse-clockdrawing-item9d",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-clockdrawing-item9d",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Clock Drawing Item 9-4 (Center)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "aspectTitle": "4. Center",
+              "processScoringHtml": "<p>If fewer than two hands are present, a center dot or circle must be drawn by the examinee to receive 1 point on the center criteria.<\u002fp>\r\n",
+              "processScoringCriteria": 
+              [
+                {
+                  "title": "Center-Presence",
+                  "descriptionHtml": "<p>Do not penalize an examinee for location on this criterion.<\u002fp>\r\n\r\n<p><b>1 point:<\u002fb> The clock has a center that was drawn by the examinee (see 4a), or created by the connection of the two hands, or inferred by the extrapolation to the point where two hands would meet if a gap is present (see 4b).<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> The clock does not have a center that was drawn by the examinee, or created by the connection of the two hands, or inferred by the extrapolation to the point where two hands would meet if a gap is present. See 4c.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-center/images/4a.png\" title=\"4a.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-center/images/4b.png\" title=\"4b.png\" /><\u002ftd>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-center/images/4c.png\" title=\"4c.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>4a<\u002ftd>\r\n\t\t\t<td>4b<\u002ftd>\r\n\t\t\t<td>4c<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                },
+                {
+                  "title": "Center-Location",
+                  "descriptionHtml": "<p>If two hands are present, always assess the center created by the connection of the two hands or inferred by the extrapolation to the point where two hands would meet if a gap is present rather than a center dot or circle drawn by the examinee.<\u002fp>\r\n\r\n<p>In 4d, both a center dot is drawn and two hands are present. In this example, the Center&ndash;Location criteria should only be applied to the center created by the two hands.<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"battery/wms-iv/brief_cognitive_status_exam/wms-iv-bcse-clockdrawing-center/images/4d.png\" title=\"4d.png\" /><\u002ftd>\r\n\t\t<\u002ftr>\r\n\t\t<tr>\r\n\t\t\t<td>4d<\u002ftd>\r\n\t\t<\u002ftr>\r\n\t<\u002ftbody>\r\n<\u002ftable>\r\n\r\n<p><b>1 point:<\u002fb> The center or inferred center falls within the middle third of the contour.<\u002fp>\r\n\r\n<p><b>0 points:<\u002fb> The center or inferred center does not fall within the middle third of the contour.<\u002fp>\r\n",
+                  "passingStims": 
+                  [
+                  ],
+                  "failingStims": 
+                  [
+                  ],
+                  "maxScore": 1
+                }
+              ]
+            },
+            "superType": null,
+            "type": "clockDrawing"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "Sequence",
+              "guid": "88f704031f9b4f1a8b29d598d7f50723",
+              "abbreviation": "seq",
+              "isPopover": true,
+              "hasInteractiveContent": true,
+              "interactiveType": "sequence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Incidental Recall",
+      "abbr": "incidental-recall",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-incidental-recall-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-incidental-recall-item10",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Incidental Recall Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p>Say,&nbsp;<span class=\"speechBlue\">Earlier, I showed you four pictures of objects and asked you to name each one.&nbsp;I want you to tell me what those four objects were.<\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "choiceList": 
+              [
+                {
+                  "question": "<p>Chair<\u002fp>",
+                  "correct": "<p>Chair, Seat<\u002fp>"
+                },
+                {
+                  "question": "<p>Glasses<\u002fp>",
+                  "correct": "<p>Glasses, Reading glasses, Sunglasses, Bifocals, Eyeglasses, Eyewear, Spectacles<\u002fp>"
+                },
+                {
+                  "question": "<p>Bird<\u002fp>",
+                  "correct": "<p>Bird, Any type of flying bird<\u002fp>"
+                },
+                {
+                  "question": "<p>Cup<\u002fp>",
+                  "correct": "<p>Cup, Glass, Mug, Any type of cup<\u002fp>"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "incidentalRecall"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Inhibition",
+      "abbr": "inhibition",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-inhibition-sample",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-inhibition-sample",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Inhibition - Sample Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-inhibition-sample/wms-5-bcse-inhibition-samplePrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "hideLastWordButtons": true,
+              "unselectedAsErrors": false,
+              "colors": 
+              [
+                {
+                  "color": "inhibition-blank",
+                  "label": ""
+                },
+                {
+                  "color": "inhibition-yellow",
+                  "label": "Omission Error (Including Self-Corrections)"
+                },
+                {
+                  "color": "inhibition-orange",
+                  "label": "Commission Error (Including Self-Corrections)"
+                }
+              ],
+              "values": 
+              [
+                [
+                  "R",
+                  "T",
+                  "T",
+                  "T",
+                  "R",
+                  "R"
+                ],
+                [
+                  "T",
+                  "R",
+                  "R",
+                  "T",
+                  "R",
+                  "T"
+                ],
+                [
+                  "T",
+                  "R",
+                  "T",
+                  "R",
+                  "T",
+                  "R"
+                ],
+                [
+                  "R",
+                  "T",
+                  "R",
+                  "R",
+                  "T",
+                  "T"
+                ]
+              ]
+            },
+            "superType": null,
+            "type": "inhibition"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wms-5-bcse-inhibition-test",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-inhibition-test",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Inhibition Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-inhibition-test/wms-5-bcse-inhibition-testPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "hideLastWordButtons": true,
+              "unselectedAsErrors": false,
+              "colors": 
+              [
+                {
+                  "color": "inhibition-blank",
+                  "label": ""
+                },
+                {
+                  "color": "inhibition-yellow",
+                  "label": "Omission Error (Including Self-Corrections)"
+                },
+                {
+                  "color": "inhibition-orange",
+                  "label": "Commission Error (Including Self-Corrections)"
+                }
+              ],
+              "values": 
+              [
+                [
+                  "T",
+                  "R",
+                  "R",
+                  "R",
+                  "T",
+                  "T"
+                ],
+                [
+                  "R",
+                  "T",
+                  "T",
+                  "R",
+                  "T",
+                  "R"
+                ],
+                [
+                  "R",
+                  "T",
+                  "R",
+                  "T",
+                  "R",
+                  "T"
+                ],
+                [
+                  "T",
+                  "R",
+                  "T",
+                  "T",
+                  "R",
+                  "R"
+                ]
+              ]
+            },
+            "superType": null,
+            "type": "inhibition"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Verbal Production",
+      "abbr": "Verbal Production",
+      "questions": 
+      [
+        {
+          "id": "wms-5-bcse-verbal-production-item12",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-verbal-production-item12",
+          "subtestName": "Brief Cognitive Status Exam",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Verbal Production Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wms-5/brief_cognitive_status_exam/wms-5-bcse-verbal-production-item12/wms-5-bcse-verbal-production-item12Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numColumns": 2,
+              "timeInterval": 15,
+              "scoringEntries": 
+              [
+                {
+                  "name": "Incorrect",
+                  "value": "incorrect",
+                  "abbreviation": "I",
+                  "color": "#FF0000"
+                }
+              ]
+            },
+            "superType": null,
+            "type": "verbalFluency"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    },
+    {
+      "name": "R",
+      "guid": "c973a426598d48b3a5a2395535685c1c",
+      "abbreviation": "R"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}
