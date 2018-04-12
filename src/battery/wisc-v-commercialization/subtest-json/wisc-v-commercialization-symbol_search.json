@@ -1,0 +1,1992 @@
+{
+  "subtestId": 807,
+  "subtestGUID": "f0247e59da344994a965fee44ab39aa8",
+  "title": "Symbol Search",
+  "displayName": "Symbol Search",
+  "abbr": "ss",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/symbol_search",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Processing Speed",
+    "averageDuration": 3,
+    "descriptionCS": "The child scans a search group and indicates whether the target symbol(s) matches any of the symbols in the search group within a specified time limit."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Digital stimulus and responses",
+      "abbr": "digital",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wisc-v-commercialization/symbol_search/digital_stimulus_and_responses",
+      "isUsingCustomSpeechBubble": true,
+      "itemGroupType": "Digital",
+      "questions": 
+      [
+        {
+          "id": "wiscv-symbolsearchtouch-demoa",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-demoa",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Demonstration Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-demoa/wiscv-symbolsearchtouch-demoaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiscv-symbolsearchtouch-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-samplea",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Sample Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-samplea/wiscv-symbolsearchtouch-sampleaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiscv-symbolsearchtouch-testa",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": 10,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-testa",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Test Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-testa/wiscv-symbolsearchtouch-testaPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "correct",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "correct",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "correct",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiscv-symbolsearchtouch-demob",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-demob",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Demo Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-demob/wiscv-symbolsearchtouch-demobPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiscv-symbolsearchtouch-sampleb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-sampleb",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Sample Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-sampleb/wiscv-symbolsearchtouch-samplebPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wiscv-symbolsearchtouch-testb",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": 10,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-testb",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Test Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": true,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearchtouch-testb/wiscv-symbolsearchtouch-testbPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "structure": 
+              [
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "correct",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "rotation",
+                    "simple"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ]
+                ],
+                [
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "family",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "correct"
+                  ],
+                  [
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple"
+                  ],
+                  [
+                    "rotation",
+                    "correct",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ],
+                [
+                  [
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct",
+                    "simple",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "simple",
+                    "simple",
+                    "rotation",
+                    "correct"
+                  ],
+                  [
+                    "simple",
+                    "rotation",
+                    "simple",
+                    "simple",
+                    "correct",
+                    "simple"
+                  ],
+                  [
+                    "simple",
+                    "simple",
+                    "family",
+                    "simple",
+                    "simple",
+                    "correct"
+                  ]
+                ]
+              ],
+              "hasErrorBreakdown": true
+            },
+            "superType": null,
+            "type": "symbolSearchTouch"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Paper response booklet",
+      "abbr": "paper",
+      "isUsingCustomIButton": true,
+      "baseUrl": "battery/wisc-v-commercialization/symbol_search/paper_response_booklet",
+      "isUsingCustomSpeechBubble": true,
+      "itemGroupType": "Paper",
+      "questions": 
+      [
+        {
+          "id": "wiscv-symbolsearch-demo-a",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-demo-a",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Demo Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-demo-a/wiscv-symbolsearch-demo-aPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 42,
+              "isCalculationRequired": false,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": true,
+              "hasRotationErrors": true,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wiscv-symbolsearch-sample-a",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-sample-a",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Sample Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right. Now you know how to do them.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response(s):<\u002fstrong><\u002fp>\r\n\r\n<p>Correct the error(s) immediately, as follows:<\u002fp>\r\n\r\n<p>If the child incorrectly marks NO on the first or third sample item, say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. This shape<\u002fspan><\u002fstrong> (point to first target symbol) <strong><span class=\"speechBlue\">is the same as this one<\u002fspan><\u002fstrong> (point to matching symbol in search group)<strong><span class=\"speechBlue\">, so you should mark it.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly marks a non-target symbol in the search group on the first or third sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. This shape<\u002fstrong><\u002fspan> (point to error) <strong><span class=\"speechBlue\">is <em>not<\u002fem> the same as this one<\u002fspan><\u002fstrong> (point to target symbol)<strong><span class=\"speechBlue\">, so you should <em>not<\u002fem> mark it.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly marks the rotated target symbol on the second sample item, say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. Even though this shape<\u002fspan><\u002fstrong> (point to rotated target in search group) <span class=\"speechBlue\"><strong>looks like this one<\u002fstrong><\u002fspan> (point to target symbol)<strong><span class=\"speechBlue\">, you should <em>not<\u002fem> mark it because it&rsquo;s turned the wrong way. You should mark the NO box.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly marks any other symbol in the search group on the second sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. This shape<\u002fstrong><\u002fspan> (point to error) <strong><span class=\"speechBlue\">is <em>not<\u002fem> the same as this one<\u002fspan><\u002fstrong> (point to target symbol)<span class=\"speechBlue\"><strong>, so you should <em>not<\u002fem> mark it.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed with the test items until the child has correctly completed the sample items and understands the task. If it is clear that the child will not understand the task with further instruction, use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task. Enter 0 for the total correct and total incorrect scores for the subtest. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n\r\n<p>When the child has successfully completed the sample items, proceed to Test Items.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-sample-a/wiscv-symbolsearch-sample-aPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 100,
+              "isCalculationRequired": false,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wiscv-symbolsearch-test-a",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-test-a",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "A: Test Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-test-a/wiscv-symbolsearch-test-aPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 40,
+              "maxIncorrect": 40,
+              "maxSetErrors": 20,
+              "maxRotationErrors": 20,
+              "isCalculationRequired": true,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": true,
+              "hasRotationErrors": true,
+              "hasScorePopover": true,
+              "useWordCountTitle": false,
+              "timeBonusMinScore": 40,
+              "timeBonus": 
+              [
+                {
+                  "startTime": 120,
+                  "endTime": 120,
+                  "bonusPoints": 0
+                },
+                {
+                  "startTime": 111,
+                  "endTime": 119,
+                  "bonusPoints": 1
+                },
+                {
+                  "startTime": 0,
+                  "endTime": 110,
+                  "bonusPoints": 2
+                }
+              ]
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wiscv-symbolsearch-demo-b",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-demo-b",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Demo Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-demo-b/wiscv-symbolsearch-demo-bPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 100,
+              "isCalculationRequired": false,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wiscv-symbolsearch-sample-b",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-sample-b",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Sample Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>That&rsquo;s right. Now you know how to do them.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response(s):<\u002fstrong><\u002fp>\r\n\r\n<p>Correct the error(s) immediately, as follows:<\u002fp>\r\n\r\n<p>If the child incorrectly marks NO on the first or third sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. This shape <\u002fstrong><\u002fspan>(point to first target symbol) <span class=\"speechBlue\"><strong>is the same as this one<\u002fstrong><\u002fspan> (point to matching symbol in search group)<span class=\"speechBlue\"><strong>, so you should mark it.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>If the child incorrectly marks a non-target symbol in the search group on the first or third sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. This shape<\u002fstrong><\u002fspan> (point to error) <strong><span class=\"speechBlue\">is <em>not<\u002fem> the same as either one of these<\u002fspan><\u002fstrong> (point to each target symbol)<span class=\"speechBlue\"><strong>, so you should <em>not<\u002fem> mark it.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>If the child incorrectly marks the rotated target symbol on the second sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Even though this shape<\u002fstrong><\u002fspan> (point to rotated target in search group) <span class=\"speechBlue\"><strong>looks like this one<\u002fstrong><\u002fspan> (point to corresponding target symbol)<strong><span class=\"speechBlue\">, you should <em>not<\u002fem> mark it because it&rsquo;s turned the wrong way.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly marks any other symbol in the search group on the second sample item, say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. This shape<\u002fstrong><\u002fspan> (point to error) <span class=\"speechBlue\"><strong>is <em>not<\u002fem> the same as either one of these<\u002fstrong><\u002fspan> (point to each target symbol)<span class=\"speechBlue\"><strong>, so you should <em>not<\u002fem> mark it.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed with the test items until the child has correctly completed the sample items and understands the task. If it is clear that the child will not understand the task with further instruction, use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task. Enter 0 for the total correct and total incorrect scores for the subtest. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n\r\n<p>When the child has successfully completed the sample items, proceed to Test Items.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-sample-b/wiscv-symbolsearch-sample-bPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 100,
+              "isCalculationRequired": false,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": false,
+              "hasRotationErrors": false,
+              "hasScorePopover": false,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wiscv-symbolsearch-test-b",
+          "shouldUseTimer": true,
+          "maxTime": 120,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-test-b",
+          "subtestName": "Symbol Search",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "B: Test Items",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": false,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/symbol_search/wiscv-symbolsearch-test-b/wiscv-symbolsearch-test-bPrompts.html"
+            }
+          ],
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "maxScore": 60,
+              "maxIncorrect": 60,
+              "maxSetErrors": 30,
+              "maxRotationErrors": 30,
+              "isCalculationRequired": true,
+              "useTimeAsRawScore": false,
+              "hasSetErrors": true,
+              "hasRotationErrors": true,
+              "hasScorePopover": true,
+              "useWordCountTitle": false
+            },
+            "superType": null,
+            "type": "manual"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 1,
+      "maxAge": 7,
+      "itemsToSkip": 
+      [
+        "wiscv-symbolsearch-demo-b",
+        "wiscv-symbolsearch-sample-b",
+        "wiscv-symbolsearch-test-b",
+        "wiscv-symbolsearchtouch-demob",
+        "wiscv-symbolsearchtouch-sampleb",
+        "wiscv-symbolsearchtouch-testb"
+      ]
+    },
+    {
+      "minAge": 8,
+      "maxAge": 99,
+      "itemsToSkip": 
+      [
+        "wiscv-symbolsearch-demo-a",
+        "wiscv-symbolsearch-sample-a",
+        "wiscv-symbolsearch-test-a",
+        "wiscv-symbolsearchtouch-demoa",
+        "wiscv-symbolsearchtouch-samplea",
+        "wiscv-symbolsearchtouch-testa"
+      ]
+    }
+  ],
+  "SingleItemGroupSelectionRule": {
+    "defaultIndex": 0,
+    "showPrompt": true,
+    "promptTitle": "Stimulus and Response Options"
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "P",
+      "guid": "eb7c6a7597694902a017391974b8429c",
+      "abbreviation": "P"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

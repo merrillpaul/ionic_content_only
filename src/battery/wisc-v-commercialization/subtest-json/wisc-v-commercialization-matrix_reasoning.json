@@ -1,0 +1,1520 @@
+{
+  "subtestId": 768,
+  "subtestGUID": "66107eb700a34106ad4bb4ce0c4e90af",
+  "title": "Matrix Reasoning",
+  "displayName": "Matrix Reasoning",
+  "abbr": "mr",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Fluid Reasoning",
+    "averageDuration": 7,
+    "descriptionCS": "The child looks at an incomplete matrix or series and selects the missing portion from five response options."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sample Group",
+      "abbr": "Sample Group",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-samplea",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Item A (Matrix)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong> [3]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say, <strong><span class=\"speechBlue\">That&rsquo;s right. The red circle<\u002fspan><\u002fstrong> (point to&nbsp;response option 3)<span class=\"speechBlue\"><strong> is the only answer that works going across<\u002fstrong>&nbsp;<\u002fspan>(point across row with question mark) <strong><span class=\"speechBlue\">and down<\u002fspan><\u002fstrong> (point down&nbsp;column with question mark)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. The red circle<\u002fspan><\u002fstrong>&nbsp;(point to&nbsp;response option 3)&nbsp;<strong><span class=\"speechBlue\">is the&nbsp;only answer that works going across<\u002fspan><\u002fstrong> (point across row with&nbsp;question mark) <strong><span class=\"speechBlue\">and down<\u002fspan><\u002fstrong> (point down column with question&nbsp;mark)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">Look at&nbsp;these pictures. Which one here<\u002fspan><\u002fstrong>&nbsp;(point across response options)&nbsp;<strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong>&nbsp;(point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-sampleb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-sampleb",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Item B (Serial Order)",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong> [1]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say, <strong><span class=\"speechBlue\">That&rsquo;s right. The big square<\u002fspan><\u002fstrong> (point to response option 1)<span class=\"speechBlue\"> <strong>should come next in order<\u002fstrong><\u002fspan> (point across boxes, from child&rsquo;s left to right)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">&nbsp;<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. The big square<\u002fspan> <\u002fstrong>(point to response option 1) <strong><span class=\"speechBlue\">should come next in order<\u002fspan> <\u002fstrong>(point across boxes, from child&rsquo;s left to right)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong>&nbsp;(point across response options)&nbsp;<strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong>&nbsp;(point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "Discontinue after 3 consecutive scores of 0.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 1-32",
+      "abbr": "Items 1-32",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item1",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item2",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item3",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong>&nbsp;(point across response options)&nbsp;<strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong>&nbsp;(point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item4",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item5",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item6",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item7",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item8",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item9",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item10",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item11",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item12",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item13",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item14",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item15",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item16",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 16",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item17",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 17",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item18",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 18",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item19",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 19",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item20",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 20",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item21",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 21",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item22",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 22",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item23",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 23",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item24",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 24",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item25",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 25",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item26",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 26",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item27",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 27",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item28",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 28",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item29",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 29",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item30",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item30",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 30",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item31",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item31",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 31",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-matrix-reasoning-item32",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/matrix_reasoning/wisc-v-commercialization-matrix-reasoning-item32",
+          "subtestName": "Matrix Reasoning",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 32",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which one here<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">goes here<\u002fspan><\u002fstrong> (point to box with question mark)<span class=\"speechBlue\"><strong>?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "Discontinue after 3 consecutive scores of 0.",
+        "countsDemoItems": false
+      }
+    }
+  ],
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisc-v-commercialization-matrix-reasoning-item1",
+      "skipToQuestionID": "wisc-v-commercialization-matrix-reasoning-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-matrix-reasoning-item1",
+      "skipToQuestionID": "wisc-v-commercialization-matrix-reasoning-item9",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

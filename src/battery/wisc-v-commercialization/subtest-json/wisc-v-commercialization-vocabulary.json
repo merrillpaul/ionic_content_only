@@ -1,0 +1,4199 @@
+{
+  "subtestId": 777,
+  "subtestGUID": "6f6ba4bf12954fcfb1de0af99ecb8098",
+  "title": "Vocabulary",
+  "displayName": "Vocabulary",
+  "abbr": "vc",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/vocabulary",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 8,
+    "descriptionCS": "For picture items, the child names pictures that are displayed on the Client Device. For verbal items, the child gives definitions for words that the examiner reads aloud."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 1-4",
+      "abbr": "Items 1-4",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-vocabulary-item01",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item01",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. Flower",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture on the child&rsquo;s screen and say, <span class=\"speechBlue\"><strong>What is this?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Plant",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It grows",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Flower; Sunflower; Daisy; [Names a specific flower]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "e507e363de7c48859ef901aec5801f45",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ],
+          "imageExtension": "png"
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item02",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item02",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 2. Sun",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture on the child&rsquo;s screen and say, <span class=\"speechBlue\"><strong>What is this?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Star",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It shines",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Circle",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Sun",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "png"
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item03",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item03",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 3. Bucket",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture on the child&rsquo;s screen and say, <span class=\"speechBlue\"><strong>What is this?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Can; Bin; (Trash, Recycling) can",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Basket; Box",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Holds water; Used to (mop, clean)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Bucket; Pail",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "png"
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item04",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item04",
+          "subtestName": "Vocabulary",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 4. Pear",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": true,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the picture on the child&rsquo;s screen and say, <span class=\"speechBlue\"><strong>What is this?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Fruit; Food",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You eat it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Apple",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Sweet",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Pear",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "imageExtension": "png"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 5-29",
+      "abbr": "Items 5-29",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-vocabulary-item05",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item05",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 5. Soap",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p>Remove the Client Device from the child&rsquo;s view before&nbsp;administering verbal items.<\u002fp>\r\n\r\n<p>To introduce the verbal items, say,<span class=\"speechBlue\">&nbsp;<strong>I am going to say some words. Listen carefully and tell me what each word means.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<div>\r\n<div>\r\n<hr /><\u002fdiv>\r\n\r\n<p><strong><span class=\"speechBlue\">SOAP. What is soap<\u002fspan><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n<\u002fdiv>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "You use it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Things are (gross, yucky, smelly) without it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "[Demonstrates washing]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "In a (bar, bottle)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Slippery",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It smells good",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Use it with water; [No reference to <em>clean<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it on (your hands, dishes, your car, the dog); [No reference to <em>clean<\u002fem> or <em>wash<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Take a (shower, bath) with it; Bathe with it; Use it in the (bathtub, shower); [No reference to <em>clean<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it to (take, get, keep) off (dirt, germs, bacteria); [No reference to <em>wash<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Put it on a (sponge, scrubber, washcloth)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it before you eat (breakfast, lunch, dinner, meals)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it so you don&rsquo;t smell",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Makes, Has) (bubbles, suds); Bubbles; Suds",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Cleanser; Cleansing (agent, substance, chemical)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Use it to (wash, clean) things; (Wash, Clean) things with it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Body wash",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Use it to (wash, clean) your (hands, body, hair); (Wash, Clean) your (hands, body, hair) with it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Use it (with water, in the shower) to get clean; Use it to get clean; [Must contain <em>clean<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You (<em>wash, clean<\u002fem>) the (dishes, car, dog) with it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "For (washing, cleaning); Use it to (wash, clean)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "<em>Wash<\u002fem> (dirt, germs, bacteria) off with it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "8ce90cc0f88f443c8400e31335ac4bce",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item06",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item06",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 6. Kitchen",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "incorrectInstructionsHTML": "<p style=\"margin-left:4.5pt;\">&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>KITCHEN. What is a kitchen?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It has (a) (stove, refrigerator, dishes, [names one defining feature with no reference to <em>room<\u002fem>])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you (wash, do) dishes",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Room; Place",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you make stuff; [No reference to <em>food<\u002fem> or <em>meal<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you (work, do your job)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) I go before (school, bedtime)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you (put, get) stuff",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s by the (living room, family room, hallway, back door)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It gets (messy, dirty); You have to clean it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Room with (a) (stove, refrigerator, dishes); [Refers to <i>room <\u002fi>and names <i>one <\u002fi>defining feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you (eat, have meals, eat breakfast, eat dinner); Room you (eat, have meals) in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Has a(n) (stove and refrigerator, oven and dishes, [names <em>two<\u002fem> defining features])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Where, Place) you (store, keep, get) food; Place with food",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Room, Place) in a restaurant; (Part of, In) a restaurant",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Room, Place) in (your house, school)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Where, Place, Room where) you (cook, bake, make food, make meals); Where you cook stuff",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Where, Place, Room where) you make (cookies, salad, [names specific food])",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Part of restaurant where they (cook, bake, make food, make meals)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Where, Place) you <em>make<\u002fem> (breakfast, lunch, dinner)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Room with a(n) (stove and refrigerator, oven and dishes); [Refers to <em>room<\u002fem> and names <em>two<\u002fem> defining features]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "For (cooking, baking); (Make food, Cook) in it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "0941d165315643b6b0261ed94b1c2108",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item07",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item07",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 7. Coat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>COAT. What is a coat?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Has (buttons, zippers)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Coat of paint",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps you from getting sick",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Soft; Fuzzy; Cuddly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Made of (leather, cloth, wool)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "<em>Made<\u002fem> of fur; [No reference to an animal]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "For (skiers, ice skaters)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Clothing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Wear it, Put it on) outside; Outdoor clothing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Wear it; Put it on",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it in the (rain, cold, winter); [No reference to clothing or wearing]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Jacket; Sweater",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Protects you; Protects you from the weather; [No reference to clothing or wearing]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps you (warm, dry)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Goes on your body",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps you warm in the (cold, winter); Keeps you dry in the rain; [No reference to clothing or wearing]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A layer; A thin layer",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Clothing that keeps you (warm, from getting cold)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Outerwear",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Wear it, Put it on) to (keep, stay) (warm, dry)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Wear it, Put it on) over your (shirt, dress, sweater, clothes)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Wear it, Put it on) to protect you from the (rain, weather, cold)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "A layer that (covers, conceals, goes over) something; Thin layer of (paint, wax)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Wear it, Put it on)&nbsp;when it&rsquo;s (cold, raining, winter)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An <em>animal&rsquo;s<\u002fem> (hair, fur, wool); [Refers to external layer of an animal]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Jacket, Sweater) that keeps you (warm, dry)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item08",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item08",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. Mouse",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>MOUSE. What is a mouse?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "[Demonstrates mouse behavior]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They have (big ears, a tail, whiskers, four legs); [Names <em>one<\u002fem> physical feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They (run, live in holes, scare people, are afraid of cats); Cats (eat, chase) them; [Names <em>one<\u002fem> definitive behavior]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "[Names fictional mouse]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Critter; Creature",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Rat; Vole",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A pet",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Vermin; Pest",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Use it with computers",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They eat cheese and (scare people, run around, get eaten by cats); [Names <em>two<\u002fem> definitive behaviors]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They (eat cheese, squeak, live in holes, crawl around) and have (big ears, a tail, whiskers, four legs); [Names one definitive behavior <em>and<\u002fem> one physical feature]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They are (small, gray) with (big ears, a tail, whiskers, four legs); [Names <em>two<\u002fem> physical features]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Animal; Mammal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Rodent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Use it to (point, click, move cursor) on a computer",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item09",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item09",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*†Item 9. Prize",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p>For children who <em><strong>start<\u002fstrong><\u002fem> with this item, say, <span class=\"speechBlue\"><strong>I am going to say some words. Listen carefully and tell me what each word means.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<div>\r\n<hr /><\u002fdiv>\r\n\r\n<p><span class=\"speechBlue\"><strong>PRIZE. What is a prize?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "How much something (is, costs); [Defines <em>price<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t know what it is; [Defines <em>surprise<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you get; (Someone, Mom, A friend) gives it to you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something from the (prize box, treasure chest)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Get it on your birthday",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Nobel, Pulitzer) Prize; (Door, First) prize",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They are at (school, the fair, [names place prizes are awarded])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Money; Toy",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Something you (value, respect, hold in high regard)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something (valuable, expensive, worth a lot)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you get for (being good, doing a good job, listening to the teacher)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you want",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A (gift, present)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you&rsquo;re (happy, excited) to get; Something that makes you (happy, excited)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Trophy; Ribbon",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Something you get for (doing well in a competition, being in first place); (Trophy, Money, Toy, Ribbon) you (win, earn)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You (win, earn) it; Something you (win, earn); Something you (win, earn) at the (arcade, fair)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Outstanding; Award-Winning; Champion; Elite",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Award; Honor; Reward",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            },
+            {
+              "name": "†Teaching",
+              "guid": "8f39f475a092455fae8a794ffa9dea73",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item10",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 10. Pilot",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>PILOT. What is a pilot?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(They work, Someone who works) on a plane",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A type of car",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They drive; Drivers",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Fly; Flies; It flies",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Airplane; Boat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Someone in the Air Force",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They take me (somewhere, on vacation, to my grandma&rsquo;s house)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Captain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A flame",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They wear (hats, suits, wings)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Captain, Chief) of a train; Someone who drives a train",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "They (drive, steer, operate, command, lead) (ships, boats, vessels); [Refers to typical duties of <em>helmsman<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They fly; Someone who flies",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Captain, Chief) of a (ship, boat, vehicle)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A television show",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They (drive, guide, steer, conduct, operate, command) a vehicle",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Test; Attempt; Experiment; Trial",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They pilot (planes, helicopters, ships)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A small flame used to light a larger flame",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "They (fly, drive) (planes, aircraft, helicopters); Someone who flies airplanes",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Aviator",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Captain, Chief) of a(n) (plane, aircraft, helicopter)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "A <em>new<\u002fem> television show; First episode of a new television show",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "They (command, lead, are in charge of) (airplanes, aircraft, helicopters)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Test, Experimental, Trial) run",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Guides ships through (dangerous, congested) waters; Guides ships (into, out of) the harbor; [Refers to specialized duties of <em>maritime<\u002fem> <em>pilot<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "They (control, operate, guide, steer, conduct, navigate) (airplanes, aircraft, helicopters)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "50f7393fab3b41ba84c9bc7bcf64257c",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item11",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 11. Obey",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>OBEY. What does obey mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Pay attention",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A command; Something you are told to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Obey (your parents, the law); If you don&rsquo;t obey, you get in trouble",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Help; Assist",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do (it right, a good job)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To pray; [Names religious activity]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You talk back",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You don&rsquo;t (do what you&rsquo;re asked, follow the rules); [Defines <em>disobey<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Be nice",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Do what (Mom, Dad, parent, teacher, [names a person]) (says, asks)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "When your mom tells you to clean your room and you do it; When your teacher tells you to be quiet and you quit talking; [Provides <em>one<\u002fem> specific example]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Listen to your (mom, dad, parents, teacher)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Cooperate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Listen; To listen to; Listen to others; Listen to <em>what someone says<\u002fem>; [No reference to requested action]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Follow",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do the right thing; Behave",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Respect; Don&rsquo;t disrespect; Honor",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Do what you&rsquo;re (told, asked); Do what someone (tells, asks) you to do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Follow (instructions, directions, rules, orders)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Listen <em>and<\u002fem> do what you are (told, asked)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Accept (commands, orders); Carry out an order",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Don&rsquo;t say no, just do it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Comply with; Adhere to; Conform to; Abide by",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "<em>Do<\u002fem> what others (say, ask)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To mind; Minding",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Submit to authority",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "When your mom tells you to clean your room and you do it, <em>and<\u002fem> your teacher tells you to be quiet and you quit talking; [Provides <em>two<\u002fem> specific examples]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Listen (to a command, to directions, to rules, when someone asks you to do something, [refers to requested action])",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item12",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. Island",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>ISLAND. What is an island?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It&rsquo;s in the (ocean, water, sea)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Place with, Area with, Has) (beaches, sand, palm trees, volcanoes); [Refers to island feature without reference to water]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Has (water, waves); [Provides vague reference to water]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Kitchen island",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Deserted island; Get stranded on it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Land; Place; Area; Small piece of land",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Take boats there; Place your boat crashes",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Place with pirates; Place people look for buried treasure",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Place to (play, relax, have fun, fish, swim)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Place with hotels; Place (you go on vacation, to be a tourist)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Place with (monkeys, fish)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Land, Place, Area) in the (water, ocean); [Refers to land without reference to being <em>surrounded<\u002fem> by water]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Surrounded by, In the middle of, Covered on all sides by) (water, the ocean); [Refers to being <em>surrounded<\u002fem> by water without reference to land]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Land that is (isolated, by itself); Land that is (broken off, separated) from other land; [Refers to isolated land without reference to water]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Made (of, from, by) coral",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Body of land; Landform",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Formed by earthquakes",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Made (by volcanoes, from lava)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like (Bahamas, Hawaii, Japan, [names an island])",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Land, Place, Area) that is (surrounded by, in the middle of, covered on all sides by) (water, ocean)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Cabinet, Area, Counter) in the middle of the kitchen",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Land that is (broken off, separated) from other land by (water, ocean)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Land, Place, Area) in the ocean made (of, from, by) (coral, a volcano)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item13",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 13. Edible",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>EDIBLE. What does edible mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "You can (do something, join, participate, get in); [Defines <em>eligible<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "[Demonstrates eating]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Nutritious; Healthy; Good for you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Can&rsquo;t eat some (mushrooms, plants, grass); [Describes specific <em>inedible<\u002fem> or poisonous substance]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Something you eat; You (eat, consume) it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Food",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Good to eat",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It won&rsquo;t (hurt you, make you sick); [No reference to food or eating]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Vegetables; Fruits; Chicken; [Names edible substance]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s safe to put in your mouth",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not poisonous [no reference to <em>eat<\u002fem>]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "You <em>can<\u002fem> eat it; Something you <em>can <\u002fem>eat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It is (harmless, safe, okay) to eat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Able to eat it; Eatable",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Food (you, people) can eat",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Something you can consume; Consumable",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You can eat it without (getting sick, getting hurt, dying); It won&rsquo;t hurt you to eat it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not poisonous <em>to eat<\u002fem>",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item14",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 14. Ancient",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>ANCIENT. What does ancient mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Arrowhead; Mummy; Pyramids; [Names specific example of typical ancient object]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like (Egypt, Rome, Mesopotamia); [Refers to ancient civilization]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something (sacred, special, valuable)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Ancient writings",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A legend; Legendary",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Mysterious; Secret",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Old",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A long time ago",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Before our time; From the (past, old days)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "History; Historic; Historical",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(From, Made) a long time ago",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Ancestor",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Antique",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Opposite of modern",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Been here for (over 100 years, a long time)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Very, Really) old",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Archaic; Antiquated",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Someone who, Something that) lived a (very, really) long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Something from the remote past",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Something that (was from, was made, existed) (thousands, millions) of years ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An ancestor who lived in the Stone Age",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Happened a (really, very) long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "From a (<em>very, really<\u002fem>) long time ago; Something from a <em>very<\u002fem> long time ago",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Prehistoric",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "A <em>long, long<\u002fem> time ago; A <em>very<\u002fem> long time ago",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item15",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 15. Absorb",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>ABSORB. What does absorb mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Watch; Look at; Study; [Defines <em>observe<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like a sponge",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Hold in; Retain",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Absorb (heat, power, food, light); Absorbent towel; [Provides vague example with <em>absorb<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "When (sugar, salt) disappears in water; [Describes <em>dissolve<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Go into; Go into something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Soak; [No reference to <em>in<\u002fem> or <em>up<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "When water goes up into clouds; [Describes <em>evaporate<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Go away; Disappear; Reduce",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Mix; Combine; Put together",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Fill up",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Sponges, Towels, Dirt) absorb(s) (water, liquid, moisture); Your body absorbs nutrients; Black absorbs heat; [Provides <em>definitive<\u002fem> example with <em>absorb<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Captivate; Engross; Fascinate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Pick up; Dry up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Takes water away; Water goes inside it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Bring in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Gain something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Collect; Gather",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Take away; To take (power, energy) away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Consume; Become part of",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Take, Drink, Soak, Sop, Suck, Draw) (up, in, into)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (take, soak, sop, suck, draw, pull) in (water, liquid, moisture)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "When (water, liquid) (goes, sucks, sinks) into (a sponge, a towel, dirt); [Provides example without <em>absorb<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Learn; Understand; Gain (knowledge, information)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Bring in (water, liquid, moisture)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Sink (in, into)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item16",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. Pest",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>PEST. What is a pest?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Bad; Mean; Naughty; Acting stupid",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Nobody likes you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(You are, Someone is) mad",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Small animal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "My little (brother, sister); [Names specific person without describing behavior]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something in your house",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something dirty",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A kind of pet",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Someone who (interrupts, is rude, is mean, never shares, gets away with things, repeats what you say); [Provides specific example of annoying behavior]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "An (animal, insect) that (you don’t want, bites you)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you don’t (like, want)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you try to (control, get rid of, spray for)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A brat; A pain in the neck",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Bugs; Mosquitoes; Flies; Termites; Mice; Rats; [Names common pest]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Someone who is (bad, mean, naughty, not nice)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A troublemaker",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Something that, Someone who) (annoys, irritates, aggravates, bothers, distracts, gets on your nerves)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An (animal, insect) you don’t want (in your house, around you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Annoying; Irritating; Aggravating; Bothersome; Distracting",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An (animal, insect) that (invades your home, you try to get rid of)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Epidemic; Plague; Deadly disease",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item17",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 17. Migrate",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong><span style=\"color: rgb(2, 149, 165);\">MIGRATE. What does migrate mean?<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Shake; Quake; Quiver; [Defines <em>vibrate<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A headache; [Defines <em>migraine<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Go somewhere; Leave",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Birds, Bats, Butterflies) do it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Season; Seasonal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like a migrant worker",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Fly away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Go in a different direction",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Bears sleep all winter; [Describes <em>hibernate<\u002fem>]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Move; To move",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Leaving one place to <em>go<\u002fem> to another one; Leaving for a (new, different) place; [No reference to permanent move]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Travel, Go) somewhere (temporarily, for a certain amount of time, due to weather, when it gets cold)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Immigrate; When people come to America from other places",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Travel; To travel",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Moves around a lot; Doesn’t stay in one place very long",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Birds migrate in winter; Animals migrate for water; [Provides example with <em>migrate<\u002fem>]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Move back and forth between places; Go somewhere (for a time, temporarily) and return",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (move, go somewhere) (so needs can be met, for more favorable conditions, when seasons change)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Birds fly south for the winter; Fish go upstream to lay eggs in calmer water; [Provides example without <em>migrate<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Leaving your country to (work, settle, live) in a new place",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Move from one (place, city, country, location) to another; Move to (another, a new, a different) (place, city, country, location); Relocate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Leaving one place to <em>live<\u002fem> in another one; Leaving <em>forever<\u002fem> for a (new, different) place",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Move (somewhere temporarily, from place to place)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item18",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item18",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 18. Precise",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>PRECISE. What does precise mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Picky",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Positive; Sure of something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Excellent",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Yes; Agree with someone; Like when you say &quot;precisely&quot;",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Focused",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Brief; Succinct; [Defines&nbsp;<em>concise<\u002fem>]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Almost (right, accurate, perfect); Close to perfect",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Do a good job; Do something well",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "A guess; An estimate",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Clear; Very Clear",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Right; Correct",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Perfect; Perfectly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Specific; Particular",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Detailed; Meticulous",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "On (point, topic); To the point",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Accurate",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Right on target; Right on the (nose, money, dot)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Exact; Exactly",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "100% right; Absolutely (right, correct)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Exact (measurement, amount)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Exactly (right, correct, perfect)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Made to specifications; Made exactly how you want it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Spot on",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item19",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 19. Transparent",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>TRANSPARENT. What does transparent mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To (carry, deliver) something; [Defines&nbsp;<em>transport<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "How you (move, get) around; [Defines&nbsp;<em>transportation<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You can see it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It blends in; Camouflaged",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like a window; Transparent window",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Disappearing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "How light or dark something is",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Able to pass through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Hard to see through; Unclear",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Like a mirror; Reflection",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Look through; See (in, out)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Obvious",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Invisible; You can&rsquo;t see it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t hide (things, emotions, thoughts)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Visible",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "See-through; You can see through it; To see through",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not opaque",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Clear; Sheer",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Easily (accessible, understood)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "<em>Highly<\u002fem> visible; Everyone can see what&rsquo;s going on",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Allows light through",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item20",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item20",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 20. Remedy",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>REMEDY. What is a remedy?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Mixture; Concoction; Potion",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Get better; Improve",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something you (make, put together)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Old wives’ tale; Superstition",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A (pill, shot)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "An herbal tea",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Get it from a (doctor, nurse)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Home remedy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Healthy; Good for you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Music; A song",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A (scent, smell)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Passed down; An heirloom",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To relieve",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You get it when you (are sick, don’t feel well)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Help; Something that helps you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Solution",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It makes you feel better",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(To, A) fix",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "When you (take a pill to get rid of a headache, get a shot for an infection); [Provides specific example]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Get rid of something bad",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "A cure; To cure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To heal",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Antidote",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (make, put) right",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Medicine; Treatment",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (solve, correct) a (mistake, problem)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It (heals you, makes you well)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Solution to a problem",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To fix a (sickness, problem, mistake)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Counteract; Restore; Rectify",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item21",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item21",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 21. Seldom",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>SELDOM. What does seldom mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Very little",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Suddenly; Out of the blue",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Never happens; Doesn&#39;t happen",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Happens (frequently, often); Common",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Alone; Individual",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Quiet; Peaceful; Calm",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Lonely; Sad",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Like a blood cell",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To sell something",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Sometimes; Occasionally",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Once in a while; Every now and then",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not much; Small amount",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Scarce; Uncommon",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Very few; Not a lot",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not likely; Very unlikely; Unlikely",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Hardly; Barely",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not every day; Not all the time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not regularly",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Not often; Doesn&rsquo;t happen (often, much)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Rare; Rarely; Infrequent; Infrequently",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Hardly, Barely) ever; Almost never",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not usually; Not ordinarily",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item22",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item22",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 22. Strenuous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>STRENUOUS. What does strenuous mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Stress",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Hard exercise; (Heavy, Intense) workout",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do it over and over; Repetitive",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Pressure; Pressured",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Constant; Continual",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Painful; Hurts you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Tedious",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Overpowering",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Strong; Powerful",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Hard; Difficult; Demanding; Tough; Something hard to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Vigorous; Energetic",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Hard work; (Takes, Requires) hard work",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Straining; A strain; It puts a strain on you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Tiring; Draining; Something that&rsquo;s (tiring, draining) to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Stretches your limits; You struggle through",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Stressful; Nerve-racking",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Goes on a long time; Goes on and on",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Needs, Takes, Requires) <em>a lot<\u002fem> of (energy, effort, exertion, work)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Rigorous",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "<em>Very<\u002fem> (hard, difficult, demanding, tough, stressful)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Exhausting; Grueling; Arduous; Laborious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "<em>Very<\u002fem> (tiring, draining) to do; <em>Very <\u002fem>(tiring, draining)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Need a lot of (power, strength, force) to do it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Something that (takes, requires) <em>very<\u002fem> hard work",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Physically demanding; Labor intensive; Requires endurance",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s hard for a long time and takes a toll on you",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item23",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item23",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 23. Unanimous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>UNANIMOUS. What does unanimous mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Unknown; Random; Secret; Could be anybody; [Defines <em>anonymous<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Equal",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A unanimous vote; A vote",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Whole",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Clearly decided; Obvious outcome",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A group decision",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(A majority, Almost everyone, A lot of people) agree(s)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Simultaneous; At the same time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Huge; Big; A large amount",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Obvious; Well-known",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Unique; Unusual",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "All; 100%",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "No objections",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "All the same",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "All together; Together as one",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Agree; Agreement",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Everyone; Everybody",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Chosen without question",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "The whole group has one idea",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Everyone agrees; (Complete, Total, 100%) agreement",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Everyone votes the same way",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(All, Everyone) (in favor, for, against)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Unopposed; Without disagreement",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Like winning 50 to 0; [<em>Describes<\u002fem> unanimous vote]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Everyone shares the same view; Everyone decides on one thing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Chosen by everyone",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item24",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item24",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 24. Entice",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>ENTICE. What does entice mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Give someone (a toy, money, candy)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Make someone do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Entice someone to do something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Bring in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Tease",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To look good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Coerce",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (mislead, lie to) someone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (want, desire)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Start something; Provoke; [Defines <em>incite<\u002fem>]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To (manipulate someone, get someone to do something)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Attract; Coax",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Make you want it; Make someone (want, want to do) something",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Convince; Persuade",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Bribe; Bribe someone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Promising, Offering) someone something they (like, want, desire)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Give someone (a toy, money, candy) so they do something; [Provides specific example]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Appeal to; Make appealing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Charm; Beguile; Fascinate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Draw in",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Lure; Bait; Seduce",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Tempt; Temptation",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Get someone to do something through their (desires, hopes, wants)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Attract, Coax, Convince, Persuade) by appealing to someone’s (desires, hopes, wants)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Get someone to do something by (promising, offering) something they (like, want, desire)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Appeal to someone’s (wants, desires, senses)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item25",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item25",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 25. Obsolete",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong><span style=\"color: rgb(2, 149, 165);\">OBSOLETE.&nbsp;What does obsolete mean?<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Total; Complete; Pure; Definite; Final; [Defines <em>absolute<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not (made, sold, available, updated)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like a computer",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People don&rsquo;t want it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Junk; Garbage",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Extinct",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Unheard of",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Done; Finished; Over; Gone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Broken; Doesn&rsquo;t work",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Unusual",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Not relevant; Irrelevant",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Dated",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not (needed, necessary, required)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Old; Ancient",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Not (useful, used); Useless",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Antique",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Replaced by something (newer, better); There&rsquo;s something (newer, better) now",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Unimportant; Doesn&rsquo;t matter",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Nonexistent",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Without purpose; Pointless",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "<em>No longer<\u002fem> (made, sold, available, updated); Not (made, sold, available, updated) <em>anymore<\u002fem>",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Worthless",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Like (the Pony Express, a Model T Ford); [Provides specific example]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "No <em>longer<\u002fem> relevant; Not relevant <em>anymore<\u002fem>",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Outdated; Out-of-date; No longer up-to-date",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "No <em>longer<\u002fem> (needed, necessary, required); Not (needed, necessary, required) <em>anymore<\u002fem>",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Old-fashioned; Out of fashion; No longer fashionable",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "No <em>longer<\u002fem> (in use, used, useful); Not (in use, used, useful) <em>anymore<\u002fem>",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Old <em>and<em>&nbsp;<\u002fem><\u002fem>useless; Out of use",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not (current, modern)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item26",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item26",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 26. Frugal",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>FRUGAL. What does frugal mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item26/wisc-v-commercialization-vocabulary-item26Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Greedy; Selfish",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t have a lot",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Meager; Scanty",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Poor; Don&rsquo;t have much money",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Plain and simple",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "[Names frugal fictional character]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t (donate, give to charity)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Mean",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Serious",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Not wasteful; Sparing",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Smart, Good) with money",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Careful; Cautious; Prudent; Practical; Sensible",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Being smart with what you have",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Saving money; Holding on to money",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t (spend a lot of money, buy a lot)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Keeping, Not throwing away) things in case you need them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Penny-<em>pinching<\u002fem>; Cheap; Stingy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Making things last",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You don&rsquo;t (want, like) to spend money",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Thrifty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Only spending money on things you need; Not excessively spending",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not being a wasteful spender; Not wasting money",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Penny-<em>wise<\u002fem>; Spending wisely",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Careful, Cautious, Prudent, Practical, Sensible) with money; Using restraint when spending",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Economical",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Budgets their money; Sticks to a budget",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Using resources wisely",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item27",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item27",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 27. Affable",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>AFFABLE.&nbsp;What does affable mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Funny",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Happy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Loud",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Easily influenced",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Fun to be around",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Good at small talk; Talkative",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Cheerful; Pleasant; [Refers to disposition without reference to other people]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Likeable; People like you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People like having you at parties",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Gentle; Kind",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Comfortable, At ease, Easygoing, Relaxed, Casual) around others",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Friendly; Social; Extroverted; Outgoing",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Approachable",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Easy to (converse with, talk to)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Gracious",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "People like being around you; Pleasant to be around",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item28",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item28",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "*Item 28. Aberration",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>ABERRATION. What is an aberration?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Add (more to, details); Additional information; [Defines <em>elaboration<\u002fem>]*",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Looks (bad, ugly)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Foolish",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "A (deviation, difference, change, shift, departure)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Something (different, unusual); Oddity",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A mutation",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Peculiar; Odd",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Unexpected",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Strange; Weird",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Character flaw",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "A (deviation, difference, change, shift, departure) from what is (normal, typical, predicted, expected)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An anomaly; Something atypical",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Abnormal (alteration, change)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "A lapse in mental state",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "An abnormality",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "*Query",
+              "guid": "6e976f9124ba4918a9532acf0532dc2f",
+              "abbreviation": "sq",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-vocabulary-item29",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/vocabulary/wisc-v-commercialization-vocabulary-item29",
+          "subtestName": "Vocabulary",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 29. Garrulous",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>GARRULOUS. What does garrulous mean?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Argues too much",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Rude",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Talks too fast",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Talkative; Loquacious; Chatty",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Talks, Speaks) too much",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Irritating; Annoying; Bothersome; Boring; Tiring; Exhausting",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Won't get to the point",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Outgoing",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Talkative and (irritating, annoying, bothersome, boring, tiring, exhausting)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Wordy and rambling",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Speaks so much that it (irritates, annoys, bothers, bores, tires, exhausts) others",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Talks a lot (about nothing, with no point)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 8,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisc-v-commercialization-vocabulary-item01",
+      "skipToQuestionID": "wisc-v-commercialization-vocabulary-item05",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-vocabulary-item01",
+      "skipToQuestionID": "wisc-v-commercialization-vocabulary-item09",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    },
+    {
+      "name": "IR",
+      "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+      "abbreviation": "ir"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

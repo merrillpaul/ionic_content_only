@@ -1,0 +1,1515 @@
+{
+  "subtestId": 764,
+  "subtestGUID": "1ab5b329deee441a88963b801f4bfb50",
+  "title": "Visual Puzzles",
+  "displayName": "Visual Puzzles",
+  "abbr": "vp",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/visual_puzzles",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": true,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Visual Spatial",
+    "averageDuration": 6,
+    "descriptionCS": "Within a specified time limit, the child views a completed puzzle and selects three response options that, when combined, reconstruct the puzzle."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Demo and Sample",
+      "abbr": "Demo and Sample",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-demo",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-demo",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Demonstration Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" data-stim-number=\"1\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">I am going to choose&nbsp;<em>three<\u002fem>&nbsp;of these pieces<\u002fspan>&nbsp;<\u002fstrong>(point across response options)<strong>&nbsp;<span class=\"speechBlue\">that go together to make this puzzle<\u002fspan><\u002fstrong>&nbsp;(point to completed puzzle)<strong><span class=\"speechBlue\">. The three pieces have to go&nbsp;<em>next&nbsp;<\u002fem>to each other,&nbsp;<em>not&nbsp;<\u002fem>on top of each other.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">After I look at all of the pieces, I choose these three<\u002fspan><\u002fstrong>&nbsp;(point to response options 1, 2, and 6)<strong><span class=\"speechBlue\">. If I put them together in my mind, they would make this puzzle<\u002fspan>&nbsp;<\u002fstrong>(point to completed puzzle)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-sample",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-sample",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong> [3, 4, and 5]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right. If you put these&nbsp;<\u002fspan><span class=\"speechBlue\">three pieces next to each other<\u002fspan><\u002fstrong>&nbsp;(point to response options 3, 4, and 5)<strong><span class=\"speechBlue\">, they will make this puzzle<\u002fspan><\u002fstrong>&nbsp;(point to completed puzzle)<strong><span class=\"speechBlue\">.&nbsp;You have to turn this piece<\u002fspan><\u002fstrong>&nbsp;(point to&nbsp;response option 4)&nbsp;<strong><span class=\"speechBlue\"><span style=\"color: rgb(2, 149, 165);\">in your mind to make it fit. Let&rsquo;s try some more.<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">If the child chooses response options 3, 5, and 6, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">quite right. The pieces have to go <em>next <\u002fem>to each other, and not on&nbsp;<\u002fspan><\u002fstrong><span style=\"color: rgb(2, 149, 165);\"><strong>top of each other. If you put these three pieces <em>next <\u002fem>to each other<\u002fstrong>&nbsp;<\u002fspan>(point to response options 3, 4, and 5)<strong><span class=\"speechBlue\">, they will make this&nbsp;puzzle <\u002fspan><\u002fstrong>(point to completed puzzle)<span class=\"speechBlue\"><strong>. You have to turn this piece<\u002fstrong><\u002fspan><span style=\"color: rgb(2, 149, 165);\">&nbsp;<\u002fspan>(point to response option&nbsp;4)&nbsp;<span style=\"color: rgb(2, 149, 165);\"><strong><span class=\"speechBlue\">in your mind to make it fit. Let&rsquo;s try&nbsp;<\u002fspan><\u002fstrong><\u002fspan><strong><span class=\"speechBlue\"><span style=\"color: rgb(2, 149, 165);\">some more.<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">If the child chooses any other combination of incorrect response options, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. If you put these three pieces&nbsp;<\u002fspan><span class=\"speechBlue\"><em>next <\u002fem>to each other<\u002fspan><\u002fstrong>&nbsp;(point to response options 3, 4, and 5)<strong><span class=\"speechBlue\">, they&nbsp;<\u002fspan><span class=\"speechBlue\">will make this puzzle<\u002fspan><\u002fstrong>&nbsp;(point to completed puzzle)<strong><span class=\"speechBlue\">. You have to&nbsp;<\u002fspan><span class=\"speechBlue\">turn this piece<\u002fspan>&nbsp;<\u002fstrong>(point to response option 4)&nbsp;<strong><span class=\"speechBlue\">in your mind to make&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">it fit. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" data-stim-number=\"1\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<span class=\"speechBlue\"><strong>Now you try one. Which three pieces<\u002fstrong>&nbsp;<\u002fspan>(point across response options)&nbsp;<span class=\"speechBlue\"><strong>go together to make this puzzle<\u002fstrong>&nbsp;<\u002fspan>(point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "Subtest requires 3 consecutive scores of 0.",
+        "countsDemoItems": false
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 1-29",
+      "abbr": "Items 1-29",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item1",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item1",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                3,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item2",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item2",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item3",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item3",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                3,
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item4",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item4",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                3,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item5",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item5",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item6",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item6",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item7",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item7",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item8",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item8",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                5,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item9",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item9",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item10",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item10",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item11",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item11",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                5,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item12",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item12",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                3,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item13",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item13",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                4,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item14",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item14",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                3,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item15",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item15",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                3,
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item16",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item16",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 16",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                3,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item17",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item17",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 17",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                4,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item18",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item18",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 18",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item19",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item19",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 19",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                4,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item20",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item20",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 20",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item21",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item21",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 21",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                5,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item22",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item22",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 22",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                3,
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item23",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item23",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 23",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                4,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item24",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item24",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 24",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                3,
+                5,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item25",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item25",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 25",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                2,
+                3,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item26",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item26",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 26",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                4,
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item27",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item27",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 27",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                4,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item28",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item28",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 28",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p class=\"p1\"><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong>&nbsp;(point across response options)&nbsp;<strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong>&nbsp;(point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                2,
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-visual-puzzles-item29",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/visual_puzzles/wisc-v-commercialization-visual-puzzles-item29",
+          "subtestName": "Visual Puzzles",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 29",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Which three pieces<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">go together to make this puzzle<\u002fspan><\u002fstrong> (point to completed puzzle)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 6,
+              "correctIndices": 
+              [
+                1,
+                3,
+                6
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "Subtest requires 3 consecutive scores of 0.",
+        "countsDemoItems": false
+      }
+    }
+  ],
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisc-v-commercialization-visual-puzzles-item1",
+      "skipToQuestionID": "wisc-v-commercialization-visual-puzzles-item5",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-visual-puzzles-item1",
+      "skipToQuestionID": "wisc-v-commercialization-visual-puzzles-item8",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

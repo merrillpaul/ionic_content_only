@@ -1,0 +1,1556 @@
+{
+  "subtestId": 775,
+  "subtestGUID": "33aa5c1ef0354be9979ad1b5a62679ed",
+  "title": "Naming Speed Literacy",
+  "displayName": "Naming Speed Literacy",
+  "abbr": "nsl",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Naming Speed",
+    "averageDuration": 5,
+    "descriptionCS": "The child names elements (e.g., objects of various size and color, quantities of squares, letters and numbers) as quickly as possible."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-rapid-naming-color-object-naming_demo",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_demo",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Color-Object Naming Demo A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_demo/wisc-v-commercialization-rapid-naming-color-object-naming_demoPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Red",
+                "Duck"
+              ],
+              [
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Blue",
+                "Door"
+              ],
+              [
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Red",
+                "Cow"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-color-object-naming_sample",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_sample",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Color-Object Naming Sample A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer&nbsp;praise such as&nbsp;<span class=\"speechBlue\"><strong>Yes<\u002fstrong><\u002fspan>&nbsp;or&nbsp;<span class=\"speechBlue\"><strong>Right<\u002fstrong>&nbsp;<\u002fspan>and, finally,&nbsp;<span class=\"speechBlue\"><strong>Now you know how to do them.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly names an element, correct the error immediately. Use phrases such as <span class=\"speechBlue\"><strong>Stop<\u002fstrong><\u002fspan> or <span class=\"speechBlue\"><strong>Wait.<\u002fstrong><\u002fspan> Point to the incorrectly named element and say, <strong><span class=\"speechBlue\">This one is a<\u002fspan><\u002fstrong> [<em>insert correct response<\u002fem>]<span class=\"speechBlue\"><strong>. Keep going from here<\u002fstrong><\u002fspan> (point to incorrectly named element)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>Do not proceed until the child understands the task. If it is clear that the child will not&nbsp;understand the task with further instruction, use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 1, Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 1, Trial 2 and for both trials of Item 2. This ensures that the child receives the lowest possible standard scores, which facilitates proper derivation of the Naming Speed Index and associated discrepancy comparisons for report purposes. Refer to the Invalidating Subtest Scores section in Chapter 2 of the <em>WISC&ndash;V Administration and Scoring Manual <\u002fem>for more information.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_sample/wisc-v-commercialization-rapid-naming-color-object-naming_samplePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Red",
+                "Duck"
+              ],
+              [
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Red",
+                "Door"
+              ],
+              [
+                "Yellow",
+                "Duck"
+              ]
+            ],
+            [
+              [
+                "Blue",
+                "Dog"
+              ],
+              [
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Blue",
+                "Car"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-color-object-naming_item1",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_item1",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Color-Object Naming Item 1, Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_item1/wisc-v-commercialization-rapid-naming-color-object-naming_item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Red",
+                "Car"
+              ],
+              [
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Blue",
+                "Dog"
+              ],
+              [
+                "Yellow",
+                "Duck"
+              ],
+              [
+                "Blue",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Red",
+                "Door"
+              ],
+              [
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Blue",
+                "Cow"
+              ]
+            ],
+            [
+              [
+                "Yellow",
+                "Door"
+              ],
+              [
+                "Red",
+                "Cow"
+              ],
+              [
+                "Red",
+                "Dog"
+              ],
+              [
+                "Blue",
+                "Door"
+              ],
+              [
+                "Blue",
+                "Car"
+              ]
+            ],
+            [
+              [
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Red",
+                "Car"
+              ],
+              [
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Red",
+                "Duck"
+              ],
+              [
+                "Yellow",
+                "Dog"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Color-Object Naming Item 1, Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2/wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Red",
+                "Cow"
+              ],
+              [
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Red",
+                "Duck"
+              ],
+              [
+                "Blue",
+                "Car"
+              ],
+              [
+                "Yellow",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Yellow",
+                "Duck"
+              ],
+              [
+                "Blue",
+                "Door"
+              ],
+              [
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Yellow",
+                "Door"
+              ],
+              [
+                "Red",
+                "Dog"
+              ]
+            ],
+            [
+              [
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Red",
+                "Car"
+              ],
+              [
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Red",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Red",
+                "Duck"
+              ],
+              [
+                "Blue",
+                "Car"
+              ],
+              [
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Blue",
+                "Dog"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-size-color-object-naming-demo",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-demo",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Size-Color-Object Naming Demo B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-demo/wisc-v-commercialization-rapid-naming-size-color-object-naming-demoPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Big",
+                "Red",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Door"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Little",
+                "Red",
+                "Cow"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-size-color-object-naming-sample",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-sample",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Size-Color-Object Naming Sample B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer&nbsp;praise such as&nbsp;<strong><span class=\"speechBlue\">Yes&nbsp;<\u002fspan><\u002fstrong>or&nbsp;<strong><span class=\"speechBlue\">Right&nbsp;<\u002fspan><\u002fstrong>and, finally,&nbsp;<strong><span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly names an element, correct the error immediately. Use phrases such as <strong><span class=\"speechBlue\">Stop<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Wait.<\u002fspan><\u002fstrong> Point to the incorrectly named element and say, <strong><span class=\"speechBlue\">This one is a<\u002fspan><\u002fstrong> [<em>insert correct response<\u002fem>]<strong><span class=\"speechBlue\">. Keep going from here<\u002fspan><\u002fstrong> (point to incorrectly named element)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Do not proceed until the child understands the task.<\u002fp>\r\n\r\n<p>If it is clear that a child aged 6 will not understand the task with further instruction,&nbsp;use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 2, Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 2, Trial 2. If it is clear that a child aged 7&ndash;8&nbsp;will not understand the task with further instruction, but may be able to name letters and numbers,&nbsp;use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 2, Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 2, Trial 2. Proceed to Sample Item C. This ensures that the child receives the lowest possible standard score(s) for the unadministered item(s), which facilitates proper derivation of the Naming Speed Index and associated discrepancy comparisons for report purposes. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-sample/wisc-v-commercialization-rapid-naming-size-color-object-naming-samplePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Little",
+                "Red",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Dog"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Duck"
+              ]
+            ],
+            [
+              [
+                "Big",
+                "Red",
+                "Door"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Car"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-size-color-object-naming_item2_t1",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming_item2_t1",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Size-Color-Object Naming Item 2, Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming_item2_t1/wisc-v-commercialization-rapid-naming-size-color-object-naming_item2_t1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Big",
+                "Red",
+                "Car"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Dog"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Little",
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Little",
+                "Red",
+                "Door"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Cow"
+              ]
+            ],
+            [
+              [
+                "Big",
+                "Yellow",
+                "Door"
+              ],
+              [
+                "Little",
+                "Red",
+                "Cow"
+              ],
+              [
+                "Little",
+                "Red",
+                "Dog"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Door"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Car"
+              ]
+            ],
+            [
+              [
+                "Little",
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Red",
+                "Car"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Big",
+                "Red",
+                "Duck"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Dog"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-size-color-object-naming-item2_t2",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-item2_t2",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Size-Color-Object Naming Item 2, Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-size-color-object-naming-item2_t2/wisc-v-commercialization-rapid-naming-size-color-object-naming-item2_t2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "Little",
+                "Red",
+                "Cow"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Little",
+                "Red",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Car"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Big",
+                "Yellow",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Door"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Door"
+              ],
+              [
+                "Little",
+                "Red",
+                "Dog"
+              ]
+            ],
+            [
+              [
+                "Little",
+                "Yellow",
+                "Car"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Cow"
+              ],
+              [
+                "Big",
+                "Red",
+                "Car"
+              ],
+              [
+                "Little",
+                "Yellow",
+                "Cow"
+              ],
+              [
+                "Little",
+                "Red",
+                "Door"
+              ]
+            ],
+            [
+              [
+                "Big",
+                "Red",
+                "Duck"
+              ],
+              [
+                "Big",
+                "Blue",
+                "Car"
+              ],
+              [
+                "Big",
+                "Yellow",
+                "Dog"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Duck"
+              ],
+              [
+                "Little",
+                "Blue",
+                "Dog"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-letter-number-naming-sample",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-sample",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Letter-Number Naming Sample C",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer&nbsp;praise such as&nbsp;<strong><span class=\"speechBlue\">Yes&nbsp;<\u002fspan><\u002fstrong>or&nbsp;<strong><span class=\"speechBlue\">Right&nbsp;<\u002fspan><\u002fstrong>and, finally,&nbsp;<strong><span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly names an element, correct the error immediately. Use phrases such as <strong><span class=\"speechBlue\">Stop<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Wait.<\u002fspan><\u002fstrong> Point to the incorrectly named element and say, <strong><span class=\"speechBlue\">This one is a(n)<\u002fspan><\u002fstrong> [<em>insert correct response<\u002fem>]<strong><span class=\"speechBlue\">. Keep going from here<\u002fspan><\u002fstrong> (point to incorrectly named element)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Do not proceed until the child understands the task. If it is clear that the child will not understand the task with further instruction,&nbsp;use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 3,&nbsp;Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 3, Trial 2. This ensures that the child receives the lowest possible standard scores, which facilitates proper derivation of the Naming Speed Index and associated discrepancy comparisons for report purposes. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-sample/wisc-v-commercialization-rapid-naming-letter-number-naming-samplePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "9"
+              ],
+              [
+                "G"
+              ],
+              [
+                "T"
+              ],
+              [
+                "8"
+              ],
+              [
+                "Y"
+              ]
+            ],
+            [
+              [
+                "Z"
+              ],
+              [
+                "5"
+              ],
+              [
+                "A"
+              ],
+              [
+                "3"
+              ],
+              [
+                "1"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t1",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t1",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Letter-Number Naming Item 3, Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t1/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "T"
+              ],
+              [
+                "1"
+              ],
+              [
+                "9"
+              ],
+              [
+                "5"
+              ],
+              [
+                "A"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "G"
+              ],
+              [
+                "8"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "A"
+              ]
+            ],
+            [
+              [
+                "Y"
+              ],
+              [
+                "G"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "1"
+              ],
+              [
+                "T"
+              ],
+              [
+                "9"
+              ],
+              [
+                "A"
+              ],
+              [
+                "5"
+              ],
+              [
+                "G"
+              ],
+              [
+                "3"
+              ]
+            ],
+            [
+              [
+                "8"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "1"
+              ],
+              [
+                "8"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "8"
+              ],
+              [
+                "3"
+              ],
+              [
+                "5"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "T"
+              ]
+            ],
+            [
+              [
+                "9"
+              ],
+              [
+                "3"
+              ],
+              [
+                "A"
+              ],
+              [
+                "5"
+              ],
+              [
+                "1"
+              ],
+              [
+                "G"
+              ],
+              [
+                "3"
+              ],
+              [
+                "T"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "9"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t2",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t2",
+      "subtestName": "Naming Speed Literacy",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Letter-Number Naming Item 3, Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_literacy/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t2/wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "9"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "G"
+              ],
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "T"
+              ],
+              [
+                "G"
+              ],
+              [
+                "9"
+              ],
+              [
+                "A"
+              ],
+              [
+                "3"
+              ]
+            ],
+            [
+              [
+                "T"
+              ],
+              [
+                "8"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "3"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "5"
+              ],
+              [
+                "1"
+              ],
+              [
+                "8"
+              ],
+              [
+                "Y"
+              ]
+            ],
+            [
+              [
+                "5"
+              ],
+              [
+                "9"
+              ],
+              [
+                "A"
+              ],
+              [
+                "8"
+              ],
+              [
+                "A"
+              ],
+              [
+                "1"
+              ],
+              [
+                "9"
+              ],
+              [
+                "T"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "8"
+              ]
+            ],
+            [
+              [
+                "G"
+              ],
+              [
+                "Y"
+              ],
+              [
+                "T"
+              ],
+              [
+                "Z"
+              ],
+              [
+                "5"
+              ],
+              [
+                "A"
+              ],
+              [
+                "1"
+              ],
+              [
+                "5"
+              ],
+              [
+                "3"
+              ],
+              [
+                "G"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 6,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t1",
+        "wisc-v-commercialization-rapid-naming-letter-number-naming-item3_t2",
+        "wisc-v-commercialization-rapid-naming-letter-number-naming-sample"
+      ]
+    },
+    {
+      "minAge": 7,
+      "maxAge": 8,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-rapid-naming-color-object-naming_demo",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_item1",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_sample"
+      ]
+    },
+    {
+      "minAge": 9,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-rapid-naming-color-object-naming_demo",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_item1",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_item1_t2",
+        "wisc-v-commercialization-rapid-naming-color-object-naming_sample",
+        "wisc-v-commercialization-rapid-naming-size-color-object-naming-demo",
+        "wisc-v-commercialization-rapid-naming-size-color-object-naming-item2_t2",
+        "wisc-v-commercialization-rapid-naming-size-color-object-naming-sample",
+        "wisc-v-commercialization-rapid-naming-size-color-object-naming_item2_t1"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,2987 @@
+{
+  "subtestId": 778,
+  "subtestGUID": "5b019d11f50d4e2fa057b591611071dd",
+  "title": "Comprehension",
+  "displayName": "Comprehension",
+  "abbr": "co",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/comprehension",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 11,
+    "descriptionCS": "The child answers questions based on his or her understanding of general principles and social situations."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": true,
+      "isOptional": false,
+      "title": "Items 1-19",
+      "abbr": "Items 1-19",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-comp-item01",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item01",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 1. Teeth",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why do people brush their teeth?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that brushing one&rsquo;s teeth cleans the teeth; or prevents decay, disease, cavities, and other dental problems<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It&rsquo;s good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s gross if you don&rsquo;t",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you (eat candy, drink pop, drink soda)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Have, Supposed) to; Do it every day",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Their parents tell them to",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "They ate too much candy",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So they (stay white, won&rsquo;t turn yellow)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So your smile looks (better, prettier)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s good for (them, teeth, gums, your mouth)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So teeth don&rsquo;t get (damaged, hurt)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To keep breath (fresh, smelling good)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps your teeth from falling out; So you don&rsquo;t (lose your teeth, need false teeth)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps you from having to see the dentist; So dentist bill isn&rsquo;t high",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To prevent (cavities, gum disease)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Keeps (plaque, tartar) from building up",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To keep (them, your mouth) clean; So they aren&rsquo;t dirty",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (kill, get rid of) germs (on teeth, in your mouth)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So your (teeth, gums) stay healthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So your teeth will be (stronger, in better condition)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So your teeth will not (decay, rot)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Protects your teeth",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s (good hygiene, hygienic)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "f909be6029c7443ebab6d7ce389aaf06",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item02",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item02",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 2. Vegetables",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why should people eat vegetables?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that vegetables are part of a nutritious diet or are necessary for proper health,&nbsp;growth, strength,&nbsp;or&nbsp;energy<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Because they&rsquo;re hungry",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They&rsquo;re good; They taste good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Eating (candy, junk food) makes you sick",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To look good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Prevent death; To stay alive",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Gain weight",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To get dessert",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Parents say so",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "For (strength, energy)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They help you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (grow, get big, get bigger)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Help, Good for) your (eyes, bones, [names specific body part])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Lose weight; To be thin; Weight control",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Help, Good for) your (vision, digestion, memory, [names specific body function])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Prevents problems with (cramps, upset stomach)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Prevents (heart attacks, cancer, [names specific ailment])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Help you see better",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you can see in the dark",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "They&rsquo;re (healthy, good for you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Contain (vitamins, nutrients, fiber, things our body needs)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s healthy; Keeps you healthy",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "They help your body",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "For a balanced diet; To eat from each food group",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Prevent disease",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To grow big and strong; To give you strength and energy; To make you (strong, energized)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "f0d9cea2caa24e18b90b427f554a67b9",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item03",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item03",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 3. Seatbelts",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why do cars have seatbelts?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that seatbelts are safety precautions to protect people from harm when an accident (stated or strongly implied) takes place, or to restrain them in an accident<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So you won&rsquo;t get in a car accident",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Locks you in; Keeps you locked in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you can wear them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Goes across your chest or lap",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Parents make me",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "For (safety, protection); To be safe; It&rsquo;s a safety precaution; [Refers to safety without reference to accident]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you don&rsquo;t (get hurt, hit your head, get bruised); [Refers to injury without reference to accident]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "In case of a(n) (accident, wreck, car crash); [Refers to accident without reference to safety]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Holds, Restrains) you; (Holds, Keeps) you in place",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Can save (you, your life); Saves lives of others",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "In case someone (stops short, brakes quickly)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you don&rsquo;t (fly, fall) out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s the law; So you don&rsquo;t get (a ticket, pulled over)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To prevent people from getting hurt in an accident; Reduce injury in a wreck",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Holds, Restrains) you in an accident",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To keep people safe in an accident; To protect people in a(n) (accident, wreck)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So you don&rsquo;t hit the (dash, steering wheel, windshield); So you don&rsquo;t fly out the windshield",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Can save (you, your life) in an accident",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So you don&rsquo;t get hurt if someone (stops short, brakes quickly)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So you don&rsquo;t (fly, fall) out <em>in an accident<\u002fem>",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "c7121bef3e7944ffabf9d96880da9cd2",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item04",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item04",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "†Item 4. Wallet",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What should you do if you find someone&rsquo;s wallet or purse in a store?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that it should be returned to the owner and a description of appropriate action to take<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Give it to my (mom, dad)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Ask store employee if it&rsquo;s theirs",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Don&rsquo;t keep it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Pick it up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Shout; Tell them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Give it to the postman; Drop it in a mailbox",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Throw it away",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Keep it; See how much money is in it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Leave it (there, alone); Put it back; Take no action",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Check for (ID, identification, name, phone number)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Take it to the police",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Try to find the owner",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Give it back; Return it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Announce it on the loudspeaker",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Ask people nearby if it&#39;s theirs; Hand it back if they dropped it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Take it to their house; Call them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Put it on a flyer; Put it in the newspaper",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Check for (ID, identification) and (return it to them, call them)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Mail it, Take it to their house) if there is (an ID, identification)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Try to find who it belongs to and return it; Find them and give it back",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Turn it in; Turn it in to the (counter, Lost and Found, cashier, security guard)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Give it to my mom and she&rsquo;ll find the owner",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Take it to the police and they&rsquo;ll find the owner",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "†Teaching",
+              "guid": "82265104b88142a2869585ca46eeaf41",
+              "abbreviation": "tc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item05",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item05",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "§Item 5. Smoke",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What should you do if you see thick smoke coming from your neighbor&rsquo;s house?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Call (the operator, 311)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Go next door",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Run away",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Yell “Fire”",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Break a window to let smoke out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Close the windows",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Don’t breathe the smoke",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Panic",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Put the fire out",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Stop, drop, and roll",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Wait for the firemen",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Call 911; Report to (fire, police) department",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Set off the fire alarm; Pull down handle in fire box",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Ask adult to call (fire, police) department",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Call the dispatcher and (answer questions, give them the address)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Drive to (fire, police) station and tell them",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that appropriate emergency services, such as the fire or police departments, should be notified",
+                    "answerGroupLabel": "Response reflects <em>one<\u002fem> of the general concepts"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Call for help; (Get, Go) help; Help them",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Tell my (mom, dad); Get parents to (help, check it out); [References notifying adult]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Warn neighbors; Bang on door and tell them that their house is on fire",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get them out of the house; See if everyone is out; [References evacuating others]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Go see if they’re OK; Check on the neighbors; [Verify safety of others]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get everyone out of your house because it could catch fire; [References evacuating your own house]",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Go see what’s wrong; Make sure (it isn’t barbecue, there’s really a fire)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Stay away",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Get a (fire extinguisher, water hose)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Stay away so you won’t (get hurt, breathe smoke)",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Identification of an appropriate activity to perform until emergency services arrive",
+                    "answerGroupLabel": "Response reflects <em>both<\u002fem> of the general concepts"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects <em>one<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects <em>both<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "§< 2 General Concepts",
+              "guid": "69a6eec321b14dffbf43f8a33b38b1ea",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item06",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item06",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 6. Cell phones",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why do some teachers <em>not<\u002fem> allow students to use their cell phones during class?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that cell phones are a distraction in the classroom<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Makes it harder for teachers to teach; Because they&rsquo;re teaching",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They think they shouldn&rsquo;t have (them, cell phones)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They (make noise, vibrate)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because (the teacher, the principal, mom, dad) doesn&rsquo;t like it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because class is not as (interesting, fun) as your cell phone",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Students might (make calls, take pictures)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Phones might get (lost, stolen)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Could cause (cyber-bullying, fights)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Limits participation; Keeps students from participating; [No reference to learning]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(They, Students) might miss (directions, instructions)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It keeps them from learning; It&rsquo;s harder for students to learn",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Interruption; Interrupts the class",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Students might (send texts, search the Internet, use the calculator)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To listen; So students can (listen, hear)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Might (bother, annoy) (others, other students); It&rsquo;s (rude, disrespectful)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Not fair to students that don&rsquo;t have them; Some students don&rsquo;t have cell phones",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Students might (make calls, take pictures) so they can (cheat, do better than other students)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Might, Could) take pictures of (answers, tests)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So students (pay attention to, concentrate on) learning; So they pay attention",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Students might (be distracted, not pay attention); Students may pay more attention to their phones",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Limits participation in learning",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Distraction; Distracts them",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item07",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item07",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "§Item 7. Lights",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why should you turn the lights off when no one is using them?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "So you don’t (start a fire, burn the house down)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "So power lines don’t explode; So lightning doesn’t hit you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Might blow a fuse; Light bulb could explode",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Your parents get mad if you don’t",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "It’s safer; People can’t see inside",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Someone might rob your house",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So you don’t waste electricity; To save (electricity, fuel, power, energy)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So we don’t run out of power; So power won’t (go, run) out",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "You might need electricity in the future and would not have any left",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To conserve energy",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that it conserves energy",
+                    "answerGroupLabel": "Response reflects <em>one<\u002fem> of the general concepts"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "So you don’t run up the electric bill; Otherwise the bill would be high",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Will use up light bulbs; Light bulb could (go, burn) out",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To save money; Won’t have to pay as much; Wastes money",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So the (lights don’t, electricity doesn't) get (cut, turned) off",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Costs a lot of money to burn them; Costs money",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "So (the electric company doesn’t, they don’t) turn the (lights, power) off",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To decrease pollution; It’s bad for the environment if you don’t",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "To save the battery",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that it conserves financial or\r\nenvironmental resources",
+                    "answerGroupLabel": "Response reflects <em>both<\u002fem> of the general concepts"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects <em>one<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects <em>both<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "§< 2 General Concepts",
+              "guid": "e689f3aed5184a22aa0ec48d8a1348cf",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item08",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item08",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 8. Calendars",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why do people use calendars?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that calendars facilitate the organization of activities or maintenance of a schedule<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To write stuff down; To write notes on it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To be on time; So they aren&rsquo;t late",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget, know) the (week, month, year)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To keep track of time",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They like the pictures; To hang in their locker; To put stickers in it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To (be, stay) organized; To stay on track",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget) to (go to the doctor, take out the trash, [describes <em>specific<\u002fem> activity])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget, know) the (day, date); To (know, keep track of) (what day it is, the date)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They are using their planner",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (know, see) what to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they know where (they&rsquo;re going, to go)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget, know) (holidays, birthdays, special days)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To (schedule, organize, keep track of, plan) (meetings, events, appointments, activities, things you have to do, [describes <em>general<\u002fem> activity])",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So they (remember, don&rsquo;t forget, don&rsquo;t miss) (meetings, events, appointments, activities, things they have to do, [describes <em>general<\u002fem> activity])",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So they don&rsquo;t (double book, schedule something) at the same time",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So they can prioritize what they need to do; So they can make sure they do the important things",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (maintain, organize, keep track of, plan) their schedule",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (plan, plan ahead); For planning",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item09",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item09",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 9. Chores",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why is it good for children to do chores?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that chores develop responsibility or allow children to contribute to the family&rsquo;s well-being<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It&rsquo;s your job",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (get an allowance, make money); So they earn their (allowance, own money)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So your parents don&rsquo;t punish you; Get in trouble if you don&rsquo;t",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To learn how to (do laundry, keep the house clean)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s good for (you, them); Good for kids to help out",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So the (house is clean, yard looks nice)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because you have to; You have to do chores",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(For, To learn) discipline; So you learn how to follow (rules, directions)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Helps you later in life; So you know what to do when you grow up",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To help (their parents, the family); Parents (work, can&rsquo;t do it all)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To learn how to do things; Teaches you how to do things; To learn skills",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (get something done, are productive)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (aren&rsquo;t lazy, don&rsquo;t sit around and watch TV)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s your responsibility",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Builds character",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they (stay out of trouble, keep busy)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So they learn responsibility; Teaches responsibility",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Builds a good work ethic; Teaches the value of hard work",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So the child (contributes, gives back) to the family; So the child is a productive family member",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So everyone (helps, contributes to) the family",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Teaches you independence; So they learn how to be independent",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To learn how to do things (for yourself, when you grow up)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (learn discipline <em>and<\u002fem> help the family); So (you aren&rsquo;t lazy <em>and<\u002fem> it helps you later in life); [Provides <em>two<\u002fem> good examples]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To learn future life skills",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Can help you in your future employment",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item10",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item10",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 10. Brag",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why is it bad to brag about yourself?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that boasting about yourself is&nbsp;self-centered or that it may be insensitive to those who are less fortunate<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "People will think you&rsquo;re (mean, not nice)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People (are, will be) jealous of you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You could (get into a fight, make people mad)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People will think you&rsquo;re (cool, strong, fast)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s (mean, not nice)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "People don&rsquo;t like it when you act like you are (special, great, hot)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (rude, impolite, bad manners, annoying)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You will seem like you need attention",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It hurts other people&#39;s feelings; It can make others feel bad",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People (won&rsquo;t like you, won&rsquo;t want to be your friend)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Others (don&rsquo;t, might not) have (the same things, what you have)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People will think you&rsquo;re a boaster; You&rsquo;ll seem like a show-off",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (arrogant, conceited, snobby, prideful)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It&rsquo;s (selfish, self-centered)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It (seems, appears, looks) like you think you&rsquo;re better than other people",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It isn&rsquo;t modest",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It makes others feel bad about (themselves, their situation, how things are for them)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "People won&rsquo;t (like you, want to be your friend) because you seem (selfish, snobby, like you only care about yourself)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Others may not be as fortunate as you are; Others may not have as <em>much<\u002fem> as you do",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You&rsquo;ll seem like a show-off <em>and<\u002fem> (it might hurt others&rsquo; feelings, others won&rsquo;t want to be your friend)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "People will think you&rsquo;re (rude, annoying) because you (only talk about yourself, act like you&rsquo;re better than them)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item11",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item11",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 11. Door",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What does this saying mean? &ldquo;Teachers open the door, but you must enter.&rdquo;<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that learning is the individual&rsquo;s responsibility even though teachers can provide learning opportunities; or that it is the individual&rsquo;s responsibility to take opportunities they are presented with<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "You have to go to teachers, they won&rsquo;t come to you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You have to do it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Teachers won&rsquo;t pass you if you don&rsquo;t (study, come to class)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Teachers will hold the door if you&rsquo;re carrying books; [Provides literal interpretation]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You need to have teachers",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Teachers can&rsquo;t (make you, force you to) learn",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You have to (work, study) hard",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Teachers give you (assignments, tests, homework), but you have to do it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Teachers can&rsquo;t do (it all, everything) for you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You have to (do the work, learn)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "A teacher&rsquo;s gift is a willing student; [Provides analogous proverb or saying]",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "You&rsquo;re the one responsible for (learning, your education); [Must reference <em>responsibility<\u002fem>]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You can be (given, presented with) opportunities but you (choose whether, have) to take them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Teachers can only teach you so much if you don&rsquo;t (try, work hard, study)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Teachers (teach, give you information), but you have to (do the learning, be willing to learn)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Teachers can (help you, help you learn) if you let them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You have to (try, make an effort) to learn yourself",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item12",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item12",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 12. Field trips",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why do students go on field trips?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that field trips provide an opportunity for experiential learning<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To see (things, the sights)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "As a reward for being good",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they make better grades",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To go to (museums, the zoo); [Describes a specific field trip]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Class, School) is boring; To get (away from, out of) (school, learning)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To learn about (dinosaurs, animals, [describes specific subject potentially the focus of a field trip])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They&rsquo;re fun",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (ride on the bus, spend time with friends)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "To learn more; To learn more than what we do in (class, school)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They help make you more well-rounded",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (learn, see) something new",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you can see (neat, interesting) things",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So they are smarter",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To learn stuff in different places",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To (discover, explore) things",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To learn things; To learn",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To make learning more (interesting, fun)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Because (experiencing, being there for) something teaches you things you <em>can&rsquo;t<\u002fem> learn in (class, school)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Doing, Experiencing) something gives you (more, different, new) information than (reading, learning) about it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Doing, Experiencing) things they (learn, read, write) about makes them remember it better; It (helps them remember, reinforces) what they learn at school",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To learn about the real world; So you can learn through real-world experience",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To (experience, learn) things that can&rsquo;t be (taught, learned) in (school, class)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So they can get (real-world, actual, real) experience",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "To learn by doing something",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item13",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item13",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 13. Plans",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why should you keep plans that you make with other people?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that following through on plans is a sign of dependability, trustworthiness, or conscientiousness;&nbsp;or shows consideration of others&rsquo; feelings<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "If you don&rsquo;t, they might not (invite you anymore, want to do stuff with you, [no reference to loss of relationship])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "They may get (mad, angry)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you don&rsquo;t, they might think you don&rsquo;t want to do stuff with them",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You could miss something fun",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You said you would go",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You might miss the (concert, movie, show, [describes specific event])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (mean, not nice)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "If you don&rsquo;t, (you might lose friends, they may not want to be your friend)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (impolite, rude) not to; It&rsquo;s polite",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "<em>They<\u002fem> might miss the (concert, movie, show, [describes specific event])",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Missed opportunities; Might miss something important",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To keep a commitment; You made a commitment",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "May not get to see them (again, for a long time)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "To keep your (promise, word); You gave them your word",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You might hurt their feelings; They may feel (hurt, sad, disappointed)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you don&rsquo;t, they&rsquo;ll (just be waiting, be all alone)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So others know you&rsquo;re (dependable, reliable, trustworthy)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It is inconvenient to others if you don&rsquo;t",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So others know you (can be counted on, mean what you say, follow through, keep your word)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s (inconsiderate, thoughtless, selfish) not to",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Someone is (expecting, counting on) you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Shows you&rsquo;re (conscientious, concerned about others)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "They might stop (trusting, believing) you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s rude to the other people if you don&rsquo;t; It&rsquo;s (unfair, rude) to <em>others<\u002fem> not to",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "If you don&rsquo;t, (their plans are ruined too, you waste their time); [Describes specific impact to other person]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item14",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item14",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 14. Truth",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why should people tell the truth?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that honesty builds trust in relationships<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So you don&rsquo;t (lie, tell a lie)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s the right thing to do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You may not remember what (you said, the lie was); Makes it hard to keep track of what you said",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because it is (wrong, bad) to lie; Lying is bad; Lying is dishonest",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Honesty is the best policy; You should be honest",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s lying if you don&rsquo;t",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (polite, good manners, rude to lie)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "The truth will set you free",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People get mad at you if you lie",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So you don&rsquo;t get (in trouble, punished)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So you can (make, keep) friends; People won&rsquo;t be your friend",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "So (they, people) (believe you, know what you are saying is true, know you aren&rsquo;t lying)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "One lie leads to more lies; You just have to tell more lies",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Lies can hurt people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because [names religious figure] says not to lie",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Telling the truth allows you to get (it, the weight) off your (chest, shoulders, conscience)",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Relationships are built on (trust, honesty, being able to believe what the other person is saying)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "So people trust you; People stop trusting you if you lie",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "People have to trust you to be their friend",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Our social system is based on our ability to trust each other",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item15",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item15",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 15. Candle",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What does this saying mean? &ldquo;It&rsquo;s better to light a candle than to complain about the darkness.&rdquo;<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> In times of difficulty, it is better to be proactive and attempt to improve a situation than to passively accept or complain about it<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Don&rsquo;t give up; Keep trying",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Stop (whining, complaining); Don&rsquo;t (whine, complain)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If it&rsquo;s dark, all you have to do is light a candle; People are happier in brightness than in shadows; [Provides literal interpretation]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Candles are better than darkness",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Go with the flow; Keep on rolling; [Provides unrelated saying]",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "When the going gets tough, the tough get going; Actions speak louder than words; Don&rsquo;t sweat the small stuff; [Provides analogous proverb or saying]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Don&rsquo;t feel sorry for yourself",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Focus on the positive instead of the negative; Be (happy with, thankful for) what you have",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do something; Take action; Keep moving forward; Don&rsquo;t procrastinate",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You can make things better",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Don&rsquo;t (dwell, focus) on bad things",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You are in control",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Nothing will change if you don&rsquo;t do something about it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Don&rsquo;t complain about bad situations, (improve, work your way out of) them",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Don&rsquo;t let your (frustration, anger) stop you from making things better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Better to fix a problem than complain about it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "When things are hard, you have the power to make things better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Instead of feeling sorry for yourself when things go wrong, do something to make it better",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Stop complaining and do something about it",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s better to solve your own problems than to (wait for, rely on) others to fix them; Don&rsquo;t (rely, depend) on others to (fix your problems, make things better for you)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Don&rsquo;t just sit there, do something about it",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item16",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item16",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 16. Cheat",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why is it bad to cheat on a test?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that cheating is unfair to students who earn their grades through honest efforts, or that cheating is ultimately self-defeating because the material is not learned and there is an academic consequence<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Might get (caught, in trouble)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Don&rsquo;t depend on someone else; Don&rsquo;t count on other people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You only cheat yourself",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You will get a bad grade",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Cheaters never win",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Person you&rsquo;re cheating from could (get mad, have wrong answers)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Because you (forgot to study, don&rsquo;t know the answers)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s (mean, not nice, bad)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It&rsquo;s against the rules",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "It&rsquo;s (unfair, not fair)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you get caught, you could (get a bad grade, get suspended, lose the teacher&rsquo;s trust); [Describes specific and current academic consequence]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s (lying, dishonest)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Won&rsquo;t learn",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s unethical",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You&rsquo;ll have to keep cheating",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People might ask you to do something you really can&rsquo;t do",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Won&rsquo;t get the grade you deserve",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "The teacher won&rsquo;t know how much you know; The teacher wants to see what you know, not what your neighbor knows",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Won&rsquo;t learn because you (don&rsquo;t know the material, didn&rsquo;t study)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You only cheat yourself because you don&rsquo;t learn the material",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Not fair to the people who (studied, worked hard on the assignment)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You won&rsquo;t learn and could (fail the test, get suspended, make a zero)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "If you cheat, you will fall behind in school and have to keep cheating",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You won&rsquo;t be able to pass college classes",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item17",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item17",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 17. Stress",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How can stress be a good thing?<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> Recognition that stress is an important motivator and can lead to positive outcomes<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Makes you (prepare, get ready) for (tests, speeches); Makes you (study, do homework)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You need stress",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It makes you think",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Lets you (eat candy, take a bath)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It will go away if you (wait, hold on)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Stress can make you (sick, angry, feel bad, anxious); [Provides negative aspect of stress]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Stress is (normal, part of life)",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "So you do something; Makes you (act, do things); [Refers to actions without reference to being new or challenging]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Stress has led to (discoveries, inventions, advancements)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Keeps you from being lazy",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Pushes, Pressures) you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Makes you (work, do things) (harder, faster, better)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Makes you (better, stronger)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Tells, Shows) you what&rsquo;s important; Helps you focus",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Prepares you, Gets you ready) for (something, things); Prepares you for life",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "(Tells you, Shows you, Lets you know) that you&rsquo;re working hard",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Learn from it",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Reminds you to (relax, calm down, slow down)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Makes you (plan, stop and think about what you&rsquo;re doing)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Makes you think more about what&rsquo;s important",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Without stress you can grow (complacent, bored)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Makes you try things; So you try something new",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "Stress (pushes, pressures) people to (grow, learn, adapt) more than they would without it; Makes you do things you wouldn&rsquo;t before",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Makes, Causes) people to (come up with new ideas, think of different ways to do something)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It (pushes, pressures) you to (work harder, get something done, do better); Sometimes you do your best work under pressure",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "(Motivates, Inspires) you; Motivates you to (succeed, do a good job)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Makes you work harder <em>and<\u002fem> (better, you get better results)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "It (pushes, pressures) you to succeed",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item022",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item022",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "§Item 18. Technology",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What are some problems with rapid changes in science and technology?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "text": "Evolving too fast; Too many changes too fast",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Keep having to (change, learn new things)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Causes job loss; Replaces people with robots",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Could become dependent on technology",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "Old technology (leaves, is gone) too quickly",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "The more (harm, bad) we can do; We can do more bad things",
+                      "triggersQuery": true
+                    },
+                    {
+                      "text": "We could (destroy the environment, cause pollution)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "Change is bad; Technology makes things worse",
+                      "triggersQuery": false
+                    },
+                    {
+                      "text": "New technology is lower in quality",
+                      "triggersQuery": false
+                    }
+                  ],
+                  "answersExplanation": "",
+                  "answerGroupLabel": ""
+                }
+              ],
+              "sharedCategories": {
+                "answerGroups": 
+                [
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "We would be getting ahead of ourselves; Consequences may not have been thought of",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "If we go too fast, we might forget important things we learned a long time ago",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Fast advances in technology can have glitches; We can make mistakes if we go too fast",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Create things that are controversial; Could create harmful things by accident",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Overreliance on technology can cause people to (have worse social skills, miss what’s going on in the world)",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Technology can do jobs that people used to do, so some people will lose their jobs",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "The world isn’t ready for some changes",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that rapid change may create unforeseen consequences and reduce consideration of past experiences",
+                    "answerGroupLabel": "Response reflects <em>one<\u002fem> of the general concepts"
+                  },
+                  {
+                    "answers": 
+                    [
+                      {
+                        "text": "Don’t have enough time to learn things; Not everyone can keep up",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Waste of money; We waste a lot of money and time (keeping up, maintaining, buying) new technology",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Facts and knowledge change too quickly; Difficult to keep information current",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Hard for some people to change if they aren’t in school",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "Need new (hardware, equipment); You buy something new and then there’s something newer; Things get outdated fast",
+                        "triggersQuery": false
+                      },
+                      {
+                        "text": "People lose their jobs if they don’t have new skills",
+                        "triggersQuery": false
+                      }
+                    ],
+                    "answersExplanation": "Recognition that rapid changes create difficulties in maintaining current knowledge and technology",
+                    "answerGroupLabel": "Response reflects <em>both<\u002fem> of the general concepts"
+                  }
+                ],
+                "scoreList": 
+                [
+                  {
+                    "value": 1,
+                    "label": "Response reflects <em>one<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  },
+                  {
+                    "value": 2,
+                    "label": "Response reflects <em>both<\u002fem> of the general concepts",
+                    "displayLabelAsHtml": true
+                  }
+                ]
+              },
+              "labels": {
+                "sharedCategoryLabel": "General Concepts",
+                "othersLabel": "Samples"
+              }
+            },
+            "superType": null,
+            "type": "conceptList"
+          },
+          "contextualEventBtn": 
+          [
+            {
+              "name": "§< 2 General Concepts",
+              "guid": "ae7181e4cccb4c63a84dced33998d1e6",
+              "abbreviation": "lc",
+              "isPopover": true
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-comp-item19",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/comprehension/wisc-v-commercialization-comp-item19",
+          "subtestName": "Comprehension",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Item 19. Guests",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What does this saying mean? &ldquo;No guests at home, no hosts abroad.&rdquo;<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong>General concept:<\u002fstrong> How you treat people determines how you will be treated in return<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "0": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Don&rsquo;t be mean, Be good, Be polite) to your guests",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you don&rsquo;t let other people in, they won&rsquo;t let you in",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you don&rsquo;t (visit, go), don&rsquo;t expect them to (visit, invite you, be a host)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you don&rsquo;t invite people to your house, you&rsquo;ll never be invited to theirs",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you have people over, you can (visit them later, travel to foreign countries); [Provides literal interpretation]",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "Nobody is (at home, there)",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "If you&rsquo;re not a good guest, don&rsquo;t expect a good host",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ],
+              "1": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "(Be nice, Don&rsquo;t be mean) to people if you (don&rsquo;t want to be alone, want to have friends)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "If you turn people away, you will (be lonely, isolate yourself)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "It&rsquo;s the (Golden Rule, ethic of reciprocity)",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Being open to other people makes people open to you",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "Do unto others as you would have them do unto you; Treat others as you want to be treated; [Provides analogous proverb or saying]",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "You should be (nice, kind, friendly, good) to other people",
+                      "triggersQuery": true
+                    },
+                    {
+                      "html": "People will be mean to you unless you&rsquo;re nice to them",
+                      "triggersQuery": true
+                    }
+                  ]
+                }
+              ],
+              "2": 
+              [
+                {
+                  "answers": 
+                  [
+                    {
+                      "html": "If you treat people well, they will treat you well",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "How you treat others affects how others treat you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "If you&rsquo;re not (nice, friendly) to people, people won&rsquo;t be (nice, friendly) to you",
+                      "triggersQuery": false
+                    },
+                    {
+                      "html": "You can&rsquo;t expect to be treated well if you aren&rsquo;t nice to others",
+                      "triggersQuery": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "superType": null,
+            "type": "pickList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 3,
+        "description": "Discontinue after 3 consecutive scores of 0.",
+        "countsDemoItems": false
+      }
+    }
+  ],
+  "reverseRule": 
+  [
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-comp-item01",
+      "skipToQuestionID": "wisc-v-commercialization-comp-item03",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    },
+    {
+      "name": "IR",
+      "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+      "abbreviation": "ir"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

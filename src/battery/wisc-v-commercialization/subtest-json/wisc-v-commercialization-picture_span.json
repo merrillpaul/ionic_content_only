@@ -1,0 +1,2055 @@
+{
+  "subtestId": 770,
+  "subtestGUID": "7bcb37d2f7234a54916b1609bf45597f",
+  "title": "Picture Span",
+  "displayName": "Picture Span",
+  "abbr": "ps",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/picture_span",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": {
+    "questionScoreIsHighestTrialScore": false,
+    "onlySkipSampleItems": false
+  },
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Working Memory",
+    "averageDuration": 7,
+    "descriptionCS": "FPO"
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-picturespan-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplea",
+      "subtestName": "Picture Span",
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [B]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Let&rsquo;s try again.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplea/wisc-v-commercialization-picturespan-samplea-14208Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-samplea-14208",
+          "title": "Sample Item A Trial 1",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 2,
+              "correctSequence": 
+              [
+                2
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct picture: B",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [B]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>That&rsquo;s not quite right.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say,<strong>&nbsp;<span class=\"speechBlue\">I showed you this picture.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>So you should touch&nbsp;<em>this <\u002fem>one<\u002fstrong>&nbsp;<\u002fspan>(point to&nbsp;flower)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplea/wisc-v-commercialization-picturespan-samplea-14209Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-samplea-14209",
+          "title": "Sample Item A Trial 2",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 2,
+              "correctSequence": 
+              [
+                2
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct picture: B",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item1",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "†Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong> [A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p class=\"p1\"><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<\u002fstrong><strong><span class=\"speechBlue\">I showed you this picture.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong><span class=\"speechBlue\">&nbsp;So you should touch&nbsp;<em>this <\u002fem>one<\u002fspan><\u002fstrong> (point to sun)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item1/wisc-v-commercialization-picturespan-item1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 2,
+          "correctSequence": 
+          [
+            1
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct picture: A",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item-2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item-2",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "†Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong>&nbsp;[C]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p class=\"p1\"><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<\u002fstrong><strong><span class=\"speechBlue\">I showed you this picture.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong><span class=\"speechBlue\">&nbsp;So you should touch&nbsp;<em>this&nbsp;<\u002fem>one<\u002fspan><\u002fstrong>&nbsp;(point to balloon)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item-2/wisc-v-commercialization-picturespan-item-2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 4,
+          "correctSequence": 
+          [
+            3
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct picture: C",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item-3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item-3",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item-3/wisc-v-commercialization-picturespan-item-3Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 5,
+          "correctSequence": 
+          [
+            5
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct picture: E",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-sampleb",
+      "subtestName": "Picture Span",
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [B &ndash; A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Let&rsquo;s try again.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-sampleb/wisc-v-commercialization-picturespan-sampleb-14213Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-sampleb-14213",
+          "title": "Sample Item B Trial 1",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 2,
+              "correctSequence": 
+              [
+                2,
+                1
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct pictures, correct sequence: B - A",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [B &ndash; A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>On this screen, this one<\u002fstrong>&nbsp;<\u002fspan>(point to sock)<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>is first,&nbsp;and this one<\u002fstrong>&nbsp;<\u002fspan>(point to apple)&nbsp;<strong><span class=\"speechBlue\">is next.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<span class=\"speechBlue\">So you should touch&nbsp;<em>this <\u002fem>one first<\u002fspan>&nbsp;<\u002fstrong>(point to sock)<strong><span class=\"speechBlue\">, and <em>this <\u002fem>one next<\u002fspan>&nbsp;<\u002fstrong>(point to&nbsp;apple)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-sampleb/wisc-v-commercialization-picturespan-sampleb-14214Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-sampleb-14214",
+          "title": "Sample Item B Trial 2",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 2,
+              "correctSequence": 
+              [
+                2,
+                1
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct pictures, correct sequence: B - A",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-samplec",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplec",
+      "subtestName": "Picture Span",
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Sample Item C",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [D&nbsp;&ndash; A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right. Let&rsquo;s try again.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplec/wisc-v-commercialization-picturespan-samplec-14219Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-samplec-14219",
+          "title": "Sample Item C Trial 1",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctSequence": 
+              [
+                4,
+                1
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct pictures, correct sequence: D - A",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [D &ndash; A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>On this screen, this one<\u002fstrong>&nbsp;<\u002fspan>(point to apple)<strong>&nbsp;<\u002fstrong><span class=\"speechBlue\"><strong>is first,&nbsp;and this one<\u002fstrong>&nbsp;<\u002fspan>(point to flower)&nbsp;<strong><span class=\"speechBlue\">is next.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<span class=\"speechBlue\">So you should touch&nbsp;<em>this&nbsp;<\u002fem>one first<\u002fspan>&nbsp;<\u002fstrong>(point to apple)<strong><span class=\"speechBlue\">, and&nbsp;<em>this&nbsp;<\u002fem>one next<\u002fspan>&nbsp;<\u002fstrong>(point to&nbsp;flower)<span class=\"speechBlue\"><strong>.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p class=\"p1\">If the child appears confused, repeat the explanation and allow the child to practice the task again, swiping back once and repeating&nbsp;Sample C, Trial 2.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-samplec/wisc-v-commercialization-picturespan-samplec-14220Prompts.html"
+            }
+          ],
+          "id": "wisc-v-commercialization-picturespan-samplec-14220",
+          "title": "Sample Item C Trial 2",
+          "suppressInstructionCard": false,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctSequence": 
+              [
+                4,
+                1
+              ],
+              "scoreButtons": 
+              [
+                {
+                  "label": "Correct pictures, correct sequence: D - A",
+                  "value": 1
+                },
+                {
+                  "label": "Incorrect response",
+                  "value": 0
+                }
+              ]
+            },
+            "superType": null,
+            "type": "PictureSpan"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": true,
+          "useSvgStim": true,
+          "imageExtension": "svg",
+          "useTimedSwitch": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item4",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "†Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong>&nbsp;[C &ndash; D]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p class=\"p1\"><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">On this screen, this one<\u002fspan><\u002fstrong>&nbsp;(point to gift)<b><span class=\"speechBlue\">&nbsp;<\u002fspan><\u002fb><strong><span class=\"speechBlue\">is first, and this one&nbsp;<\u002fspan><\u002fstrong>(point to tire)&nbsp;<strong><span class=\"speechBlue\">is next.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<span class=\"speechBlue\">So you should touch&nbsp;<em>this <\u002fem>one first<\u002fspan><\u002fstrong> (point to gift)<strong><span class=\"speechBlue\">, and <em>this <\u002fem>one next<\u002fspan><\u002fstrong> (point to tire)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item4/wisc-v-commercialization-picturespan-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 4,
+          "correctSequence": 
+          [
+            3,
+            4
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: C - D",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item5",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "†Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong>&nbsp;[B &ndash; A]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p class=\"p1\"><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">On this screen, this one<\u002fspan><\u002fstrong>&nbsp;(point to kite)<b><span class=\"speechBlue\">&nbsp;<\u002fspan><\u002fb><strong><span class=\"speechBlue\">is first, and this one&nbsp;<\u002fspan><\u002fstrong>(point to ladybug)&nbsp;<strong><span class=\"speechBlue\">is next.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\"><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong>&nbsp;<span class=\"speechBlue\">So you should touch&nbsp;<em>this&nbsp;<\u002fem>one first<\u002fspan><\u002fstrong>&nbsp;(point to kite)<strong><span class=\"speechBlue\">, and&nbsp;<em>this&nbsp;<\u002fem>one next<\u002fspan><\u002fstrong>&nbsp;(point to ladybug)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item5/wisc-v-commercialization-picturespan-item5Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 4,
+          "correctSequence": 
+          [
+            2,
+            1
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: B - A",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item6",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item6/wisc-v-commercialization-picturespan-item6Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            1,
+            5
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: A - E",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item7",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item7/wisc-v-commercialization-picturespan-item7Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            6,
+            2
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: F - B",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item8",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item8/wisc-v-commercialization-picturespan-item8Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 5,
+          "correctSequence": 
+          [
+            1,
+            2,
+            5
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: A - B - E",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item9",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item9/wisc-v-commercialization-picturespan-item9Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            2,
+            5,
+            4
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: B - E - D",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item10",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item10/wisc-v-commercialization-picturespan-item10Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            4,
+            6,
+            3
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: D - F - C",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item11",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item11/wisc-v-commercialization-picturespan-item11Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            1,
+            6,
+            5
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: A - F - E",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item12",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item12/wisc-v-commercialization-picturespan-item12Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            6,
+            3,
+            2
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: F - C - B",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item13",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item13/wisc-v-commercialization-picturespan-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 8,
+          "correctSequence": 
+          [
+            2,
+            8,
+            3
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: B - H - C",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item14",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item14/wisc-v-commercialization-picturespan-item14Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: A - C - E - F",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item15",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item15/wisc-v-commercialization-picturespan-item15Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 6,
+          "correctSequence": 
+          [
+            2,
+            3,
+            6,
+            4
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: B - C - F - D",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item16",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item16/wisc-v-commercialization-picturespan-item16Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 8,
+          "correctSequence": 
+          [
+            7,
+            2,
+            4,
+            6
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: G - B - D - F",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item17",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item17/wisc-v-commercialization-picturespan-item17Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 8,
+          "correctSequence": 
+          [
+            7,
+            4,
+            2,
+            1
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: G - D - B - A",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item18",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item18/wisc-v-commercialization-picturespan-item18Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 10,
+          "correctSequence": 
+          [
+            3,
+            2,
+            9,
+            8
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: C - B - I - H",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item19",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item19/wisc-v-commercialization-picturespan-item19Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 10,
+          "correctSequence": 
+          [
+            4,
+            7,
+            1,
+            9
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: D - G - A - I",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item20",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item20/wisc-v-commercialization-picturespan-item20Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 8,
+          "correctSequence": 
+          [
+            5,
+            6,
+            8,
+            2,
+            1
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: E - F - H - B - A",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item21",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item21/wisc-v-commercialization-picturespan-item21Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 8,
+          "correctSequence": 
+          [
+            5,
+            7,
+            2,
+            3,
+            8
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: E - G - B - C - H",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item22",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item22/wisc-v-commercialization-picturespan-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 10,
+          "correctSequence": 
+          [
+            6,
+            2,
+            9,
+            8,
+            4
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: F - B - I - H - D",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item23",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item23/wisc-v-commercialization-picturespan-item23Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 12,
+          "correctSequence": 
+          [
+            1,
+            3,
+            6,
+            8,
+            11,
+            5
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: A - C - F - H - K - E",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item24",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item24/wisc-v-commercialization-picturespan-item24Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 12,
+          "correctSequence": 
+          [
+            12,
+            2,
+            8,
+            9,
+            10,
+            4
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: L - B - H - I - J - D",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item26",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item26/wisc-v-commercialization-picturespan-item26Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 12,
+          "correctSequence": 
+          [
+            8,
+            2,
+            12,
+            7,
+            3,
+            5,
+            10
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: H - B - L - G - C - E - J",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-picturespan-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item27",
+      "subtestName": "Picture Span",
+      "usesStims": true,
+      "shouldShowStimTouches": true,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": true,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_span/wisc-v-commercialization-picturespan-item27/wisc-v-commercialization-picturespan-item27Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "numTiles": 12,
+          "correctSequence": 
+          [
+            7,
+            1,
+            11,
+            3,
+            6,
+            4,
+            9,
+            2
+          ],
+          "scoreButtons": 
+          [
+            {
+              "label": "Correct pictures, correct sequence: G - A - K - C - F - D - I - B",
+              "value": 2
+            },
+            {
+              "label": "Correct pictures, incorrect sequence",
+              "value": 1
+            },
+            {
+              "label": "Incorrect response",
+              "value": 0
+            }
+          ]
+        },
+        "superType": null,
+        "type": "PictureSpan"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-picturespan-samplea",
+      "skipToQuestionID": "wisc-v-commercialization-picturespan-sampleb",
+      "reverseWithForwardSequence": false,
+      "reverseToUnscoredItems": true,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    },
+    {
+      "name": "RR",
+      "guid": "7591817fc639410ead8f465069bb241c",
+      "abbreviation": "rr"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

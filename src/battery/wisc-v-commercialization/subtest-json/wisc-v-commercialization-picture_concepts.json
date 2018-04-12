@@ -1,0 +1,2216 @@
+{
+  "subtestId": 774,
+  "subtestGUID": "6445c565e739404ea8422744e0e19eb9",
+  "title": "Picture Concepts",
+  "displayName": "Picture Concepts",
+  "abbr": "pc",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/picture_concepts",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Fluid Reasoning",
+    "averageDuration": 7,
+    "descriptionCS": "The child is presented with two or three rows of pictures and chooses one picture from each row to form a group\r\nwith a common characteristic."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-samplea",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right. This tree<\u002fspan><\u002fstrong> (point to response option 2) <strong><span class=\"speechBlue\">goes with this tree<\u002fspan><\u002fstrong> (point to response option 3)<strong><span class=\"speechBlue\">. They are both trees. Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. This tree<\u002fspan> <\u002fstrong>(point to response option 2)<strong> <span class=\"speechBlue\">goes with this tree<\u002fspan><\u002fstrong> (point to response option 3)<strong><span class=\"speechBlue\">. They are both trees. Let&rsquo;s try another one.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>Look up here<\u002fstrong><\u002fspan> (point across first row)<strong><span class=\"speechBlue\">. Look down here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">. Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcept-sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcept-sampleb",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right. This squirrel<\u002fspan><\u002fstrong> (point to response option 1) <strong><span class=\"speechBlue\">goes with this bird<\u002fspan><\u002fstrong> (point to response option 3)<strong><span class=\"speechBlue\">. They are both animals. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. This squirrel<\u002fspan><\u002fstrong> (point to response option 1) <strong><span class=\"speechBlue\">goes with this bird<\u002fspan><\u002fstrong> (point to response option 3)<strong><span class=\"speechBlue\">. They are both animals. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item1",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item2",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong>&nbsp;(point across&nbsp;first row)&nbsp;<strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong>&nbsp;(point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item3",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong>&nbsp;(point across&nbsp;first row)&nbsp;<strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong>&nbsp;(point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item4",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item4/wisc-v-commercialization-pictureconcepts-item4Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item5",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong>&nbsp;(point across&nbsp;first row)&nbsp;<strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong>&nbsp;(point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item6",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong>&nbsp;(point across&nbsp;first row)&nbsp;<strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong>&nbsp;(point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item7",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item8",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "**Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p>**Say, <strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item9",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 9,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item10",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong>&nbsp;(point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item11",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item12",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item13",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 11,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item14",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item15",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item16",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 9,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item17",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item18",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 9,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item19",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 12,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item20",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item21",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 10,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item22",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.​<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 9,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item23",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 8,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item24",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 4,
+              "label": ""
+            },
+            {
+              "correctOrder": 5,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 9,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item25",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 6,
+              "label": ""
+            },
+            {
+              "correctOrder": 7,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item26",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-pictureconcepts-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/picture_concepts/wisc-v-commercialization-pictureconcepts-item27",
+      "subtestName": "Picture Concepts",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 27",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><input class=\"give_showStimButton\" type=\"button\" value=\"Show Stim\" /><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Pick one here<\u002fspan><\u002fstrong> (point across first row) <strong><span class=\"speechBlue\">that goes with one here<\u002fspan><\u002fstrong> (point across second row) <strong><span class=\"speechBlue\">and one here<\u002fspan><\u002fstrong> (point across third row)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "items": 
+          [
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 1,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 2,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            },
+            {
+              "correctOrder": 3,
+              "label": ""
+            },
+            {
+              "correctOrder": null,
+              "label": ""
+            }
+          ]
+        },
+        "superType": null,
+        "type": "SvgOneSelectionPerRow"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisc-v-commercialization-pictureconcepts-item1",
+      "skipToQuestionID": "wisc-v-commercialization-pictureconcepts-item4",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-pictureconcepts-item1",
+      "skipToQuestionID": "wisc-v-commercialization-pictureconcepts-item7",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

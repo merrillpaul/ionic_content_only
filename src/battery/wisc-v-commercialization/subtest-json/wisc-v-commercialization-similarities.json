@@ -1,0 +1,3437 @@
+{
+  "subtestId": 779,
+  "subtestGUID": "dbd39bec2eaa4dd99f53334acc5eee82",
+  "title": "Similarities",
+  "displayName": "Similarities",
+  "abbr": "si",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/similarities",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 10,
+    "descriptionCS": "The child is presented two words that represent common objects or concepts and describes how they are similar."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-similarities-sampleitem",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-sampleitem",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Sample Item. Three-Four",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [any response with the word <em>numbers<\u002fem>]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right.&nbsp;Three and four are both numbers.&nbsp;Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response<\u002fstrong>&nbsp;[any response without the word <em>numbers<\u002fem>]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right.&nbsp;Three and four are both numbers.&nbsp;Let&rsquo;s try some more.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">In what way are THREE and FOUR alike? How are they the same?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Any response without the word <i>numbers<\u002fi>",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Any response with the word <i>numbers<\u002fi>",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Any response with the word numbers",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization_si-red-green",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization_si-red-green",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1. Red-Green",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are RED and GREEN alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Stop and go",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Vegetables",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Green is dark and red is light",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Shades; Shades of (flags, uniforms)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tints; Dyes; Pigments",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "On a (traffic, stop) light",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Make brown",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "In the rainbow",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Paint; Crayons; Markers",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Colors",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hues",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Colors of (flags, uniforms); [Provides any response with the word <em>color<\u002fem>]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "919a634c63454e5589365d3f540dde10",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-milk-water",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-milk-water",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2. Milk-Water",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">In what way are MILK and WATER alike?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Have calcium",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Pour, Spill) them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Sweet",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Cold; Go in the refrigerator",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Come in (cups, glasses, bottles, jugs, cartons)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Mix; Mix them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Good",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "For babies",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "At the store; Things you buy; Groceries",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "White",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Wet",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Food; Eat them; Edible",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Watery; Have water",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "For (breakfast, dinner, snack)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Nutritious; Healthy; Good for you",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Demonstrates drinking]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Taste&nbsp;good; Yummy",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Make you (big, strong)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have (vitamins, minerals)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Drinks; Things you drink; Drink them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Liquid; Fluid",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "For when you&rsquo;re thirsty; Quench thirst",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Beverages",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "e664aab510624d9abc76388fa21a27b0",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-grapes-apples",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-grapes-apples",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 3. Grapes-Apples",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong><span style=\"color: rgb(2, 149, 165);\">In what way are GRAPES and APPLES alike?<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Good",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things you (cut, slice)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Vegetables",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Small; Soft",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Same color; Red; Green",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Round",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Food; Things you eat; Edible",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Come from seeds",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have (juice, seeds, peels, skin)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Grow in, Come from) nature",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Nutritious; Healthy; Good for you",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have (vitamins, minerals)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Snacks; Desserts; Lunch; Breakfast; Goodies; Treats",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Drinks; Juices",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Taste (good, sweet, yummy)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Fruits",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-shirt-shoe",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-shirt-shoe",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4. Shirt-Shoe",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a SHIRT and a SHOE alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-shirt-shoe/wisc-v-commercialization-similarities-shirt-shoePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Tie; Zip; Button",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Leather; Cloth; Fabric; Sewn",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Soft; Comfortable",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Demonstrates putting on shirt <em>or<\u002fem> shoe]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Cost money; You buy them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Points to shirt <em>or<\u002fem> shoe]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Use them outside",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Same color; White; [Names any color]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Put them on",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Dress",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Cover, Protect) your body",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Go, Fit) on your body",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Demonstrates putting on shirt <em>and<\u002fem> shoe]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Keep you warm",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Clothing; Clothes; Apparel; Garments",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Part of your (dress, attire, outfit)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Wear, Dress up in, Dress in) them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Part of a uniform",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-butterfly-bee",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-butterfly-bee",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 5. Butterfly-Bee",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a BUTTERFLY and a BEE alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-butterfly-bee/wisc-v-commercialization-similarities-butterfly-beePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Flowers; (Like, Sit on, Stop on) flowers",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They sting",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Make, Collect) honey",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Same color",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Outside; In nature",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Living things; Alive",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They (fly, have wings)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They lay eggs",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have (six legs, segmented bodies)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have antennae",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Come from, Live in) cocoons",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Eat, Collect) (nectar, pollen); (Eat from, Pollinate) flowers",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Insects; Bugs",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Animals; Creatures",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "01600d92c8cb416bba6bb5f1eae2dac8",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-horse-cow",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-horse-cow",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 6. Horse-Cow",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "incorrectInstructionsHTML": "<p>&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a HORSE and a COW alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-horse-cow/wisc-v-commercialization-similarities-horse-cowPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Things you ride; Ride them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Neigh and moo",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Same color; Black; Brown; White",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Pretty; Big; Cute",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Mean; Nice; Mad; Good; Sweet",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "You herd them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Living things; Alive",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Live on a farm; On the farm",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "At the (fair, rodeo)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "You (raise, feed, care for, [names shared <em>activity<\u002fem>]) them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "You (wash, clean) them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things with (tails, hair, fur, eyes, four legs, [names shared <em>feature<\u002fem>])",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things that (sleep, eat grass, walk, graze, make noises, [names shared <em>behavior<\u002fem>])",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Animals; Creatures",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Farm animals",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Mammals",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Livestock",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "915c3fa6603f44ea9924aba959e14f26",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-brother-sister",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-brother-sister",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7. Brother-Sister",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a BROTHER and a SISTER alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-brother-sister/wisc-v-commercialization-similarities-brother-sisterPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Living things; Alive",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>They<\u002fem> (help, care for, play with, take care of, protect) me",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "At home",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>They<\u002fem> (fix dinner, help with homework, drive me places)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "I have both",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They (fight, love, like) each other; They love me",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They look (similar, alike, the same); Twins",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Both have a body; [Names common feature of humans]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Friends",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Adults; Grown-ups; Big; Parents",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Nice; Mean; Fun; Smart",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Children; Kids; Little",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Live (with each other, in the same house)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>People<\u002fem> that (help, care for, play with, take care of, protect) me",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "People at church",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>People<\u002fem> that (fix dinner, help with homework, drive me places)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They share the same (genes, chromosomes, blood)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "People; Humans; Persons",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "People that teach me; Teachers",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Family; Family members; Immediate family members",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Relatives; Related; Relations",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(In, Part of) family",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "People who are related to you",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Siblings",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have the same (mom, dad, parents)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Religious titles; Clergy; Clerics",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-winter-summer",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-winter-summer",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 8. Winter-Summer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are WINTER and SUMMER alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Weather; Climate",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Vacations; Breaks; Holidays",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Parts of nature",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Times",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Months",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Windy; Cold; Hot",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Days; Weeks; Years",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have (clouds, sun, rain)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fun; Can go outside and play in them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Time, Part, Category) of the year",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Extremes in (weather, temperature, climate)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Part of Spring, Summer, Winter, Fall; [Provides <em>all<\u002fem> four seasons]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have (changed, different) (weather, temperature)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Time, Part, Category) of the year with different (weather, temperatures)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Seasons; Seasons of the year",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have solstices",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "e06aca4000c5441082d5ef02d026f6d6",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-angry-happy",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-angry-happy",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 9. Angry-Happy",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are ANGRY and HAPPY alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Something your mind controls",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Looks",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(How, Ways) you are; Things you (can be, are)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things in your body; Things on your mouth",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Can happen to you",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Ways you act; Actions; Behaviors",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Expressions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Responses; Reactions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Thoughts; Attitudes",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Conditions; States",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Parts of (life, living)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Facial expressions; (Looks, Things that show) on your face; Faces",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Inside you",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Emotions; Feelings; Moods",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Emotional (reactions, expressions, responses)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Mental (conditions, states); The way you feel mentally; Inner states",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Signs, Expressions) of how you feel",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "How you feel; Ways you can feel",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "7d3fba3abb0a4e20947f99648907f67e",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-sour-salty",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-sour-salty",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10. Sour-Salty",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are SOUR and SALTY alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-sour-salty/wisc-v-commercialization-similarities-sour-saltyPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Sweet; Salty; Sour; Bitter; Sour and bitter; [Provides <em>fewer<\u002fem> than four taste zones]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Too much of them is bad",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Mix together to make bitter",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Too much can be (bad for you, unhealthy)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Candy; Treats; Snacks",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Sauces; Juices",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Bad for your teeth",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Textures",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(You, Humans) can (sense, detect) them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things (in, on) food",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Seasonings",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Food; Things you eat; Eat both",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Sweet, salty, sour, and bitter; [Provides <em>all<\u002fem> four taste zones]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things that make your mouth water; Things you crave",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Tastes; Things you taste; Taste them; Taste (good, bad)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "How things feel on your (tongue, taste buds)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Flavors",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Stimulate receptors on your tongue",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things that (tongues, taste buds) can (sense, detect)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Food characteristics; Ways you can (talk about, describe) food",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-truck-train",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-truck-train",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11. Truck-Train",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a TRUCK and a TRAIN alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-truck-train/wisc-v-commercialization-similarities-truck-trainPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Things with (brakes, horns, fuel, wheels)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things you sit in",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Automobiles; Cars; [Names a type of vehicle]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Steer them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Breakable; (Fix, Repair) them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Toys; Things you play with",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Made of (metal, plastic)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Big; Small; Same (size, shape)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Machines; Mechanical",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things that carry (people, things)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things you ride in; You ride them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things that (go, move, roll, travel)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things that go somewhere",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Drive them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things with (engines, motors)",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Vehicles",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things that (take, carry) you to (places, school, work, the store)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things you ride in to go to (places, school, work, the store)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Haul (things, cargo); Both haul",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Machines you ride in",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Transport (people, things, cargo)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things that (you, people, things, cargo) travel in to other places",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Transportation",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-blocks-clay",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-blocks-clay",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12. Blocks-Clay",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are BLOCKS and CLAY alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Make (art, sculptures)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Stackable; Stack them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Buildings",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things at school",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Support stuff",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things you can use",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fun; They’re fun",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Made out of mud",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hard; Heavy; Solid",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Make blocks from clay",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Make (towers, buildings, [names specific construction]) with them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Materials; Supplies",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Make designs with them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Used in construction",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Toys; Play with them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Build; Constructions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Shape, Form) into something",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Create, Make) things with them; Used to (create, make) things",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Building (materials, supplies, products)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Construction (materials, supplies, products)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Toys you (build, construct) with",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Build, Construct) things with them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-knee-ankle",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-knee-ankle",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13. Knee-Ankle",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a KNEE and an ANKLE alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Move",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Bones",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They connect",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Round; Curved; Pointed; Hard; Covered with skin",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things that (break, get broken, get hurt)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "You use them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Body parts; (Attached to, Part of, On) your body",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "On your leg",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Help you bend; Bend; Bendable",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Body parts on your leg",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Parts of limbs",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Body parts that connect bones",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Body parts that move",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have (sockets, ligaments, muscles, cartilage)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Help you (move, walk); (Move, Walk) with them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Bones that (connect, hold bones together)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Bones that (bend, move)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Joints; Jointed; Body parts with joints",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Where your bones join up; Holds parts of your leg together",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Body parts that (bend, flex, are flexible); Places where you bend a limb",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Work like (hinges, a ball-and-socket); Both pivot",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-thermometer-timer",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-thermometer-timer",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 14. Thermometer-Timer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a THERMOMETER and a TIMER alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Use them to see how (hot, cold) something is; [Vague reference to measuring temperature]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use them to see how much time has passed; [Vague reference to measuring time]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tell you something",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They’re <em>in<\u002fem> (schools, kitchens, science class, lab); [No reference to <em>use<\u002fem>]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use them outside",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use them with your hands",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use them to see how long you have left",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They're in stores",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Made of (plastic, glass, metal)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Use them to see how much there is of something; [Provides vague reference to measuring]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>Use<\u002fem> them (to cook, in the kitchen)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Both tell you if your food is done cooking",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>Use<\u002fem> them at (school, doctor’s office)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tools; Devices; Instruments",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "<em>Use<\u002fem> them for (science class, lab)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use to keep track of something; (Get, Give, Take) readings",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They have numbers on them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use them to record (data, information)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Chefs, Scientists, Doctors, Nurses) use them",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Measurement (tools, devices, instruments)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "You use them to measure things",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "For measuring; Measurement",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-ice-steam",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-ice-steam",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15. Ice-Steam",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are ICE and STEAM alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Wet; Moist; Liquid",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Can make each other",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Have temperature; Temperatures",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Make (smoke, fog, mist)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Same color; White; Clear",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Steam melts ice",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Water; Made of water; Created from water",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Both evaporate",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "H<sub>2<\u002fsub>O; Have hydrogen and oxygen",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Temperature extremes",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Can (change into, become) liquid",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Forms, Phases, Stages) of matter",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have chemicals in them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Stages, Phases, Forms) of water; (Water, H<sub>2<\u002fsub>O, Hydrogen and oxygen) in different (forms, states)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Water at extreme temperatures",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Same (molecular, elemental, chemical) structure at different temperatures",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Physical changes in water",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Part of the water cycle",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-river-mountain",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-river-mountain",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16. River-Mountain",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a RIVER and a MOUNTAIN alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Land; Land masses",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Places; Places to (go, have fun)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Outside; In the (forest, country, valley, wilderness)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Rivers (flow, come) from mountains",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have (rocks, snow, water, hills, animals)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Calm",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Big; High; Wide",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Cold",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Barriers; Boundaries",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Places on land; Part of the (Earth, land, world)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Part of (nature, the environment, the wilderness)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Land (forms, features, characteristics)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Nature; Natural; Natural resources",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Physical features",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Formed by weather",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Scenery; Surroundings",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Can cross both; Travel across them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "On a map",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Geographical, Geological, Topographical) features",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Geographical, Geological) (places, phenomena)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Geography; Geology",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Terrain; Part of the (terrain, Earth's <em>surface<\u002fem>)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Formed by (nature, glaciers, plate movement, erosion)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Physical features of the (Earth, land, world)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Geographical, Natural) boundaries; Barriers in crossing (land, terrain)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Landscapes; Landmarks",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Ecosystems",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-demand-request",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-demand-request",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17. Demand-Request",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a DEMAND and a REQUEST alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Things you say to people",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tell them; They're (commands, orders)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ask them; They're questions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Manners",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Threats; Warnings",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "How (mean, nice) you are",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "You (say, do) them; Talking",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Ask for something; (Tell, Ask, Command) somebody to do something",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things people (want, need, desire); Wants; Needs; Desires",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things your (parent, teacher, boss, [names specific person]) (says, does) to get you to do things",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ways to control people",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ways you interact with people",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Ways, Methods) to get (compliance, cooperation, assistance, help, people to do things)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Ways, Methods) to get something you (want, need, desire)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things you say to get people to do things",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Ways you express your (wants, needs, desires)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-light-sound",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-light-sound",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18. Light-Sound",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are LIGHT and SOUND alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Feel them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Move, Travel",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Senses",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Fast; Quick",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "You can (see, hear) them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Learn about them in (science class, school)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Need your (eyes, ears) for them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Made by (things, nature)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "At (concerts, sporting events)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Sense, Perceive) them; Things you (sense, perceive)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They (travel, move) quickly; Both are speeds",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Use your senses",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Travel through (air, water, space)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "They bounce off of things",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "You can measure them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "You can turn them on and off",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Energy; (Types, Forms) of energy",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Move, Travel) in waves; They (have wavelengths, are waves)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Perceive, Observe, Detect) them through your senses",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Reflect; Can reflect off of things",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Can be absorbed; Things can absorb them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Vibrate",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Frequencies",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-luck-practice",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-luck-practice",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 19. Luck-Practice",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are LUCK and PRACTICE alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Make you, Require you to) do (things, something)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Improve <em>your skills<\u002fem>; Build better <em>skills&nbsp;<\u002fem>with them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Hard; Easy",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Happen",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Take (luck, practice, time)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "If you practice, you might get lucky",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Help you (perform, do) better; Make you better at what you do",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Help you (pass tests, win games, get a job, get first chair, [provides specific positive outcome])",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Need them in (sports, games, school)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Lead to <em>improvement<\u002fem>",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Need them to get things",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Help you get what you want; Help you",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Athletes, Sports) have them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Affect, Influence) outcomes; Influence whether you (win, lose)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Can improve chances of (doing well, succeeding); Can improve your odds of success",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Involved in, Lead to, Contribute to, Play a role in, Affect) (outcomes, how things turn out, whether you win or lose)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Approaches to (accomplishing things, achievement)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Lead to (good, better) (outcomes, results, consequences)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Help you (achieve goals, succeed)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-allow-prevent",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-allow-prevent",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20. Allow-Prevent",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are ALLOW and PREVENT alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Restrictions; Restrain your activities; (Set, Put) limits; [Emphasis on <em>prevent<\u002fem>]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Let you do stuff; [Emphasis on <em>allow<\u002fem>]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Stop, Hinder, Obstruct) you",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Something you are (permitted, granted)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Parents, Teachers, Grown-ups) decide for you",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Can&rsquo;t have one without the other",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things you (earn, ask for, are told)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things you (can, can&rsquo;t) do",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Needed for society",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Tell you what you (can, can&rsquo;t) do",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Instructions; Directions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Control; Authority",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Decisions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Affect your ability to do something",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Orders; Commands",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Have to do with (behavior, actions); Consequences of behavior",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Standards",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Expectations of what you are to do; Set expectations",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Ways, Methods) to control behavior",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Boundaries; Guidelines; Parameters",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Set ranges for (what you can do, how we behave)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Rules; Laws; Regulations; Levels of freedom",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Tell you what you can <em>and<\u002fem> can&rsquo;t do",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Conditions of (approval, authorization)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-shadow-fingerprint",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-shadow-fingerprint",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21. Shadow-Fingerprint",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are a SHADOW and a FINGERPRINT alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Reflections; Extensions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Help you figure out who the (suspect, person) is",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Don&rsquo;t have mass",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Associated with (bad guys, crimes)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Remnants; Leftovers",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Things (you, people) leave; Things you (leave, left) behind",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Happen, Occur) (when, after) someone does something",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ways to know someone (was, is, has been) there",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Negatives; Pictures",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Observable; Can see them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Dark; Black",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Cannot exist on their own",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Can, Can&#39;t) see them in bright light",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Everybody has them",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Unique to each person",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Come from, Made by) your body",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Used to (identify people, tell who you are)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Traces; Marks; Signs; Clues; Evidence; Indicators",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ways to (see yourself, show your body)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Caused, Created, Made) by people",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Reflections of (an individual, self)",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Images, Outlines, Silhouettes) of (an object, someone, something there, something real, a presence, a form, a shape)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Traces, Marks, Signs, Clues, Evidence, Indicators) of (an object, someone, something there, something real, a presence, a form, a shape)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Copies; Replicas",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Products, Outputs, Results, Effects) of (an object, someone, something there, something real, a presence, a form, a shape)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Show a distorted shape of the original",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Impressions",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-reality-dream",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-reality-dream",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22. Reality-Dream",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are REALITY and a DREAM alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "See them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Emotions",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Places, Where) you (are, can be)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Boring; Exciting; Scary; Good; Bad",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Affect your life; Involve your future",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(States, Levels, Degrees) of (truth, fact, fiction)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Brain-related; In your (brain, head, mind)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "How (true, factual, false, fictitious) something seems",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Feelings; Things you feel",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Thoughts; Ideas",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Visions; Ways of seeing things",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Perceptions; Experiences; Things you (perceive, experience)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Realms",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Live in both; Ways you can live",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Both (seem, feel, could be) real",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(States, Levels, Degrees) of (consciousness, awareness)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(States, Frames) of mind; (Mental, Psychic) states",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Mind-sets; Ways people perceive the world",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Happen, Occur, Represented, Processed) in your (brain, mind)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-similarities-space-time",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/similarities/wisc-v-commercialization-similarities-space-time",
+      "subtestName": "Similarities",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23. Space-Time",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>In what way are SPACE and TIME alike?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Constant",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Inevitable",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Uncontrollable; Unchangeable",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Move; Involved in movement",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Part of (science, physics)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Live in both",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "In the universe",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Unknown; Undiscovered",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Forces; Matter",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fly through both",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Natural wonders",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Big; Small; Fast; Long",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Use, Take up, Fill) both",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Part of a continuum",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Limited; Things you run out of",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Measured; Measurement",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Infinite; Never-ending",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Affected by (gravity, relativity, mass)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Neither are absolute",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Abstract; Not physical; Can’t be (seen, touched)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Always moving",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Settings",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Move, Travel) through both",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "2": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Dimensions",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Things we are limited by",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Fabric of, Help to define) the universe",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 8,
+      "maxAge": 11,
+      "skipFromQuestionID": "wisc-v-commercialization_si-red-green",
+      "skipToQuestionID": "wisc-v-commercialization-similarities-butterfly-bee",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 12,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization_si-red-green",
+      "skipToQuestionID": "wisc-v-commercialization-similarities-winter-summer",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    },
+    {
+      "name": "IR",
+      "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+      "abbreviation": "ir"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

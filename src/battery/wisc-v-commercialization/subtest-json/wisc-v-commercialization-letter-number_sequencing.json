@@ -1,0 +1,1451 @@
+{
+  "subtestId": 766,
+  "subtestGUID": "12821683a42447e2887e3b0d6c3973b9",
+  "title": "Letter-Number Sequencing",
+  "displayName": "Letter-Number Sequencing",
+  "abbr": "ln",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Working Memory",
+    "averageDuration": 7,
+    "descriptionCS": "The child is read a sequence of numbers and letters and recalls the numbers in ascending order and the letters in alphabetical order."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-lns-counting",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-counting",
+      "subtestName": "Letter-Number Sequencing",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Qualifying Item: Counting",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Score the item and proceed according to the instructions that follow.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Count to five out loud so I can hear you.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not understand, say, <strong><span class=\"speechBlue\">Count, like this, 1... 2...<\u002fspan><\u002fstrong> (pause between each number)<strong><span class=\"speechBlue\">. Now you try.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useCorrectIncorrectButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Correctly counts to at least 3"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-alphabet",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-alphabet",
+      "subtestName": "Letter-Number Sequencing",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Qualifying Item: Alphabet",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Score the item and proceed according to the instructions that follow.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Now tell me the letters of the alphabet.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not understand, say, <strong><span class=\"speechBlue\">Like this, A... B...<\u002fspan><\u002fstrong> (pause between each letter)<strong><span class=\"speechBlue\">. Now you try.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useCorrectIncorrectButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "Correctly recites alphabet through at least letter C"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-samplea",
+      "subtestName": "Letter-Number Sequencing",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Demonstration & Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right. I said B&nbsp;&ndash; 1, so you should say 1&nbsp;&ndash; B. The number goes first, then the letter. Let&rsquo;s try some more.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n\r\n<p>&nbsp;<\u002fp>\r\n",
+      "topInstructionsHTML": "<p>Read each Letter&ndash;Number Sequencing trial verbatim at the rate of one number or letter per second, dropping your voice inflection slightly on the last number or letter&nbsp;in the sequence. Pause to allow the child to respond.<\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>I&rsquo;m going to say some numbers and letters. After I say them, you say the number first, then say the letter.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong style=\"color: rgb(2, 149, 165);\">If I say A &ndash; 2, you should say 2 &ndash; A. The number goes first, then the letter.<\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Let&rsquo;s practice: B &ndash; 1.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "useCorrectIncorrectButtonText": true,
+          "scoreButtons": 
+          [
+            {
+              "value": 0,
+              "label": ""
+            },
+            {
+              "value": 1,
+              "label": "1 – B"
+            }
+          ]
+        },
+        "superType": "ListItems",
+        "type": "ScoreButtonList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item1",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>A &ndash; 3<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item1-672",
+          "title": "†Item 1 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "3 – A"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 &ndash; C<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item1-674",
+          "title": "†Item 1 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – C"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>B &ndash; 2<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item1-675",
+          "title": "†Item 1 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – B"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item2",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 &ndash; E<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item2-673",
+          "title": "†Item 2 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "5 – E"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>C &ndash; 4<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item2-676",
+          "title": "†Item 2 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "4 – C"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child does not say the number first, say, <strong><span class=\"speechBlue\">Remember to say the number first, then say the letter.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 &ndash; D<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item2-677",
+          "title": "†Item 2 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – D"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-letternnumbersequencing-sample-b",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-letternnumbersequencing-sample-b",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Demonstration & Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,<span class=\"speechBlue\">&nbsp;<strong>That&rsquo;s not quite right. I said E &ndash; 5 &ndash; A, so&nbsp;you should say 5 &ndash; A &ndash; E. Say the numbers first, in order, starting&nbsp;with the smallest number. Then say the letters in alphabetical&nbsp;order.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\"><strong>Now let&rsquo;s try some with <em>more<\u002fem> numbers and letters. I want you to tell me the numbers first, in order, starting with the smallest number. Then tell me the letters in alphabetical order.<\u002fstrong><\u002fspan><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">If I say 3 &ndash; F &ndash; 2, you should say 2 &ndash; 3 &ndash; F. Say the numbers first, in order, starting with the smallest number. Then say the letters in alphabetical order.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">Let&rsquo;s practice: E &ndash; 5 &ndash; A.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-letternnumbersequencing-sample-b-9670",
+          "title": "Demonstration & Sample Item B Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useCorrectIncorrectButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "5 – A – E"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>That&rsquo;s not quite right. I said 1 &ndash; B &ndash; 2, so you should say 1 &ndash; 2 &ndash; B. Say the numbers first, in order, starting with the smallest number. Then say the letters in alphabetical order.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Let&rsquo;s try another one: 1 &ndash; B &ndash; 2.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-letternnumbersequencing-sample-b-9671",
+          "title": "Sample Item B Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useCorrectIncorrectButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 2 – B"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item3",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Let&rsquo;s try some more: A &ndash; 3 &ndash; 2.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item3-678",
+          "title": "Item 3 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 3 – A    or    A – 2 – 3"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 1 – C<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item3-679",
+          "title": "Item 3 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 4 – C    or    C – 1 – 4"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>F – B – 5<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item3-680",
+          "title": "Item 3 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "5 – B – F    or    B – F – 5"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item4",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Z – U – 9<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item4-681",
+          "title": "Item 4 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "9 – U – Z    or    U – Z – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – 2 – D <\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item4-688",
+          "title": "Item 4 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 8 – D    or    D – 2 – 8"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>C – 5 – Q<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item4-689",
+          "title": "Item 4 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "5 – C – Q    or    C – Q – 5"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item5",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – H – 3<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item5-682",
+          "title": "Item 5 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "3 – 9 – H    or    H – 3 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>J – 6 – N<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item5-690",
+          "title": "Item 5 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "6 – J – N    or    J – N – 6"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – E – 8<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item5-691",
+          "title": "Item 5 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "5 – 8 – E    or    E – 5 – 8"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item6",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – Z – 4 – J <\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item6-683",
+          "title": "Item 6 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 4 – J – Z    or    J – Z – 1 – 4"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>T – 8 – M – 9<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item6-692",
+          "title": "Item 6 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "8 – 9 – M – T    or    M – T – 8 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – A – 2 – G<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item6-693",
+          "title": "Item 6 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 5 – A – G    or    A – G – 2 – 5"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item7",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>U – 1 – G – 7 – X <\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item7-684",
+          "title": "Item 7 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 7 – G – U – X    or    G – U – X – 1 – 7"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – V – 2 – R – 7<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item7-694",
+          "title": "Item 7 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 7 – 8 – R – V    or    R – V – 2 – 7 – 8"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>S – 6 – K – 3 – M<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item7-696",
+          "title": "Item 7 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "3 – 6 – K – M – S    or    K – M – S – 3 – 6"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item8",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – E – 4 – F – 9 – H <\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item8-685",
+          "title": "Item 8 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 4 – 9 – E – F – H    or    E – F – H – 1 – 4 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>J – 2 – P – 5 – F – 6<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item8-697",
+          "title": "Item 8 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 5 – 6 – F – J – P    or    F – J – P – 2 – 5 – 6"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – Q – 6 – M – 3 – Y<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item8-698",
+          "title": "Item 8 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "3 – 6 – 7 – M – Q – Y    or    M – Q – Y – 3 – 6 – 7"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item9",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>S – 2 – K – 4 – Y – 1 – G<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item9-686",
+          "title": "Item 9 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 2 – 4 – G – K – S – Y    or    G – K – S – Y – 1 – 2 – 4"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – S – 9 – K – 1 – T – 6<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item9-699",
+          "title": "Item 9 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 6 – 7 – 9 – K – S – T    or    K – S – T – 1 – 6 – 7 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>N – 2 – J – 6 – R – 8 – V<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item9-700",
+          "title": "Item 9 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 6 – 8 – J – N – R – V    or    J – N – R – V – 2 – 6 – 8"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-lns-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/letter-number_sequencing/wisc-v-commercialization-lns-item10",
+      "subtestName": "Letter-Number Sequencing",
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "trials": 
+      [
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – X – 9 – R – 1 – M – 7 – H<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item10-687",
+          "title": "Item 10 Trial 1",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 4 – 7 – 9 – H – M – R – X    or    H – M – R – X – 1 – 4 – 7 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>W – 2 – X – 9 – A – 6 – Z – 4<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item10-701",
+          "title": "Item 10 Trial 2",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "2 – 4 – 6 – 9 – A – W – X – Z    or    A – W – X – Z – 2 – 4 – 6 – 9"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        },
+        {
+          "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – P – 1 – Y – 4 – K – 7 – W<\u002fstrong><\u002fspan><\u002fp>",
+          "promptBlocks": 
+          [
+          ],
+          "id": "wisc-v-commercialization-lns-item10-702",
+          "title": "Item 10 Trial 3",
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "1 – 2 – 4 – 7 – K – P – W – Y    or    K – P – W – Y – 1 – 2 – 4 – 7"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "usesStims": false
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 1,
+    "description": "Discontinue after score of 0 on either qualifying item or score of 0 on all 3 trials of an item.",
+    "countsDemoItems": true
+  },
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-lns-alphabet",
+        "wisc-v-commercialization-lns-counting"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "RR",
+      "guid": "7591817fc639410ead8f465069bb241c",
+      "abbreviation": "rr"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

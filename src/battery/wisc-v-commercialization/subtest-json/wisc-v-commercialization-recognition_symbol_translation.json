@@ -1,0 +1,2778 @@
+{
+  "subtestId": 763,
+  "subtestGUID": "86f250402a4945bfa5ed7a39677f06c7",
+  "title": "Recognition Symbol Translation",
+  "displayName": "Recognition Symbol Translation",
+  "abbr": "rst",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 20,
+        "maxDelayMinutes": 30,
+        "timerMetadata": 
+        [
+          {
+            "duration": 99,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "expire"
+          },
+          {
+            "duration": 10,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "ready"
+          },
+          {
+            "duration": 20,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "wait"
+          }
+        ]
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "3525b77e4a674818a378cfda7d467d4a",
+            "subtestName": "Immediate Symbol Translation",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Symbol Translation",
+    "averageDuration": 5,
+    "descriptionCS": "FPO"
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item01",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item01",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Now I am going to show you a picture and read a list of words. When I am done, tell me which word goes with the picture.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">THE &hellip; AND &hellip; EAT &hellip; WIND<\u002fspan><\u002fstrong> (pronounced wĭnd)<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item02",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item02",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">BOY &hellip; DOG &hellip; AND &hellip; MOM<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Boy",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dog",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mom",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item03",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item03",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>HEAR &hellip; EAT &hellip; WIND<\u002fstrong><\u002fspan> (pronounced wĭnd) <span class=\"speechBlue\"><strong>&hellip; AND<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item04",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item04",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">MOM &hellip; DOG &hellip; BOY &hellip; THE<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dog",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Boy",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item05",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item05",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>AND &hellip; THE &hellip; MOM &hellip; HEAR<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Mom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item06",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item06",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>EAT &hellip; BOY &hellip; THE &hellip; HEAR<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Boy",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item07",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item07",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">BOY &hellip; WIND<\u002fspan><\u002fstrong> (pronounced wĭnd) <span class=\"speechBlue\"><strong>&hellip; DOG &hellip; EAT<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Boy",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Dog",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item08",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item08",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>MOM &hellip; DOG &hellip; HEAR &hellip; WIND<\u002fstrong><\u002fspan> (pronounced wĭnd)<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Dog",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item09",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item09",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>FEEL &hellip; SLEEP &hellip; EAT &hellip; HEAR<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sleep",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Feel",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item10",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say,&nbsp;<strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>WATER &hellip; WIND<\u002fstrong><\u002fspan> (pronounced wĭnd) <strong><span class=\"speechBlue\">&hellip; SAND &hellip; PEOPLE<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Water",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "People",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sand",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item11",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>IS or ARE &hellip; ON &hellip; THE &hellip; IN<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "On",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "In",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Is or Are",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item12",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>DOG &hellip; PEOPLE &hellip; SAND &hellip; WATER<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Dog",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Sand",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "People",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item13",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>IN &hellip; IS or ARE &hellip; AND &hellip; ON<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "In",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Is or Are",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "On",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item14",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>FEEL &hellip; HEAR &hellip; IS or ARE &hellip; SLEEP<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Feel",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Is or Are",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sleep",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item15",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>ON &hellip; THE &hellip; IN &hellip; AND<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "On",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "The",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "And",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "In",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item16",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>SAND &hellip; WATER &hellip; PEOPLE &hellip; WIND&nbsp;<\u002fstrong><\u002fspan>(pronounced wĭnd)<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sand",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "People",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Wind",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Water",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item17",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say,&nbsp;<strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>HEAR &hellip; WE &hellip; HOUSE &hellip; IS or ARE<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Hear",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "House",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Is or Are",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "We",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item18",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>IN &hellip; BESIDE &hellip; WITH &hellip; UNDER<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "In",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Beside",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Under",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "With",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item19",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>WATER &hellip; PEOPLE &hellip; SUN &hellip; HOUSE<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Water",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "People",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Sun",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "House",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item20",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say,&nbsp;<strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>SEE &hellip; HAS or HAVE &hellip; IS or ARE &hellip; FEEL<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "See",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Is or Are",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Feel",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Has or Have",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item21",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>BESIDE &hellip; WITH &hellip; UNDER &hellip; IN<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "With",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Under",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "In",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Beside",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item22",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item22",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 22",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say,&nbsp;<strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>SEE &hellip; EAT &hellip; HAS or HAVE &hellip; SLEEP<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Eat",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Has or Have",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Sleep",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "See",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item23",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item23",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 23",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>WITH &hellip; ON &hellip; BESIDE &hellip; UNDER<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "With",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "On",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Beside",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Under",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item24",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item24",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 24",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>MOM &hellip; BOY &hellip; SUN &hellip; SAND<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Mom",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Boy",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Sand",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Sun",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item25",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item25",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 25",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>WE &hellip; SEE &hellip; HOT &hellip; ABOUT<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "We",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "See",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "About",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Hot",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item26",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item26",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 26",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>ADD &ndash;<em>ing<\u002fem>&nbsp;SOUND&nbsp;&hellip; make&nbsp;PLURAL &hellip; make&nbsp;PAST TENSE &hellip; make&nbsp;FUTURE TENSE<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "add –ing (Sound)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Past Tense",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Future Tense",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Plural",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item27",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item27",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 27",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>YESTERDAY &hellip; BOOK &hellip; PEOPLE &hellip; FOOD<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Book",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "People",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Food",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Yesterday",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item28",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item28",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 28",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>make&nbsp;PAST TENSE &hellip; ADD &ndash;<em>ing<\u002fem>&nbsp;SOUND &hellip; ADD &ndash;<em>ee<\u002fem>&nbsp;SOUND &hellip; make FUTURE TENSE<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Past Tense",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "add –ing (Sound)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "add –ee (Sound)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Future Tense",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item29",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item29",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 29",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>BOOK &hellip; SAND &hellip; FOOD &hellip; WATER<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Book",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Sand",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Water",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Food",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item30",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item30",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 30",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">make PAST TENSE &hellip; make FUTURE TENSE &hellip; make PLURAL &hellip; ADD &ndash;<em>ee<\u002fem>&nbsp;SOUND<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Future Tense",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Plural",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "add –ee (Sound)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Past Tense",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item31",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item31",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 31",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>UNDER &hellip; ABOUT &hellip; ON &hellip; WITH<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Under",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "On",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "With",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "About",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item32",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item32",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 32",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>make FUTURE TENSE &hellip; ADD &ndash;<em>ee<\u002fem>&nbsp;SOUND &hellip; make PLURAL &hellip; ADD &ndash;<em>ing<\u002fem>&nbsp;SOUND<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "(make) Future Tense",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "add –ee (Sound)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Plural",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "add –ing (Sound)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item33",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item33",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 33",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong> This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>BOOK &hellip; HOUSE &hellip; FOOD &hellip; YESTERDAY<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "House",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Food",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "Yesterday",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "Book",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates3-item34",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/recognition_symbol_translation/wisc-v-commercialization-paired-associates3-item34",
+      "subtestName": "Recognition Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 34",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say,&nbsp;<strong><span class=\"speechBlue\">Which word goes with this picture?<\u002fspan><\u002fstrong>&nbsp;This instruction may be shortened or eliminated when the child understands the task.<\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>ADD &ndash;<em>ing<\u002fem>&nbsp;SOUND &hellip; make PAST TENSE &hellip; make PLURAL &hellip; ADD &ndash;<em>ee<\u002fem>&nbsp;SOUND<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "add –ing (Sound)",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Past Tense",
+                  "triggersQuery": false
+                },
+                {
+                  "text": "(make) Plural",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "text": "add –ee (Sound)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "LinkedCumulativeDiscontinueRule": {
+    "sourceSubtest": {
+      "id": 762
+    },
+    "stoppingPoints": 
+    [
+      {
+        "title": "Item 8",
+        "questionId": "wisc-v-commercialization-paired-associates3-item08",
+        "linkedTitle": "Item 6",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item06"
+      },
+      {
+        "title": "Item 16",
+        "questionId": "wisc-v-commercialization-paired-associates3-item16",
+        "linkedTitle": "Item 10",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item10"
+      },
+      {
+        "title": "Item 24",
+        "questionId": "wisc-v-commercialization-paired-associates3-item24",
+        "linkedTitle": "Item 14",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item14"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

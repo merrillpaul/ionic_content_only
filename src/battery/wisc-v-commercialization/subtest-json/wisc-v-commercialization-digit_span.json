@@ -1,0 +1,2682 @@
+{
+  "subtestId": 772,
+  "subtestGUID": "17042167f1214aed8eb567efbd21095c",
+  "title": "Digit Span",
+  "displayName": "Digit Span",
+  "abbr": "ds",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/digit_span",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Working Memory",
+    "averageDuration": 10,
+    "descriptionCS": "For Digit Span Forward, the child repeats numbers in the same order as read aloud by the examiner. For Digit Span Backward, the child repeats numbers in the reverse order of that presented aloud by the examiner."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Forward",
+      "abbr": "dsf",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-digitspan-forward1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward1",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">I&rsquo;m going to say some numbers. Listen carefully, I can only say them one time. When I stop, you say them back to me in the same order. Just say what I say.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Read each Digit Span trial verbatim at the rate of one digit per second, dropping your voice inflection slightly on the last digit in the sequence. Pause to allow the child to respond.<\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">2 &ndash; 9<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward1-1",
+              "title": "Forward Item 1 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward1-2",
+              "title": "Forward Item 1 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 – 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward2",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 &ndash; 9 &ndash; 6<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward2-592",
+              "title": "Forward Item 2 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 – 9 – 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 – 5 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward2-599",
+              "title": "Forward Item 2 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 5 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward3",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – 4 – 1 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward3-593",
+              "title": "Forward Item 3 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 – 4 – 1 – 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 1 – 6 – 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward3-602",
+              "title": "Forward Item 3 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "9 – 1 – 6 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward4",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – 2 – 1 – 9 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward4-594",
+              "title": "Forward Item 4 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 – 2 – 1 – 9 – 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – 2 – 3 – 4 – 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward4-603",
+              "title": "Forward Item 4 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 – 2 – 3 – 4 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward5",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 &ndash; 7 &ndash; 3 &ndash; 6 &ndash; 4 &ndash; 8<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward5-595",
+              "title": "Forward Item 5 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 – 7 – 3 – 6 – 4 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 – 8 – 4 – 1 – 7 – 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward5-604",
+              "title": "Forward Item 5 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 – 8 – 4 – 1 – 7 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward6",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 1 – 8 – 9 – 4 – 3 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward6-596",
+              "title": "Forward Item 6 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 1 – 8 – 9 – 4 – 3 – 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – 8 – 5 – 2 – 1 – 6 – 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward6-605",
+              "title": "Forward Item 6 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 – 8 – 5 – 2 – 1 – 6 – 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward7",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 8 – 4 – 2 – 7 – 5 – 3 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward7-597",
+              "title": "Forward Item 7 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 8 – 4 – 2 – 7 – 5 – 3 – 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 &ndash; 7 &ndash; 9 &ndash; 6 &ndash; 3 &ndash; 1 &ndash; 4 &ndash; 8<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward7-606",
+              "title": "Forward Item 7 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 7 – 9 – 6 – 3 – 1 – 4 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward8",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – 2 – 6 – 1 – 9 – 4 – 8 – 3 – 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward8-600",
+              "title": "Forward Item 8 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 – 2 – 6 – 1 – 9 – 4 – 8 – 3 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 3 – 8 – 9 – 1 – 7 – 5 – 6 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward8-601",
+              "title": "Forward Item 8 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 – 3 – 8 – 9 – 1 – 7 – 5 – 6 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-forward9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-forward9",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Forward Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 – 2 – 5 – 3 – 1 – 9 – 8 – 5 – 4 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward9-10434",
+              "title": "Forward Item 9 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 2 – 5 – 3 – 1 – 9 – 8 – 5 – 4 – 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 4 – 3 – 8 – 7 – 5 – 2 – 9 – 6 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-forward9-10435",
+              "title": "Forward Item 9 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "9 – 4 – 3 – 8 – 7 – 5 – 2 – 9 – 6 – 1"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 1,
+        "description": "Discontinue after score of 0 on qualifying item or score of 0 on both trials of an item.",
+        "countsDemoItems": true
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Backward",
+      "abbr": "dsb",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-digitspan-sample",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sample",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Sample Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,<strong> <span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s not quite right. I said 9 &ndash; 4, so to say them backward, you should say<\u002fstrong><\u002fspan> <span class=\"speechBlue\"><strong>4 &ndash; 9.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "topInstructionsHTML": "<p class=\"ADTX1\">Say, <strong><span class=\"speechBlue\">Now I&rsquo;m going to say some more numbers, but this time when I stop, you say the numbers backward.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span class=\"speechBlue\">If I say 9 &ndash; 4, what would you say?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sample-607",
+              "title": "Backward Sample Item Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response<\u002fstrong><strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. I said 5 &ndash; 6, so to say&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">them backward, you should say 6 &ndash; 5. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\"><strong>Let&rsquo;s try another one. Remember to say them backward: 5 &ndash; 6.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sample/wisc-v-commercialization-digitspan-sample-608Prompts.html"
+                }
+              ],
+              "id": "wisc-v-commercialization-digitspan-sample-608",
+              "title": "Backward Sample Item Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward1",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward1/wisc-v-commercialization-digitspan-backward1-609Prompts.html"
+                }
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward1-609",
+              "title": "Backward Item 1 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 3 <\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward1-610",
+              "title": "Backward Item 1 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 – 1"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward2",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 – 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward2-611",
+              "title": "Backward Item 2 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "9 – 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward2-612",
+              "title": "Backward Item 2 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward3",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 3 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward3-614",
+              "title": "Backward Item 3 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 3 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – 4 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward3-615",
+              "title": "Backward Item 3 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 4 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward4",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 5 – 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward4-616",
+              "title": "Backward Item 4 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 – 5 – 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 7 – 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward4-617",
+              "title": "Backward Item 4 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "5 – 7 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspanbackward-item5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspanbackward-item5",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – 4 – 5 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspanbackward-item5-11040",
+              "title": "Backward Item 5 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 5 – 4 – 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 3 – 8 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspanbackward-item5-11041",
+              "title": "Backward Item 5 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 8 – 3 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward6",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 1 – 7 – 9 – 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward6-619",
+              "title": "Backward Item 6 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 – 9 – 7 – 1 – 2"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – 6 – 3 – 8 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward6-620",
+              "title": "Backward Item 6 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 – 8 – 3 – 6 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward7",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 6 – 4 – 7 – 5 – 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward7-621",
+              "title": "Backward Item 7 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "8 – 5 – 7 – 4 – 6 – 1"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 – 3 – 7 – 2 – 9 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward7-622",
+              "title": "Backward Item 7 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 9 – 2 – 7 – 3 – 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward8",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – 1 – 5 – 2 – 4 – 3 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward8-623",
+              "title": "Backward Item 8 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 3 – 4 – 2 – 5 – 1 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 3 – 7 – 9 – 2 – 8 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward8-624",
+              "title": "Backward Item 8 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 8 – 2 – 9 – 7 – 3 – 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-backward9",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-backward9",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Backward Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 – 1 – 7 – 9 – 4 – 6 – 8 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward9-625",
+              "title": "Backward Item 9 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 8 – 6 – 4 – 9 – 7 – 1 – 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 8 – 1 – 6 – 3 – 2 – 4 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-backward9-626",
+              "title": "Backward Item 9 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "7 – 4 – 2 – 3 – 6 – 1 – 8 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 1,
+        "description": "Discontinue after score of 0 on qualifying item or score of 0 on both trials of an item.",
+        "countsDemoItems": true
+      }
+    },
+    {
+      "shouldSuppressCoverSheet": false,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sequencing",
+      "abbr": "dss",
+      "isUsingCustomSpeechBubble": true,
+      "baseUrl": "battery/wisc-v-commercialization/digit_span/sequencing",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence_qa",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_qa",
+          "subtestName": "Digit Span",
+          "usesStims": false,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Qualifying Item",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Demo",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Continue administration.<\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p class=\"p1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Proceed according to&nbsp;the instructions that follow.<\u002fp>\r\n",
+          "topInstructionsHTML": "<p class=\"p1\">Say,<strong>&nbsp;<span class=\"speechBlue\">Count to five out loud so I can hear you.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">If it appears that the child does not understand, say,<strong>&nbsp;<span class=\"speechBlue\">Count, like this, 1...2...<\u002fspan>&nbsp;<\u002fstrong>(pause between each number)<strong><span class=\"speechBlue\">. Now you try.<\u002fspan>&nbsp;<\u002fstrong>Allow the child to respond.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "useCorrectIncorrectButtonText": true,
+              "scoreButtons": 
+              [
+                {
+                  "value": 0,
+                  "label": ""
+                },
+                {
+                  "value": 1,
+                  "label": "[correctly counts to at least 3]"
+                }
+              ]
+            },
+            "superType": "ListItems",
+            "type": "ScoreButtonList"
+          },
+          "contextualEventBtn": 
+          [
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence_sa",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_sa",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Sample Item A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<span class=\"speechBlue\"><strong>That&rsquo;s right.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. I said 3 &ndash; 1. To say&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">them in order, starting with the smallest number, you should&nbsp;<\u002fspan><span class=\"speechBlue\">say 1 &ndash; 3.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "topInstructionsHTML": "<p class=\"p1\">Say,&nbsp;<strong><span class=\"speechBlue\">Now I&rsquo;m going to say some more numbers, but this time when&nbsp;<\u002fspan><span style=\"color: rgb(2, 149, 165);\">I stop, you say the numbers in order, starting with the smallest&nbsp;<\u002fspan><span class=\"speechBlue\">number.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><strong><span style=\"color: rgb(2, 149, 165);\">If I say 3 &ndash; 1, what would you say?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence_sa-10436",
+              "title": "Sequencing Sample Item A Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s right.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. I said 8 &ndash; 6. To say them in order, starting with the smallest number, you should say 6 &ndash; 8.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Let&rsquo;s try another one: 8 &ndash; 6.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_sa/wisc-v-commercialization-digitspan-sequence_sa-10437Prompts.html"
+                }
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence_sa-10437",
+              "title": "Sequencing Sample Item A Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "6 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence_sb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_sb",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Sample Item B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say,<strong> <\u002fstrong><span class=\"speechBlue\"><strong>That&rsquo;s right.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. I said 5 &ndash; 2 &ndash; 4. To say them in order, starting with the smallest number, you should say 2 &ndash; 4 &ndash; 5.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Let&rsquo;s try another one: 5 &ndash; 2 &ndash; 4.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_sb/wisc-v-commercialization-digitspan-sequence_sb-10438Prompts.html"
+                }
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence_sb-10438",
+              "title": "Sequencing Sample Item B Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 4 – 5"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "correctInstructionsHTML": "<p class=\"p1\"><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">Say, <strong><span class=\"speechBlue\">That&rsquo;s right. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"p1\">&nbsp;<\u002fp>\r\n",
+              "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">That&rsquo;s not quite right. I said 4 &ndash; 3 &ndash; 3. To say them in order, starting with the smallest number, you should say 3 &ndash; 3 &ndash; 4. You may have to say the same number more than one time. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Let&rsquo;s try another one: 4 &ndash; 3&nbsp;&ndash; 3.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+                {
+                  "minAge": null,
+                  "maxAge": null,
+                  "filepath": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence_sb/wisc-v-commercialization-digitspan-sequence_sb-10439Prompts.html"
+                }
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence_sb-10439",
+              "title": "Sequencing Sample Item B Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "useCorrectIncorrectButtonText": true,
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "3 – 3 – 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence1",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence1",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence1-10440",
+              "title": "Sequencing Item 1 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 4"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence1-10441",
+              "title": "Sequencing Item 1 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 3"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence2",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence2",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>5 – 2 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence2-10442",
+              "title": "Sequencing Item 2 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 5 – 7"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 8 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence2-10443",
+              "title": "Sequencing Item 2 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 6 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence3",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence3",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>7 – 5 – 8 – 1<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence3-10444",
+              "title": "Sequencing Item 3 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 5 – 7 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 2 – 9 – 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence3-10445",
+              "title": "Sequencing Item 3 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 3 – 4 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence4",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence4",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 5 – 6 – 2 – 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence4-10446",
+              "title": "Sequencing Item 4 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 2 – 5 – 6 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 8 – 4 – 7 – 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence4-10447",
+              "title": "Sequencing Item 4 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 4 – 7 – 8 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence5",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence5",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 – 3 – 6 – 1 – 5<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence5-10448",
+              "title": "Sequencing Item 5 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 3 – 3 – 5 – 6"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>4 – 9 – 4 – 6 – 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence5-10449",
+              "title": "Sequencing Item 5 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "4 – 4 – 6 – 9 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence6",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence6",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>8 – 5 – 2 – 5 – 3 – 7<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence6-10450",
+              "title": "Sequencing Item 6 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 3 – 5 – 5 – 7 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 – 1 – 4 – 7 – 9 – 3<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence6-10451",
+              "title": "Sequencing Item 6 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 –  3 – 4 – 6 – 7 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence7",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence7",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 7 – 9 – 6 – 2 – 6 – 8<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence7-10452",
+              "title": "Sequencing Item 7 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 6 – 6 – 7 – 8 – 9 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>3 &ndash; 1 &ndash; 7 &ndash; 5 &ndash; 1 &ndash; 8 &ndash; 5<\u002fstrong><\u002fspan><\u002fp>\r\n",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence7-10453",
+              "title": "Sequencing Item 7 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 1 – 3 – 5 – 5 – 7 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-digitspan-sequence8",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-digitspan-sequence8",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>6 – 9 – 6 – 2 – 1 – 3 – 7 – 9<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence8-10454",
+              "title": "Sequencing Item 8 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 2 – 3 – 6 – 6 – 7 – 9 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>1 – 4 – 8 – 5 – 4 – 8 – 7 – 4<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-digitspan-sequence8-10455",
+              "title": "Sequencing Item 8 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 4 – 4 – 4 – 5 – 7 – 8 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        },
+        {
+          "id": "wisc-v-commercialization-dss_09",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/digit_span/wisc-v-commercialization-dss_09",
+          "subtestName": "Digit Span",
+          "shouldShowStimTouches": false,
+          "isWritingRequired": true,
+          "title": "Sequencing Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "trials": 
+          [
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>2 – 5 – 7 – 7 – 4 – 8  – 7 – 5 – 2<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-dss_09-11066",
+              "title": "Sequencing Item 9 Trial 1",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "2 – 2 – 4 – 5 – 5 – 7  – 7 – 7 – 8"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            },
+            {
+              "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>9 – 1 – 8 – 3 – 6 – 3  – 9 – 2 – 6<\u002fstrong><\u002fspan><\u002fp>",
+              "promptBlocks": 
+              [
+              ],
+              "id": "wisc-v-commercialization-dss_09-11067",
+              "title": "Sequencing Item 9 Trial 2",
+              "suppressInstructionCard": true,
+              "predefinedBehavior": {
+                "data": {
+                  "scoreButtons": 
+                  [
+                    {
+                      "value": 0,
+                      "label": ""
+                    },
+                    {
+                      "value": 1,
+                      "label": "1 – 2 – 3 – 3 – 6 – 6  – 8 – 9 – 9"
+                    }
+                  ]
+                },
+                "superType": "ListItems",
+                "type": "ScoreButtonList"
+              },
+              "contextualEventBtn": 
+              [
+              ],
+              "usesStims": false
+            }
+          ]
+        }
+      ],
+      "consecutiveZerosDiscontinueRule": {
+        "type": "consecutiveZerosDiscontinueRule",
+        "value": 1,
+        "description": "Discontinue after score of 0 on qualifying item or score of 0 on both trials of an item.",
+        "countsDemoItems": true
+      }
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-digitspan-sequence_qa"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "RR",
+      "guid": "7591817fc639410ead8f465069bb241c",
+      "abbreviation": "rr"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

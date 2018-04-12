@@ -1,0 +1,1690 @@
+{
+  "subtestId": 776,
+  "subtestGUID": "a3a4e1d54a27433a9ccd0f2027cb8b60",
+  "title": "Figure Weights",
+  "displayName": "Figure Weights",
+  "abbr": "fw",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/figure_weights",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": true,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Fluid Reasoning",
+    "averageDuration": 6,
+    "descriptionCS": "Working within a specified time limit, the examinee views a scale with missing weight(s) and selects the response option that keeps the scale balanced."
+  },
+  "itemGroups": 
+  [
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sample A",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-figureweights-samplea",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-samplea",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Item A",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p class=\"ADTX1\"><strong>Correct response<\u002fstrong> [2]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX1\">Say, <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">That&rsquo;s right. This one <\u002fspan><\u002fspan><\u002fstrong>(point to response option 2) <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">is the right color <i>and<\u002fi> the right shape, so you know it weighs the same as the red circle<\u002fspan> <\u002fspan><\u002fstrong>(point to red circle on scale)<strong><span class=\"SPEAKFONT\"><span class=\"speechBlue\">. Let&rsquo;s try some more.<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p class=\"ADTX1\"><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX2\">If the child chooses response option 1, say, <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">That&rsquo;s not quite right. This one<\u002fspan><\u002fspan><\u002fstrong> (point to response option 1) <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">is a different color, so you don&rsquo;t know that it weighs the same as this <\u002fspan><\u002fspan><\u002fstrong>(point to red circle on scale)<strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">. Which one of the others weighs the same as the red circle <\u002fspan><\u002fspan><\u002fstrong><span class=\"ADTX1AChar\">(point to red circle on scale)<\u002fspan><strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">?<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX2\">If the child chooses response option 3, say,<span class=\"speechBlue\"> <strong><span class=\"SPEAKFONT\">That&rsquo;s not quite right. This one <\u002fspan><\u002fstrong><\u002fspan>(point to response option 3) <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">is a different shape, so you don&rsquo;t know that it weighs the same as this <\u002fspan><\u002fspan><\u002fstrong>(point to red circle on scale)<strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">. Which one of the others weighs the same as the red circle <\u002fspan><\u002fspan><\u002fstrong><span class=\"ADTX1AChar\">(point to red circle on scale)<\u002fspan><strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">?<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX2\">If the child chooses response option 4, say, <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">That&rsquo;s not quite right. This one <\u002fspan><\u002fspan><\u002fstrong>(point to response option 4) <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">is a different color <i>and<\u002fi> a different shape, so you don&rsquo;t know that it weighs the same&nbsp;as this <\u002fspan><\u002fspan><\u002fstrong>(point to red circle on scale)<strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">. Which one of the others weighs the same as the red circle <\u002fspan><\u002fspan><\u002fstrong><span class=\"ADTX1AChar\">(point to red circle on scale)<\u002fspan><strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">?<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX2\">If the child chooses response option 5, say, <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">That&rsquo;s not quite right. Two red circles <\u002fspan><\u002fspan><\u002fstrong>(point to response option 5) <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">weigh more than one <\u002fspan><\u002fspan><\u002fstrong>(point to red circle on scale)<strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">. Which one of the others weighs the same as the red circle <\u002fspan><\u002fspan><\u002fstrong><span class=\"ADTX1AChar\">(point to red circle on scale)<\u002fspan><strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">?<\u002fspan><\u002fspan><\u002fstrong><span class=\"SPEAKFONT\"><o:p><\u002fo:p><\u002fspan><\u002fp>\r\n\r\n<p class=\"ADTX1\">Regardless of the child&rsquo;s performance, say, <strong><span class=\"speechBlue\"><span class=\"SPEAKFONT\">Let&rsquo;s try some more.<\u002fspan><\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p class=\"ADTX1\"><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"ADTX1\">Point to the scale and say,<span class=\"SPEAKFONT\">&nbsp;<strong><span class=\"speechBlue\">This scale has one red circle on this side&nbsp;<\u002fspan><\u002fstrong><\u002fspan>(point to red circle on scale)<span class=\"SPEAKFONT\"><strong><span class=\"speechBlue\">,<\u002fspan><\u002fstrong>&nbsp;<strong><span class=\"speechBlue\">but the other side is empty. Which one of&nbsp;these<\u002fspan>&nbsp;<\u002fstrong><\u002fspan>(point across response options)<span class=\"SPEAKFONT\">&nbsp;<strong><span class=\"speechBlue\">weighs the same as the&nbsp;red circle?<\u002fspan><\u002fstrong><\u002fspan><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 1-3",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-figureweights-item1",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item1",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 1",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <span class=\"speechBlue\"><strong>weighs the same as this<\u002fstrong><\u002fspan> (point to left side of scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/figure_weights/items_1-3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item2",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item2",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 2",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <span class=\"speechBlue\"><strong>weighs the same as this<\u002fstrong><\u002fspan> (point to left side of scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/figure_weights/items_1-3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item3",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item3",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 3",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <span class=\"speechBlue\"><strong>weighs the same as this<\u002fstrong><\u002fspan> (point to left side of scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+            {
+              "minAge": null,
+              "maxAge": null,
+              "filepath": "battery/wisc-v-commercialization/figure_weights/items_1-3Prompts.html"
+            }
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Sample B",
+      "abbr": null,
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-figureweights-sampleb",
+          "shouldUseTimer": false,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-sampleb",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Sample Item B",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Sample",
+          "isTeachingItem": true,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "correctInstructionsHTML": "<p><strong>Correct response<\u002fstrong> [2]<strong>:<\u002fstrong><\u002fp>\r\n\r\n<p>Say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s right. The first scale shows that one yellow circle weighs the same as one yellow square. Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child chooses response option 1, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. This scale shows that one yellow circle&nbsp;<\u002fspan><\u002fstrong>(point to yellow circle on first scale)&nbsp;<strong><span class=\"speechBlue\">weighs the same as one yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on first scale)<span class=\"speechBlue\"><strong>. This one&nbsp;<\u002fstrong><\u002fspan>(point to response option 1)&nbsp;<strong><span class=\"speechBlue\">is a different color, so you don&rsquo;t know that<\u002fspan><\u002fstrong> <strong><span class=\"speechBlue\">it weighs the same as this<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)<strong><span class=\"speechBlue\">. Which one of the others weighs the same as the yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on second scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child chooses response option 3, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. This scale shows that one yellow circle&nbsp;<\u002fspan><\u002fstrong>(point to yellow circle on first scale)&nbsp;<strong><span class=\"speechBlue\">weighs the same as one yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on first scale)<strong><span class=\"speechBlue\">. This one<\u002fspan><\u002fstrong>&nbsp;(point to response option 3)&nbsp;<strong><span class=\"speechBlue\">is a different color, so you don&rsquo;t know that it weighs the same as this<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)<strong><span class=\"speechBlue\">. Which one of the others weighs the same as the yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on second scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child chooses response option 4, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. This scale shows that one yellow circle<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)&nbsp;<strong><span class=\"speechBlue\">weighs the same as one yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on first scale)<strong><span class=\"speechBlue\">. This one&nbsp;<\u002fspan><\u002fstrong>(point to response option 4)<strong><span class=\"speechBlue\">&nbsp;is a different shape, so you don&rsquo;t know that it weighs the same as this<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)<strong><span class=\"speechBlue\">. Which one of the others weighs the same as the yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on second scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>If the child chooses response option 5, say,&nbsp;<strong><span class=\"speechBlue\">That&rsquo;s not quite right. This scale shows that one yellow circle<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)&nbsp;<strong><span class=\"speechBlue\">weighs the same as one yellow square<\u002fspan><\u002fstrong>&nbsp;(point to yellow square on first scale)<strong><span class=\"speechBlue\">. Two yellow circles&nbsp;<\u002fspan><\u002fstrong>(point to response option 5)&nbsp;<strong><span class=\"speechBlue\">weigh more than one<\u002fspan><\u002fstrong>&nbsp;(point to yellow circle on first scale)<strong><span class=\"speechBlue\">. Which one of the others weighs the same as the yellow square&nbsp;<\u002fspan><\u002fstrong>(point to yellow square on second scale)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Regardless of the child&rsquo;s performance,&nbsp;say,&nbsp;<strong><span class=\"speechBlue\">Let&rsquo;s try some more.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first scale and say, <strong><span class=\"speechBlue\">This scale shows that one yellow circle<\u002fspan><\u002fstrong> (point to yellow circle) <strong><span class=\"speechBlue\">weighs the same as one yellow square<\u002fspan><\u002fstrong> (point to yellow square)<strong><span class=\"speechBlue\">. This scale<\u002fspan><\u002fstrong> (point to yellow square on scale with question mark) <strong><span class=\"speechBlue\">has one yellow square on this side. Which one of these<\u002fspan><\u002fstrong> (point across response options) <strong><span class=\"speechBlue\">weighs the same as the yellow square?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    },
+    {
+      "shouldSuppressCoverSheet": true,
+      "shouldSuppressScore": false,
+      "isOptional": false,
+      "title": "Items 4-34",
+      "abbr": "Items 4-34",
+      "questions": 
+      [
+        {
+          "id": "wisc-v-commercialization-figureweights-item4",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item4",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 4",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item5",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item5",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 5",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item6",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item6",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 6",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item7",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item7",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 7",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this <\u002fspan><\u002fstrong>(point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item8",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item8",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 8",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item9",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item9",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 9",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item10",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item10",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 10",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item11",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item11",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 11",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item12",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item12",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 12",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item13",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item13",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 13",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this <\u002fspan><\u002fstrong>(point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item14",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item14",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 14",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item15",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item15",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 15",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item16",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item16",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 16",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item17",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item17",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 17",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item18",
+          "shouldUseTimer": true,
+          "maxTime": 20,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item18",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 18",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side&nbsp;of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item19",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item19",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 19",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item20",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item20",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 20",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item21",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item21",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 21",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item22",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item22",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 22",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item23",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item23",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 23",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this&nbsp;<\u002fspan><\u002fstrong>(point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item24",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item24",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 24",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item25",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item25",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 25",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                2
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item26",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item26",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 26",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p class=\"ADTX1\"><span class=\"SPEAKFONT\"><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong>&nbsp;<\u002fspan><\u002fspan>(point across&nbsp;response options)<span class=\"SPEAKFONT\">&nbsp;<strong><span class=\"speechBlue\">weighs the same as this&nbsp;<\u002fspan><\u002fstrong><\u002fspan>(point to left side&nbsp;of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p class=\"ADTX1\">The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item27",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item27",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "**Item 27",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>**Say, <strong><span class=\"speechBlue\">Now you need to look at <em>all three scales<\u002fem> to find the right answer. Which one of these<\u002fspan><\u002fstrong> (point across response options) <span class=\"speechBlue\"><strong>weighs the same as this<\u002fstrong><\u002fspan> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item28",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item28",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 28",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                3
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item29",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item29",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 29",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item30",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item30",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 30",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item31",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item31",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 31",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item32",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item32",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 32",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this <\u002fspan><\u002fstrong>(point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                1
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item33",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item33",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 33",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                4
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        },
+        {
+          "id": "wisc-v-commercialization-figureweights-item34",
+          "shouldUseTimer": true,
+          "maxTime": 30,
+          "warningTime": null,
+          "forceReloadBefore": false,
+          "baseUrl": "battery/wisc-v-commercialization/figure_weights/wisc-v-commercialization-figureweights-item34",
+          "subtestName": "Figure Weights",
+          "usesStims": true,
+          "shouldShowStimTouches": false,
+          "isWritingRequired": false,
+          "title": "Item 34",
+          "nameElements": 
+          [
+          ],
+          "questionType": "Score",
+          "isTeachingItem": false,
+          "useTimedSwitch": false,
+          "isShowInstruction": true,
+          "useDashboard": false,
+          "hideStimWhenLeavingItem": false,
+          "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p><span class=\"speechBlue\"><strong>Which one of these<\u002fstrong><\u002fspan> (point across response options) <strong><span class=\"speechBlue\">weighs the same as this<\u002fspan><\u002fstrong> (point to left side of scale with question mark)<strong><span class=\"speechBlue\">?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+          "promptBlocks": 
+          [
+          ],
+          "suppressInstructionCard": true,
+          "predefinedBehavior": {
+            "data": {
+              "numTiles": 5,
+              "correctIndices": 
+              [
+                5
+              ]
+            },
+            "superType": null,
+            "type": "SvgImageList"
+          },
+          "contextualEventBtn": 
+          [
+          ],
+          "useSvgStim": true,
+          "imageExtension": "svg"
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-figureweights-samplea",
+      "skipToQuestionID": "wisc-v-commercialization-figureweights-sampleb",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

@@ -1,0 +1,2974 @@
+{
+  "subtestId": 761,
+  "subtestGUID": "166912f8c136496683eca7808acf41cd",
+  "title": "Information",
+  "displayName": "Information",
+  "abbr": "in",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/information",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Verbal Comprehension",
+    "averageDuration": 5,
+    "descriptionCS": "The child answers questions that address a broad range of general knowledge topics."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-information-foot",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-foot",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1. Foot",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\"><strong>Show me your foot.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Any other response]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Touches, points to, or otherwise indicates own or examiner’s foot/feet]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "9d823101eddc441ca358e13f2a6dc3a1",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-ear",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-ear",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2. Ear",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Show me your ear.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Any other response]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Touches, points to, or otherwise indicates own or examiner’s ear(s)]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "2cd5d44a63ba41b5a07b086cd2d3ac52",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-eat",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-eat",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 3. Eat",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Name something you eat.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Drink; Juice; Smoothie*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Food; Plants; Animals",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Grass",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Chinese; Italian; [Names ethnicity sometimes associated with a particular type of food]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Dirt; Rocks; [Names something inedible]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hay",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Apple; Meat; Cereal; Fruit; [Names <em>specific<\u002fem> food typically eaten by humans]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Breakfast; Lunch; Dinner; Snack",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "62641906cc7d4e9da66a366c250d1593",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-think",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-think",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4. Think",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What body part do people use to think?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Nervous system",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Skull",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Touches, points to, or otherwise indicates different part of own or examiner’s body]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Heart",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Brain",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Mind",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Touches, points to, or otherwise indicates own or examiner’s head]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Head",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-legs",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-legs",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5. Legs",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How many legs does a cat have?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Verbally or physically indicates any other number]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Verbally or physically indicates four]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-bird",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-bird",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6. Bird",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Name a kind of bird.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Points to bird]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Big Bird; [Names fictional bird]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Blue; Red; Black; Brown; Pink; Orange; Gold; Green; [Names color]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Pecking; Talking; [Names behavior of a well-known type of bird]",
+                  "triggersQuery": true
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Robin; Sparrow; Cardinal; Hummingbird; Finch; Mockingbird; Blue Jay; Swallow; [Names type of bird]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hawk; Eagle; Condor; [Names bird of prey]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Bluebird; Redbird; Blackbird",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Canary; Cockatiel; Parrot; Parakeet; [Names bird commonly kept as pet]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Penguin; Ostrich; Dodo; [Names non-flying or extinct bird]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-thursday",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-thursday",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 7. Thursday",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What day comes right <em>after<\u002fem> Thursday?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Yesterday; Today; Tomorrow*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other day]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Friday",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "a2783dcdb8914a4f8cc47053d47ff343",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-tree",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-tree",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 8. Tree",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <span class=\"speechBlue\"><strong>Name a kind of tree.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Touches, points to, or otherwise indicates tree]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Christmas tree; Money tree; [Names fictional or symbolic tree]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Orchard",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Paper; Furniture; [Names tree by-product]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Vegetable",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Spring; Fall; Winter; Summer",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Oak; Cedar; Spruce; Elm; Aspen; Willow; Birch; Pine; Maple; Mesquite; Pecan; Hemlock; Sequoia; Dogwood; Redwood; Cottonwood; Hickory; Cypress; Chestnut; Walnut; [Names specific type of tree]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Apple; Pear; Peach; Orange; Crabapple; Palm; Coconut; [Names specific fruit tree]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Evergreen; Deciduous; Conifer; [Names general category of tree]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fruit; Citrus; Ornamental",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "†Teaching",
+          "guid": "85bc3d16cf9846eb90d46d04d913cbb1",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-june",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-june",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*†Item 9. June",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What month comes right <em>after<\u002fem> June?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Last, This, Next) month*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other month]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Names day of week]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "July",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "ed7b11d71b7248968d1531442e91b02d",
+          "abbreviation": "sq",
+          "isPopover": true
+        },
+        {
+          "name": "†Teaching",
+          "guid": "6497e3b72fa343379ef261f293bda03a",
+          "abbreviation": "tc",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-space",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-space",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 10. Space",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Name something in outer space that was not made by people.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-space/wisc-v-commercialization-information-spacePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "People; Astronauts*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names fictional outer space feature]*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Aliens; Extraterrestrials*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Life; Life forms; Possible life forms*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Flying saucer; Unidentified flying object; UFO*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Water; Ice",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Meteor; Meteorite",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Craters",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Clouds",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Plants",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Gravity",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Space station; Satellite; Space junk",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Aurora; Aurora borealis",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Space shuttle; Spacecraft; Spaceship; Rocket",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Airplanes",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Sun; Moon",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Solar system",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Star; Constellation; Patterns of the stars",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Polaris; Betelgeuse; North star; [Names specific star]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Planet; Planetoid",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Earth; Mercury; Venus; Mars; [Names specific planet]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Galaxy; Galaxies",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Milky Way; Andromeda; [Names specific galaxy]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Comet; Asteroids; Asteroid belt; Meteoroid",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Pluto",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Black hole; Supernova",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Matter; Antimatter",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Universe",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Elements; Gases",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "12f327f0aa394102900b17e836452c06",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-strings",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-strings",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11. Strings",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Name something with strings that is used to make music.<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Instrument",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "An orchestra; A band",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Drum; Cymbals; Bell; Xylophone; Whistle; Castanets; [Names any stringless musical instrument]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "<em>Glass<\u002fem> harp",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Voice; Singing",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Accordion; Harmonica; Pitch pipe; [Names musical wind instrument]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Keyboard",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Organ",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Guitar; Electric guitar; Banjo",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Violin; Viola; Cello",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Bass guitar; Bass",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Sitar; Mandolin",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Piano; Hammered dulcimer; [Names stringed percussion musical instrument]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Harp; Autoharp",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Names any stringed musical instrument]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-message",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-message",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12. Message",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What do people use to send a fast message to someone far away?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Mail; Letter; Note; Message",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names express package delivery service]",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Messenger service",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Radio",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Mouth; Yelling; Talk; Talking",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Fire",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Speech; Language",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Carrier pigeon",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Telegram",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Mailbox; Envelope; Stamp",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Phone; (Cellular, Cell, Mobile) phone; Telephone; Cell",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Personal webpage or application; [Names social-networking service]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Call, Text) them",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Smoke signal; Signal",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Phone call; Text; Text message",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Walkie-talkie; Radio (transmission, signal); CB; Short wave radio",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Computer; Email",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Telegraph",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Instant message; I.M.; [Names instant messaging provider]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fax; Fax machine",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Internet; Cyberspace; Video chat; [Names video chat provider]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-hours",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-hours",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 13. Hours",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How many hours are in a day?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "12; [Verbally or physically indicates 12]*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Counts to less than 24]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Verbally or physically indicates any other number]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "A lot; Many",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "24; [Verbally or physically indicates 24]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Counts to 24]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "9a678607e11840bdbc4867a537e4784b",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-directions",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-directions",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 14. Directions",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What are the four main directions on a map?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Names fewer than four directions]*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Up; Down; Right; Left",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "San Diego; Texas; [Names city or state that appears on maps]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Forward; Backward",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "North, South, East, and West; [Names <em>all<\u002fem> four directions]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "2fb7f5328f1d4551bb34b35af0e1372e",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-socks",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-socks",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15. Socks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What are most socks made of?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Yarn",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Elastic; Latex",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Sew, Knit, Weave) them",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Thread; String",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Plants; Sheep",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Ribbon",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Leather; Fur",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Synthetics; Polyester; Nylon; Fleece; [Names synthetic material commonly used to make socks]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Cotton; Wool; [Names natural material commonly used to make socks]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Fabric; Material; Cloth",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Elastic <em>and<\u002fem> (fabric, material, cloth)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-heart",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-heart",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16. Heart",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What does the heart do for our bodies?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Part of circulatory system",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Blood; Blood goes there; (For, Makes) blood",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Pumps",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "It’s an organ",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Beats; Beats a lot; Makes sounds; Thumps; Races",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "It's part of the body",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Keeps you alive",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Keeps you healthy",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Helps you breathe",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Gives you energy",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Loves; Breaks; Can break it",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Has attacks",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Pumps blood; (Pumps, Moves) blood through the (blood vessels, body)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Receives deoxygenated blood from the body",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Pumps blood to the body; Pumps oxygenated blood to the body",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Receives oxygenated blood from the lungs",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Pumps deoxygenated blood into the lungs",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Returns blood to the body; Returns oxygenated blood to the body",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Processes blood; Makes blood ready for the body",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Keeps blood (flowing, circulating)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-days",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-days",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 17. Days",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How many days are in a year?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "366*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other number]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "365; 365 1⁄4; [365 with any fraction or decimal]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "365 except in a leap year there’s 366",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "44176cf12c884483a149f8b30ec884d9",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-oxygen",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-oxygen",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18. Oxygen",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How is oxygen returned to the air?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Evaporation",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Rain; Clouds; Water",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Respiration; Breathing; Exhaling; Through your lungs",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Carbon dioxide",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "People; Our bodies; Your heart",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Air pump",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Photosynthesis",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Plants; Trees; Leaves; Flowers",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Cyanobacteria",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-earthquake",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-earthquake",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 19. Earthquakes",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What causes earthquakes?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Names or indicates religious or mythical figure]*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tectonic plates; Plates",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Boundaries colliding",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Pressure; Pressure (build-up, release)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Volcanoes; Magma; Lava; Liquid rock",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(Ground, Land, Earth) movement",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Cracking; Cracks; Ruptures; Breaks",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Move; Rub; Grind; Shift",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tsunamis; Tidal waves",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Earth; Mountains",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Water",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Heat; Fire",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Tornadoes; Hurricanes; Storms",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Asteroids; Comets; Meteors",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Wind; Air",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Clouds",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Tectonic (shifts, movement, grinding); Plate tectonics",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Two (land masses, pieces of land, parts of the Earth) (move against each other, rub together, spread apart)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Pressure build-up in the Earth’s crust; Pressure builds up and releases in the Earth’s crust",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Movement caused by (volcanoes, magma, lava, liquid rock, melted rock); Volcanic eruptions",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Plates (moving, shifting, grinding, rubbing) against each other",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Seismic activity",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Faulting; Faults; Sudden rock movement along a (fault, rupture in Earth’s crust)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Convection currents; Convection currents in the mantle",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Plate movement; (Plates, Panels) moving underground",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "678f79c08e724924a266381f21ff8895",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-sphinx",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-sphinx",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20. Giza",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">In what country is the Great Sphinx of Giza (gee-zah)?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "The Middle East; Africa; Cairo",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other country, city, or region]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Egypt",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-continent",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-continent",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21. Continent",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">What continent has the most people?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "China; India",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other country or continent]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "North America; Europe",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Asia",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-mona",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-mona",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22. Mona Lisa",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Who painted the Mona Lisa?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Leonardo",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Someone (from Italy, during the Renaissance, a long time ago)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "An artist; A painter",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names any other historical figure]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Van Gogh; Picasso; Michelangelo",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "da Vinci; Leonardo da Vinci",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Leonardo (di ser Piero da Vinci, di ser Piero)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-leaves",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-leaves",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23. Leaves",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What makes leaves green?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Chemicals",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Cytoplasm",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Photosynthesis",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Spring; Seasons",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Carbon dioxide; Oxygen; Water; Sun",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Weather; Climate; Temperature",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Food; Glucose; Nutrients",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Trees; Seeds; Stems; Roots",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Their genes",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Chlorophyll; Chloroplast",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Stuff that absorbs light for photosynthesis",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Chemical that absorbs light",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Color pigment",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-newton",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-newton",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 24. Newton",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Who was Isaac Newton?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Scientist; Physicist; Mathematician; Philosopher; Inventor*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Saw an apple fall from a tree",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Developed a theory",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Sir; A knight",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Invented Newton’s cradle",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "President; [Names any other occupation]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "A man",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Described, Developed) the three laws of motion",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Helped (invent, create) (calculus, laws of physics)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Described, Developed) the (universal law of gravitation, laws of gravity)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Wrote (<em>Philosophiæ Naturalis Principia Mathematica, Principia<\u002fem>)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Discovered (gravity, laws of motion)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Developed first reflecting telescope",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Discovered that light is made of many colors",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "34eca237005d470bbb15cee67dc0d33d",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-air",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-air",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 25. Air",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Why does hot air rise?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Hot air expands",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "It moves faster",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Hot air has (less mass, fewer molecules)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Hot air is bigger; Cold air is smaller",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Gravity",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Hot air is less dense than cold air; Cold air is more dense than hot air",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Particles, Molecules) in hot air (move more, are further apart)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hot air (weighs less, is lighter); Cold air weighs more",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hot air expands and takes up more volume than cold air",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Hot air has (less mass, fewer molecules) than the other air in its environment",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-confucius",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-confucius",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 26. Confucius",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Who was Confucius (kuhn-few-shus)?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Chinese, Asian) (man, ruler, leader)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Confucianism",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Writer",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "A god; Chinese god",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "An ancient man; A (man, person)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Scientist; Explorer; King",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Man from (Greece, the Bible)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Confused person",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Chinese, Asian) (philosopher, thinker, ethicist, writer)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Chinese, Asian) (educator, teacher, scholar)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Chinese, Asian) man who wrote (simple phrases, proverbs)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Chinese, Asian) religious (leader, teacher)",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Man who (created, wrote) wise sayings",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "He developed a form of (philosophy, religion); Philosopher; Wise man; Ethicist",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Religious (leader, teacher)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-lightyear",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-lightyear",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 27. Light year",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What is a light year?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "A unit of distance",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "(The distance, How far) light travels",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names distance outside the acceptable ranges]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "The speed that light travels; How fast light travels",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "A long way; Really far; A lot of miles",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "5.88 trillion miles; 5.5–6.5 trillion miles; 5.5–6.5 x 10<sup>12<\u002fsup> miles",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(The distance, How far) light travels in a vacuum in one year",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "9.46 trillion kilometers; 9–10 trillion kilometers; 9–10 x 10<sup>15<\u002fsup> meters",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(The distance, How far) light travels in one year",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-fission",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-fission",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 28. Fission",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>What is nuclear fission?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "(Colliding, High speed collision, Bombardment) of atoms with (neutrons, electrons)",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "It makes atomic bombs explode",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Splitting cells",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Atomic explosion; Explosion of an atom",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Electricity comes from it",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Splitting; Separating",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Friction caused between atomic particles",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "When two atoms (fuse, merge, hit); Like in the sun; [Describes <em>fusion<\u002fem>]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "It makes things radioactive; It’s (dangerous, bad, poisonous)",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Atoms split apart and release energy",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "When the nucleus breaks down",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Splitting atoms; Breaking atoms apart",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Separation of (uranium, plutonium) atoms",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "A source of radioactive energy",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Form of energy; Makes power",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-countries",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-countries",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 29. Countries",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How many countries are in the world?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Seven*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "A couple hundred; Over 100",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "[Names number outside the acceptable range]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "A lot; A bunch",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "[Names any number between 155 and 235]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "143e67a0c5094399a565622310b88e2a",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-paris",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-paris",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 30. Paris",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>How far is it from Paris to New York?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "A few hours by plane; [Describes travel time]*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "A few thousand miles",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "A long way; Really far; A lot of miles",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Names distance outside acceptable ranges]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "3,635 miles",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "5,851 kilometers",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Any response ranging from 2,908 to 4,632 miles]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Any response ranging from 4,681 to 7,021 kilometers]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "3e86f6b32a054e32b4d5edcbb5904fb5",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-information-lowest",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/information/wisc-v-commercialization-information-lowest",
+      "subtestName": "Information",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 31. Lowest",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><span class=\"speechBlue\"><strong>Where is the Earth&rsquo;s lowest point on dry land?<\u002fstrong><\u002fspan><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "0": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "South; South Pole; Antarctica*",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "The (shore, sea); Sea level",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Middle East; Israel; Palestine",
+                  "triggersQuery": true
+                },
+                {
+                  "html": "Grand Canyon",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Death Valley; California",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Desert; Island",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "(Mojave, Sahara) Desert; [Names any other desert]",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "The middle",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Core; Earth’s core",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "[Names any other location]",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ],
+          "1": 
+          [
+            {
+              "answers": 
+              [
+                {
+                  "html": "Dead Sea shore; Dead Sea",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Dead Sea depression",
+                  "triggersQuery": false
+                },
+                {
+                  "html": "Banks of the Dead Sea",
+                  "triggersQuery": false
+                }
+              ]
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pickList"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "*Query",
+          "guid": "1df3b580fbf94a39b8392af3e3512b97",
+          "abbreviation": "sq",
+          "isPopover": true
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 9,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-information-foot",
+      "skipToQuestionID": "wisc-v-commercialization-information-tree",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "Q",
+      "guid": "1bfb7d2feb7948ceb99a89f8495bdfc8",
+      "abbreviation": "Q"
+    },
+    {
+      "name": "IR",
+      "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+      "abbreviation": "ir"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

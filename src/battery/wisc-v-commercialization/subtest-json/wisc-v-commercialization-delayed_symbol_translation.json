@@ -1,0 +1,1238 @@
+{
+  "subtestId": 769,
+  "subtestGUID": "5b67581dd2844ee7a2e63889759a5ec9",
+  "title": "Delayed Symbol Translation",
+  "displayName": "Delayed Symbol Translation",
+  "abbr": "dst",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      },
+      {
+        "type": "delay",
+        "minDelayMinutes": 20,
+        "maxDelayMinutes": 30,
+        "timerMetadata": 
+        [
+          {
+            "duration": 99,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "expire"
+          },
+          {
+            "duration": 10,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "ready"
+          },
+          {
+            "duration": 20,
+            "color": "white",
+            "timerDirection": "down",
+            "type": "suggestedDelay",
+            "state": "wait"
+          }
+        ]
+      },
+      {
+        "type": "mustFollow",
+        "data": 
+        [
+          {
+            "subtestGUID": "3525b77e4a674818a378cfda7d467d4a",
+            "subtestName": "Immediate Symbol Translation",
+            "immediatelyFollowSubtest": false,
+            "requiredToFollow": true
+          }
+        ]
+      }
+    ],
+    "subtestCategory": "Symbol Translation",
+    "averageDuration": 5,
+    "descriptionCS": "FPO"
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item1",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item1",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Say, <strong><span class=\"speechBlue\">Now I am going to show you some of the pictures you saw before to see if you can remember what they mean.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the symbol and say, <strong><span class=\"speechBlue\">What does this one mean?<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item2",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item2",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">What does this one mean?&nbsp;<\u002fspan><\u002fstrong>Allow the child to respond.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item3",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item3",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 3",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item4",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item4",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 4",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item5",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item5",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 5",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item6",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item6",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 6",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item7",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item7",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 7",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item8",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item8",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 8",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item9",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item9",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 9",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item10",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item10",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 10",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means. <\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item11",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item11",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 11",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <span class=\"speechBlue\"><strong>Start here and tell me what each one means. <\u002fstrong><\u002fspan> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item12",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item12",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 12",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item13",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item13",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 13",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol&nbsp;and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item14",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item14",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 14",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means. <\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item15",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item15",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 15",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item16",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item16",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 16",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol&nbsp;and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item17",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item17",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 17",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say,<strong><span class=\"speechBlue\"> Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item18",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item18",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 18",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item19",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item19",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 19",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item20",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item20",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 20",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n\r\n<p>The instructions may be shortened or eliminated when the child understands the task.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-paired-associates2-item21",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/delayed_symbol_translation/wisc-v-commercialization-paired-associates2-item21",
+      "subtestName": "Delayed Symbol Translation",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Item 21",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"2\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the first symbol and say, <strong><span class=\"speechBlue\">Start here and tell me what each one means.<\u002fspan><\u002fstrong> Allow the child to respond.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "tiles": 
+          [
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 0
+            },
+            {
+              "score": 1
+            },
+            {
+              "score": 1
+            }
+          ]
+        },
+        "superType": null,
+        "type": "pairedAssociates"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "LinkedCumulativeDiscontinueRule": {
+    "sourceSubtest": {
+      "id": 762
+    },
+    "stoppingPoints": 
+    [
+      {
+        "title": "Item 6",
+        "questionId": "wisc-v-commercialization-paired-associates2-item6",
+        "linkedTitle": "Item 6",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item06"
+      },
+      {
+        "title": "Item 10",
+        "questionId": "wisc-v-commercialization-paired-associates2-item10",
+        "linkedTitle": "Item 10",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item10"
+      },
+      {
+        "title": "Item 14",
+        "questionId": "wisc-v-commercialization-paired-associates2-item14",
+        "linkedTitle": "Item 14",
+        "linkedQuestionId": "wisc-v-commercialization-paired-associates-item14"
+      }
+    ]
+  },
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

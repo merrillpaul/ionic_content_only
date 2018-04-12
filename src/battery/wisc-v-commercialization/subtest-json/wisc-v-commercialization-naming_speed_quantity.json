@@ -1,0 +1,759 @@
+{
+  "subtestId": 783,
+  "subtestGUID": "be67e39e96d4411bbe23e7a31f79b42e",
+  "title": "Naming Speed Quantity",
+  "displayName": "Naming Speed Quantity",
+  "abbr": "nsq",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Naming Speed",
+    "averageDuration": 2,
+    "descriptionCS": "The child names elements (e.g., objects of various size and color, quantities of squares, letters and numbers) as quickly as possible."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-4_samplea",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_samplea",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-4 Sample Item A",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer&nbsp;praise such as&nbsp;<strong><span class=\"speechBlue\">Yes&nbsp;<\u002fspan><\u002fstrong>or&nbsp;<strong><span class=\"speechBlue\">Right&nbsp;<\u002fspan><\u002fstrong>and, finally,&nbsp;<strong><span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly names a&nbsp;quantity, correct the error immediately. Use phrases such as&nbsp;<strong><span class=\"speechBlue\">Stop<\u002fspan><\u002fstrong>&nbsp;or&nbsp;<strong><span class=\"speechBlue\">Wait.<\u002fspan><\u002fstrong>&nbsp;Point to the box with the incorrectly named quantity&nbsp;and say,&nbsp;<strong><span class=\"speechBlue\">This one has<\u002fspan><\u002fstrong>&nbsp;[<em>insert correct response<\u002fem>]<strong><span class=\"speechBlue\">. Keep going from here&nbsp;<\u002fspan><\u002fstrong>(point to box with incorrectly named quantity)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Do not proceed until the child understands the task. If it is clear that the child will not understand the task with further instruction,&nbsp;use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 1, Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 1, Trial 2. This ensures that the child receives the lowest possible standard score, which facilitates proper derivation of the Naming Speed Index and associated discrepancy comparisons for report purposes. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_samplea/wisc-v-commercialization-naming-speed-quantity-1-4_sampleaPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "2"
+              ],
+              [
+                "3"
+              ],
+              [
+                "1"
+              ],
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-4_item1_t1",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t1",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-4 Item 1, Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t1/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "3"
+              ],
+              [
+                "2"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "1"
+              ]
+            ],
+            [
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ]
+            ],
+            [
+              [
+                "2"
+              ],
+              [
+                "4"
+              ],
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ]
+            ],
+            [
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "2"
+              ],
+              [
+                "1"
+              ],
+              [
+                "4"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-4_item1_t2",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t2",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-4 Item 1, Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t2/wisc-v-commercialization-naming-speed-quantity-1-4_item1_t2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "2"
+              ],
+              [
+                "3"
+              ],
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "1"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "2"
+              ],
+              [
+                "1"
+              ],
+              [
+                "3"
+              ]
+            ],
+            [
+              [
+                "3"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "1"
+              ]
+            ],
+            [
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-5_sampleb",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_sampleb",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-5 Sample Item B",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Offer&nbsp;praise such as&nbsp;<strong><span class=\"speechBlue\">Yes&nbsp;<\u002fspan><\u002fstrong>or&nbsp;<strong><span class=\"speechBlue\">Right&nbsp;<\u002fspan><\u002fstrong>and, finally,&nbsp;<strong><span class=\"speechBlue\">Now you know how to do them.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>If the child incorrectly names a quantity, correct the error immediately. Use phrases such as <strong><span class=\"speechBlue\">Stop<\u002fspan><\u002fstrong> or <strong><span class=\"speechBlue\">Wait.<\u002fspan><\u002fstrong> Point to the box with the&nbsp;incorrectly named quantity and say, <strong><span class=\"speechBlue\">This one has<\u002fspan><\u002fstrong> [<em>insert correct response<\u002fem>]<strong><span class=\"speechBlue\">. Keep going from here<\u002fspan><\u002fstrong> (point to box with incorrectly named quantity)<strong><span class=\"speechBlue\">.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Do not proceed until the child understands the task. If it is clear that the child will not understand the task with further instruction,&nbsp;use&nbsp;the pencil icon to add a note saying&nbsp;the child did not understand the task.&nbsp;Proceed to Item 2, Trial 1. Start the timer briefly and then adjust the timer until it reads 300 seconds. Repeat the process for Item 2, Trial 2. This ensures that the child receives the lowest possible standard score, which facilitates proper derivation of the Naming Speed Index and associated discrepancy comparisons for report purposes. Refer to the Invalidating Subtest Scores section in Chapter 2 of the&nbsp;<em>WISC&ndash;V Administration and Scoring Manual&nbsp;<\u002fem>for more information.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_sampleb/wisc-v-commercialization-naming-speed-quantity-1-5_samplebPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "3"
+              ],
+              [
+                "5"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "5"
+              ],
+              [
+                "1"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-5_item2_t1",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t1",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-5 Item 2, Trial 1",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t1/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t1Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "5"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "5"
+              ]
+            ],
+            [
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "1"
+              ],
+              [
+                "3"
+              ],
+              [
+                "5"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "2"
+              ],
+              [
+                "3"
+              ]
+            ],
+            [
+              [
+                "3"
+              ],
+              [
+                "2"
+              ],
+              [
+                "5"
+              ],
+              [
+                "1"
+              ],
+              [
+                "2"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-naming-speed-quantity-1-5_item2_t2",
+      "shouldUseTimer": true,
+      "maxTime": 300,
+      "warningTime": null,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t2",
+      "subtestName": "Naming Speed Quantity",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Quantity Naming 1-5 Item 2, Trial 2",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/naming_speed_quantity/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t2/wisc-v-commercialization-naming-speed-quantity-1-5_item2_t2Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": false,
+      "predefinedBehavior": {
+        "data": {
+          "colors": 
+          [
+            {
+              "color": "rapid-naming-blank",
+              "label": ""
+            },
+            {
+              "color": "rapid-naming-orange",
+              "label": "Incorrect"
+            },
+            {
+              "color": "rapid-naming-yellow",
+              "label": "Self-Corrections"
+            }
+          ],
+          "values": 
+          [
+            [
+              [
+                "1"
+              ],
+              [
+                "4"
+              ],
+              [
+                "3"
+              ],
+              [
+                "5"
+              ],
+              [
+                "1"
+              ]
+            ],
+            [
+              [
+                "3"
+              ],
+              [
+                "2"
+              ],
+              [
+                "1"
+              ],
+              [
+                "2"
+              ],
+              [
+                "5"
+              ]
+            ],
+            [
+              [
+                "5"
+              ],
+              [
+                "3"
+              ],
+              [
+                "2"
+              ],
+              [
+                "5"
+              ],
+              [
+                "4"
+              ]
+            ],
+            [
+              [
+                "4"
+              ],
+              [
+                "1"
+              ],
+              [
+                "2"
+              ],
+              [
+                "3"
+              ],
+              [
+                "4"
+              ]
+            ]
+          ]
+        },
+        "superType": null,
+        "type": "rapidNaming"
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 6,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-naming-speed-quantity-1-5_item2_t1",
+        "wisc-v-commercialization-naming-speed-quantity-1-5_item2_t2",
+        "wisc-v-commercialization-naming-speed-quantity-1-5_sampleb"
+      ]
+    },
+    {
+      "minAge": 7,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-naming-speed-quantity-1-4_item1_t1",
+        "wisc-v-commercialization-naming-speed-quantity-1-4_item1_t2",
+        "wisc-v-commercialization-naming-speed-quantity-1-4_samplea"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ],
+  "shouldShowStartPoints": null
+}

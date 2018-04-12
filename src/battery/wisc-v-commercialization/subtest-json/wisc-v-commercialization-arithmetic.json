@@ -1,0 +1,2542 @@
+{
+  "subtestId": 765,
+  "subtestGUID": "5115602173554dbc8cc896e64bead781",
+  "title": "Arithmetic",
+  "displayName": "Arithmetic",
+  "abbr": "ar",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": true,
+  "baseUrl": "battery/wisc-v-commercialization/arithmetic",
+  "isWritingRequired": true,
+  "skipSubsequentTrialsRule": {
+    "questionScoreIsHighestTrialScore": false,
+    "onlySkipSampleItems": false
+  },
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": true,
+  "unscoredResponseRule": false,
+  "hasStimOverlay": true,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Fluid Reasoning",
+    "averageDuration": 9,
+    "descriptionCS": "For both the picture and verbal items,\r\nthe child mentally solves arithmetic\r\nproblems within a specified time limit."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-arithmetic-dogs",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-dogs",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 1. Dogs",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">There are three dogs.<\u002fspan><\u002fstrong> Point to each dog from the child&rsquo;s left to right as you count them aloud at the rate of about one per second.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the child&rsquo;s screen and say, <strong><span class=\"speechBlue\">Count these dogs with your finger. Count them out loud.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Correctly counts from 1 to 3",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-chicks",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-chicks",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 2. Chicks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">There are five chicks.<\u002fspan><\u002fstrong> Point to each chick from the child&rsquo;s left to right as you count aloud at the rate of about one per second.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the child&rsquo;s screen&nbsp;and say, <strong><span class=\"speechBlue\">Count these chicks with your finger. Count them out loud.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Correctly counts from 1 to 5",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-trees",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-trees",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "†Item 3. Trees",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": true,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "correctInstructionsHTML": "<p><strong>Correct response:<\u002fstrong><\u002fp>\r\n\r\n<p>Continue administration.<\u002fp>\r\n",
+      "incorrectInstructionsHTML": "<p><strong>&dagger;Incorrect response:<\u002fstrong><\u002fp>\r\n\r\n<p>Say, <strong><span class=\"speechBlue\">There are ten trees.<\u002fspan><\u002fstrong> Point to each tree from the child&rsquo;s left to right as you count aloud at the rate of about one per second.<\u002fp>\r\n",
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the child&rsquo;s screen and say, <strong><span class=\"speechBlue\">Count these trees with your finger. Count them out loud.<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "Correctly counts from 1 to 10",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-butterflies",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-butterflies",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 4. Butterflies",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the child&rsquo;s screen and say, <strong><span class=\"speechBlue\">How many butterflies<\u002fspan><\u002fstrong> (point to butterflies) <strong><span class=\"speechBlue\">and grasshoppers<\u002fspan><\u002fstrong> (point to grasshoppers) <strong><span class=\"speechBlue\">are there all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            9
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-nuts",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-nuts",
+      "subtestName": "Arithmetic",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 5. Squirrels",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "topInstructionsHTML": "<p><img class=\"give_showStimButton\" data-stim-number=\"1\" src=\"\" /><\u002fp>\r\n\r\n<p>Point to the child&rsquo;s screen and say, <strong><span class=\"speechBlue\">How many nuts<\u002fspan><\u002fstrong> (point to nuts) <strong><span class=\"speechBlue\">will be left if each squirrel<\u002fspan><\u002fstrong> (point to squirrels) <strong><span class=\"speechBlue\">eats one?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            2
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item6",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item6",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 6. Books",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>Remove the Client Device from the child&rsquo;s view before proceeding to the verbal items.<\u002fp>\r\n<div>\r\n<hr /><\u002fdiv>\r\n\r\n\r\n<p><strong><span class=\"speechBlue\">Ann has 6 books. She loses 1. How many books does she have left?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item7",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item7",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 7. Apples",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Pam has 5 apples. She gives 1 to Rob and 1 to Jill. How many apples does Pam have left?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "responsesPerRow": 1,
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item8",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item8",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 8. Toys",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Neal has 2 toys. He gets 3 more. How many toys does he have all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item9",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item9",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 9. Blocks",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Sam has 4 blocks. His mom gives him 3 more. How many blocks does he have all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            7
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item10",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item10",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 10. Grapes",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Ruth has 3 grapes in each hand. How many grapes does she have all together?<\u002fspan><\u002fstrong><\u002fp>",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item11",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item11",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 11. Friends",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Zach has 12 friends and makes 3 more. How many friends does he have all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            15
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item12",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item12",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 12. Dolls",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Jean has 8 dolls and gets 6 more. How many dolls does she have all together?<\u002fspan><\u002fstrong><\u002fp>",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            14
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item13",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item13",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 13. Balloons",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">George has 11 balloons and loses 3. How many balloons does he have left?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item13/wisc-v-commercialization-arithmetic-item13Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            8
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item14",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item14",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 14. Games",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Jack played 10 games on Monday and 15 games on Tuesday. How many games did he play all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            25
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item15",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item15",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 15. Frogs",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">There are 3 frogs in a pond. Then, 4 more frogs jump into the pond, and 2 frogs jump out. How many frogs are left in the pond?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            5
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item16",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item16",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 16. Birds",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">There are 8 birds on the ground. Then, 4 birds fly away, and 2 other birds land. How many birds are on the ground now?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            6
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item17",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item17",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 17. Tickets",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Tom has 12 tickets and his teacher gives him 2 more. He sells 5. How many tickets does he have now?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            9
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item18",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item18",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 18. Crayons",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Rick has one hundred crayons. He gives each of his 2 brothers 40 crayons. How many crayons does he have left?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            20
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item19",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item19",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 19. Lights",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Kate counted 17 lights on a street and 15 on another street. How many lights did she count all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            32
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item20",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item20",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 20. Songs",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p>To introduce Items 20&ndash;34, say, <strong><span class=\"speechBlue\">I am going to read you some more problems. This time, you can ask me to read each problem <em>one<\u002fem> more time.<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>Each item may be repeated at the child&rsquo;s request <strong><em>one time only<\u002fem><\u002fstrong>, but do not alter the wording in any way. If the child requests a repetition, <em>immediately<\u002fem> pause timing and repeat the item. Resume timing after the last word of the repeated item, and continue timing until the child responds or the time limit expires.<\u002fp>\r\n<div>\r\n<hr /><\u002fdiv>\r\n\r\n\r\n<p><strong><span class=\"speechBlue\">Belle has 30 minutes of free time, but spends half of it cleaning her room. If playing 1 song takes 5 minutes, how many songs can she play in the free time she has left?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item21",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item21",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 21. Track",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Each child runs in only 1 race at a track meet that has 8 races. If 3 children run in each race, how many children are in the track meet all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            24
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item22",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item22",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 22. Soccer",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">A soccer team has 30 children. After a week, 11 children leave the team, and 2 new children join. How many children are on the team now?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item22/wisc-v-commercialization-arithmetic-item22Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            21
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item23",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item23",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 23. Rings",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Rose gives 3 of her friends 2 rings each and gives another friend 7 rings. How many rings does she have left if she started with 20 rings?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            7
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item24",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item24",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 24. Classrooms",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">A school has 25 students in each classroom. If there are 500 students in the whole school, how many classrooms are there?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            20
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item25",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item25",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 25. Pieces",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">On Monday, Jane spends 3 hours working on a puzzle. On Tuesday, she finishes it after working 2 more hours. The puzzle has 300 pieces. On average, how many pieces did she finish each hour?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            60
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item26",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item26",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 26. Cakes",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Ron makes 12 cakes between 4 AM and 8 AM. He makes 9 cakes between 8 AM and 11 AM. On average, how many cakes does he make each hour?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            3
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item27",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item27",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 27. Comics",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Beth has two-thirds as many comic books as Ray. Beth has 20 comic books. How many comic books does Ray have?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            30
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item28",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item28",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 28. Children",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">There are 71 children on a bus. At the first stop, 17 get off. At the next stop, 11 get off, and at the last stop, 32 get off. How many children are left on the bus?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            11
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item29",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item29",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 29. Papers",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">A student wrote 13 papers. Another student wrote 11 papers. Then, 25 other students wrote 5 papers each, and 2 more students wrote 1 paper each. How many papers did the students write all together?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            151
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item30",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item30",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 30. Cars",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Six people can wash 40 cars in 4 days. How many people would it take to wash 40 cars in <em>half<\u002fem> of a day?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            48
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item31",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item31",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "*Item 31. Boys",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Out of 40 children, 15% of them are girls. How many children are boys?<\u002fspan><\u002fstrong><\u002fp>\r\n\r\n<p>*If the child says &ldquo;85%,&rdquo; say, <strong><span class=\"speechBlue\">Yes, but how many <em>boys<\u002fem> is that?<\u002fspan><\u002fstrong> Do <strong>not<\u002fstrong> stop timing to provide this query.<\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            34
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item32",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item32",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 32. Seeds",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Wes starts planting seeds 1 hour before Val does. Wes plants 40 seeds each hour and Val plants 60 seeds each hour. How many more seeds has Val planted than Wes 5 hours after Wes starts planting?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": 
+          [
+            40
+          ],
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item33",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item33",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 33. Exercise",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">Nick exercises every Saturday by swimming, bike riding, and jogging. First, he swims for 25 minutes, stretches for 10 minutes, and then swims again for 45 minutes. After a 5 minute break, he rides his bike uphill for 20 minutes, on flat land for 45 minutes, and downhill for 15 minutes. After another 5 minute break, he jogs for one hundred and twenty minutes and sprints for 10 minutes. If Nick starts exercising at 6:30, what time is it when he finishes?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "11:30",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    },
+    {
+      "id": "wisc-v-commercialization-arithmetic-item34",
+      "shouldUseTimer": true,
+      "maxTime": 30,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/arithmetic/wisc-v-commercialization-arithmetic-item34",
+      "subtestName": "Arithmetic",
+      "usesStims": false,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": true,
+      "title": "Item 34. Levels",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": true,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": false,
+      "topInstructionsHTML": "<p><strong><span class=\"speechBlue\">A game has 20 levels. Lee must score 300 points to pass each level, and she must pass a level before going to the next one. If Lee scores one thousand five hundred points per hour, and she plays without stopping for 2 hours and 15 minutes, how many levels will she have left to play?<\u002fspan><\u002fstrong><\u002fp>\r\n",
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/arithmetic/items_6-34Prompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "data": {
+          "correctResponse": "9 or 8.75",
+          "maxScore": 1,
+          "showMainImage": true,
+          "showBorders": true,
+          "addExtraHorizontalSpaceToStim": false,
+          "suppressCellNumbers": false
+        },
+        "superType": null,
+        "type": "arithmetic"
+      },
+      "contextualEventBtn": 
+      [
+        {
+          "name": "DK",
+          "guid": "54fccacc43864aaea854f9f9b70145c5",
+          "abbreviation": "DK"
+        },
+        {
+          "name": "NR",
+          "guid": "80b62087aca14dfd807069b86307f358",
+          "abbreviation": "NR"
+        },
+        {
+          "name": "SC",
+          "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+          "abbreviation": "sc"
+        },
+        {
+          "name": "SV",
+          "guid": "9dcee628be394d22af03ac36c38363f9",
+          "abbreviation": "sv"
+        },
+        {
+          "name": "IR",
+          "guid": "16c3bb055ef54a2c8f97a60b869b5703",
+          "abbreviation": "ir"
+        }
+      ]
+    }
+  ],
+  "consecutiveZerosDiscontinueRule": {
+    "type": "consecutiveZerosDiscontinueRule",
+    "value": 3,
+    "description": "Subtest requires 3 consecutive scores of 0 points",
+    "countsDemoItems": false
+  },
+  "reverseRule": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 7,
+      "skipFromQuestionID": "wisc-v-commercialization-arithmetic-dogs",
+      "skipToQuestionID": "wisc-v-commercialization-arithmetic-trees",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 8,
+      "maxAge": 9,
+      "skipFromQuestionID": "wisc-v-commercialization-arithmetic-dogs",
+      "skipToQuestionID": "wisc-v-commercialization-arithmetic-item8",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    },
+    {
+      "minAge": 10,
+      "maxAge": 16,
+      "skipFromQuestionID": "wisc-v-commercialization-arithmetic-dogs",
+      "skipToQuestionID": "wisc-v-commercialization-arithmetic-item11",
+      "reverseWithForwardSequence": false,
+      "noSkipMsg": "If suspected of having an intellectual disability or low cognitive ability",
+      "numberFullScores": 2
+    }
+  ],
+  "hasInstructionsHtml": true,
+  "contextualEvents": 
+  [
+    {
+      "name": "DK",
+      "guid": "54fccacc43864aaea854f9f9b70145c5",
+      "abbreviation": "DK"
+    },
+    {
+      "name": "NR",
+      "guid": "80b62087aca14dfd807069b86307f358",
+      "abbreviation": "NR"
+    },
+    {
+      "name": "SC",
+      "guid": "9413c03ab9ea4bcc9d1ca1628206b9c6",
+      "abbreviation": "sc"
+    },
+    {
+      "name": "SV",
+      "guid": "9dcee628be394d22af03ac36c38363f9",
+      "abbreviation": "sv"
+    }
+  ],
+  "shouldShowStartPoints": null
+}

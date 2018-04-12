@@ -1,0 +1,437 @@
+{
+  "subtestId": 773,
+  "subtestGUID": "5f15609d68e74777a9a4c9dcd26c3406",
+  "title": "Coding (digital)",
+  "displayName": "Coding (digital)",
+  "abbr": "Coding(digital)",
+  "testType": "wiscv",
+  "testTitle": "WISC-V-Commercialization",
+  "testDisplayName": "WISC-V-Commercialization",
+  "normType": "wisc-v",
+  "testGUID": "57b26b6d0b0c4477867509c2b0a55b2c",
+  "subtestType": "wiscv",
+  "language": "en",
+  "shouldDefaultRecordAudio": false,
+  "baseUrl": "battery/wisc-v-commercialization/coding_digital",
+  "isWritingRequired": false,
+  "skipSubsequentTrialsRule": false,
+  "scaledScorePerItem": false,
+  "isTimeRemainMsgRequired": false,
+  "unscoredResponseRule": false,
+  "reshowStimOnBluetoothReconnect": true,
+  "designCopyingScoreSwitchingRule": false,
+  "metaData": {
+    "rules": 
+    [
+      {
+        "type": "age",
+        "minAge": {
+          "year": 6,
+          "month": 0
+        },
+        "maxAge": {
+          "year": 16,
+          "month": 11
+        }
+      }
+    ],
+    "subtestCategory": "Processing Speed",
+    "averageDuration": 3,
+    "descriptionCS": "The child copies symbols that are paired with simple geometric shapes or numbers. Using a key, the child draws each symbol in its corresponding shape or box within a specified time limit."
+  },
+  "questions": 
+  [
+    {
+      "id": "wisc-v-commercialization-coding-a-pen-practice",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-pen-practice",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Pen Practice Demo",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-pen-practice/wisc-v-commercialization-coding-a-pen-practicePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "png"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-a-demo-item",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-demo-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Demo Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-demo-item/wisc-v-commercialization-coding-a-demo-itemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "png"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-a-sample-item",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-sample-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-sample-item/wisc-v-commercialization-coding-a-sample-itemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-a-test-item",
+      "shouldUseTimer": true,
+      "maxTime": 140,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-a-test-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding A: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-b-pen-practice",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-pen-practice",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Pen Practice Demo",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-pen-practice/wisc-v-commercialization-coding-b-pen-practicePrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-b-demo-item",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-demo-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Demo Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Demo",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-demo-item/wisc-v-commercialization-coding-b-demo-itemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-b-sample-item",
+      "shouldUseTimer": false,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-sample-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Sample Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Sample",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+        {
+          "minAge": null,
+          "maxAge": null,
+          "filepath": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-sample-item/wisc-v-commercialization-coding-b-sample-itemPrompts.html"
+        }
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    },
+    {
+      "id": "wisc-v-commercialization-coding-b-test-item",
+      "shouldUseTimer": true,
+      "maxTime": 140,
+      "warningTime": 10,
+      "forceReloadBefore": false,
+      "baseUrl": "battery/wisc-v-commercialization/coding_digital/wisc-v-commercialization-coding-b-test-item",
+      "subtestName": "Coding (digital)",
+      "usesStims": true,
+      "shouldShowStimTouches": false,
+      "isWritingRequired": false,
+      "title": "Coding B: Test Items",
+      "nameElements": 
+      [
+      ],
+      "questionType": "Score",
+      "isTeachingItem": false,
+      "useTimedSwitch": false,
+      "isShowInstruction": false,
+      "useDashboard": false,
+      "hideStimWhenLeavingItem": true,
+      "promptBlocks": 
+      [
+      ],
+      "suppressInstructionCard": true,
+      "predefinedBehavior": {
+        "type": "SymbolWriting",
+        "data": {
+          "structure": 
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "contextualEventBtn": 
+      [
+      ],
+      "useSvgStim": true,
+      "imageExtension": "svg"
+    }
+  ],
+  "ageBasedSimpleSkipRules": 
+  [
+    {
+      "minAge": 6,
+      "maxAge": 7,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-coding-b-demo-item",
+        "wisc-v-commercialization-coding-b-pen-practice",
+        "wisc-v-commercialization-coding-b-sample-item",
+        "wisc-v-commercialization-coding-b-test-item"
+      ]
+    },
+    {
+      "minAge": 8,
+      "maxAge": 16,
+      "itemsToSkip": 
+      [
+        "wisc-v-commercialization-coding-a-demo-item",
+        "wisc-v-commercialization-coding-a-pen-practice",
+        "wisc-v-commercialization-coding-a-sample-item",
+        "wisc-v-commercialization-coding-a-test-item"
+      ]
+    }
+  ],
+  "contextualEvents": 
+  [
+  ]
+}
